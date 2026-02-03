@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #F5EDE6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: #e0e0e0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Main Lamp Frame */
+.lamp-frame {
+    position: relative;
+    width: 420px;
+    background: linear-gradient(180deg, #d4ccc4 0%, #c4bab0 50%, #b8ada3 100%);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.15),
+        0 4px 20px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+/* Ambient Glow (Back LEDs) */
+.ambient-glow {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: -30px;
+    border-radius: 40px;
+    background: radial-gradient(ellipse at center, rgba(255, 107, 74, 0.3) 0%, transparent 70%);
+    filter: blur(30px);
+    pointer-events: none;
+    z-index: -1;
+    transition: background 0.5s ease;
+}
+
+/* Display Panel */
+.display-panel {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 10 / 14;
+    border-radius: 16px;
+    overflow: hidden;
+    background: #111;
+    box-shadow: 
+        inset 0 2px 10px rgba(0, 0, 0, 0.5),
+        0 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+#ledCanvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+/* Frosted Glass Overlay */
+.frosted-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(1px);
+    pointer-events: none;
+}
+
+/* Mounting Screws */
+.lamp-frame::before,
+.lamp-frame::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(135deg, #5a5550 0%, #3a3530 100%);
+    border-radius: 50%;
+    box-shadow:
+        inset 0 1px 2px rgba(0, 0, 0, 0.4),
+        0 1px 1px rgba(255, 255, 255, 0.15);
+}
+
+.lamp-frame::before {
+    top: 8px;
+    right: 8px;
+}
+
+.lamp-frame::after {
+    top: 8px;
+    left: 8px;
+}
+
+/* Decorative Knobs */
+.knobs-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.knob {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #f5f0eb 0%, #d4ccc4 100%);
+    border-radius: 50%;
+    box-shadow:
+        0 4px 8px rgba(0, 0, 0, 0.2),
+        inset 0 2px 4px rgba(255, 255, 255, 0.5),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.knob:active {
+    cursor: grabbing;
+}
+
+.knob-indicator {
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 10px;
+    background: #444;
+    border-radius: 1px;
+    pointer-events: none;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .lamp-frame {
+        width: 300px;
+    }
+}
