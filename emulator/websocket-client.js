@@ -1,71 +1,49 @@
 /**
  * Moonside Lamp Emulator - WebSocket Client
- * 
- * Connects to the control server and applies real-time LED updates
+ *
+ * Connects to the control server to receive program and pattern updates.
+ * The emulator starts with its own default gradient; the server only
+ * takes over when a program or command is actively sent.
  */
 
 class LampWebSocketClient {
     constructor(lamp, serverUrl = null) {
         this.lamp = lamp;
-        this.serverUrl = serverUrl || this.getDefaultServerUrl();
+        this.serverUrl = serverUrl || `ws://localhost:3001/ws`;
         this.ws = null;
         this.reconnectAttempts = 0;
         this.maxReconnectAttempts = 10;
-        this.reconnectDelay = 1000;
-        this.isConnected = false;
-        
-        // UI elements
-        this.statusDot = document.getElementById('statusDot');
-        this.statusText = document.getElementById('statusText');
-        
-        // Auto-connect
+        this.reconnectDelay = 2000;
+        this.activePattern = null; // Track what's running to avoid restarts
+        this.hasReceivedCommand = false; // Ignore initial state sync
+
         this.connect();
     }
-    
-    getDefaultServerUrl() {
-        // Default to localhost on port 3001
-        const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
-        return `${protocol}//localhost:3001/ws`;
-    }
-    
+
     connect() {
         try {
-            this.updateStatus('connecting');
             this.ws = new WebSocket(this.serverUrl);
-            
             this.ws.onopen = () => this.onOpen();
             this.ws.onclose = () => this.onClose();
-            this.ws.onerror = (error) => this.onError(error);
+            this.ws.onerror = () => {};
             this.ws.onmessage = (event) => this.onMessage(event);
-            
         } catch (error) {
-            console.error('WebSocket connection failed:', error);
             this.scheduleReconnect();
         }
     }
-    
+
     onOpen() {
         console.log('Connected to lamp server');
-        this.isConnected = true;
         this.reconnectAttempts = 0;
-        this.updateStatus('connected');
-        
-        // Request current state
-        this.send({ type: 'getState' });
+        // Don't request initial state — keep the local default gradient
     }
-    
+
     onClose() {
         console.log('Disconnected from lamp server');
-        this.isConnected = false;
-        this.updateStatus('disconnected');
+        this.activePattern = null;
         this.scheduleReconnect();
     }
-    
-    onError(error) {
-        console.error('WebSocket error:', error);
-        this.updateStatus('error');
-    }
-    
+
     onMessage(event) {
         try {
             const message = JSON.parse(event.data);
@@ -74,133 +52,124 @@ class LampWebSocketClient {
             console.error('Failed to parse message:', error);
         }
     }
-    
+
     handleMessage(message) {
         switch (message.type) {
-            case 'led':
-                // Individual LED update
-                this.lamp.setLed(message.id, message.color);
-                break;
-                
-            case 'bulk':
-                // Bulk LED update
-                this.lamp.stopPattern();
-                this.lamp.applyBulkUpdate(message.leds);
-                break;
-                
-            case 'gradient':
-                // Apply gradient
-                this.lamp.stopPattern();
-                if (message.direction === 'radial') {
-                    this.lamp.setRadialGradient(message.colors[0], message.colors[1] || message.colors[0]);
-                }
-                break;
-                
             case 'pattern':
-                // Start pattern
+                this.hasReceivedCommand = true;
                 this.applyPattern(message.name, message.params || {});
                 break;
-                
-            case 'state':
-                // Full state sync
+
+            case 'bulk':
+                // Per-frame update from wave/rainbow/sparkle — apply directly
+                this.hasReceivedCommand = true;
                 this.lamp.stopPattern();
-                if (message.leds && Array.isArray(message.leds)) {
+                this.lamp.gradientCenter = null;
+                this.lamp.gradientEdge = null;
+                this.lamp.applyBulkUpdate(message.leds);
+                break;
+
+            case 'state':
+                // Ignore the automatic state sync on connect — keep local gradient.
+                // Only apply state if we've already received a command this session.
+                if (this.hasReceivedCommand && message.leds && Array.isArray(message.leds)) {
+                    this.lamp.stopPattern();
+                    this.lamp.gradientCenter = null;
+                    this.lamp.gradientEdge = null;
                     this.lamp.applyBulkUpdate(message.leds);
                 }
                 break;
-                
+
             case 'stop':
-                // Stop current pattern
                 this.lamp.stopPattern();
+                this.activePattern = null;
                 break;
-                
-            default:
-                console.log('Unknown message type:', message.type);
+
+            case 'program_status':
+                // Log program events for visibility
+                if (message.event) {
+                    console.log(`Program: ${message.event}`, message.program_name || '');
+                }
+                break;
         }
     }
-    
+
     applyPattern(name, params) {
         const color = params.color || '#FF6B4A';
         const color2 = params.color2 || '#FFE4C4';
         const speed = params.speed || 2000;
-        
+
         switch (name) {
             case 'solid':
                 this.lamp.stopPattern();
                 this.lamp.setSolidColor(color);
+                this.activePattern = null;
                 break;
+
             case 'gradient':
                 this.lamp.stopPattern();
                 this.lamp.setRadialGradient(color, color2);
+                this.activePattern = null;
                 break;
+
             case 'breathing':
-                this.lamp.startBreathing(color, speed);
+                // Server sends per-frame breathing updates. Start local animation
+                // only once, then ignore subsequent frames.
+                if (this.activePattern !== 'breathing') {
+                    this.lamp.startBreathing(color, speed);
+                    this.activePattern = 'breathing';
+                }
                 break;
+
             case 'wave':
-                this.lamp.startWave(color, color2, speed);
+                if (this.activePattern !== 'wave') {
+                    this.lamp.startWave(color, color2, speed);
+                    this.activePattern = 'wave';
+                }
                 break;
+
             case 'rainbow':
-                this.lamp.startRainbow(speed);
+                if (this.activePattern !== 'rainbow') {
+                    this.lamp.startRainbow(speed);
+                    this.activePattern = 'rainbow';
+                }
                 break;
+
+            case 'pulse':
+                // Pulse is one-shot, always apply
+                this.lamp.stopPattern();
+                this.lamp.setSolidColor(color);
+                this.activePattern = null;
+                break;
+
+            case 'sparkle':
+                // Sparkle comes as bulk updates from the server
+                // but if we get a pattern message, start it
+                this.activePattern = 'sparkle';
+                break;
+
             default:
                 console.log('Unknown pattern:', name);
         }
     }
-    
+
     send(message) {
-        if (this.isConnected && this.ws.readyState === WebSocket.OPEN) {
+        if (this.ws && this.ws.readyState === WebSocket.OPEN) {
             this.ws.send(JSON.stringify(message));
         }
     }
-    
+
     scheduleReconnect() {
         if (this.reconnectAttempts < this.maxReconnectAttempts) {
             this.reconnectAttempts++;
             const delay = this.reconnectDelay * Math.min(this.reconnectAttempts, 5);
-            console.log(`Reconnecting in ${delay}ms (attempt ${this.reconnectAttempts})`);
             setTimeout(() => this.connect(), delay);
-        } else {
-            console.log('Max reconnection attempts reached');
-            this.updateStatus('failed');
-        }
-    }
-    
-    updateStatus(status) {
-        if (!this.statusDot || !this.statusText) return;
-        
-        this.statusDot.classList.remove('connected');
-        
-        switch (status) {
-            case 'connected':
-                this.statusDot.classList.add('connected');
-                this.statusText.textContent = 'Connected';
-                break;
-            case 'connecting':
-                this.statusText.textContent = 'Connecting...';
-                break;
-            case 'disconnected':
-                this.statusText.textContent = 'Disconnected';
-                break;
-            case 'error':
-                this.statusText.textContent = 'Connection Error';
-                break;
-            case 'failed':
-                this.statusText.textContent = 'Connection Failed';
-                break;
-        }
-    }
-    
-    disconnect() {
-        if (this.ws) {
-            this.ws.close();
-            this.ws = null;
         }
     }
 }
 
-// Initialize WebSocket client when lamp is ready
+// Initialize WebSocket client after lamp is ready
 document.addEventListener('DOMContentLoaded', () => {
-    // Wait for lamp to be initialized
     const checkLamp = setInterval(() => {
         if (window.lamp) {
             clearInterval(checkLamp);
@@ -208,6 +177,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }, 100);
 });
-
-// Export for external use
-window.LampWebSocketClient = LampWebSocketClient;

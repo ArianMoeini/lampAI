@@ -12,6 +12,7 @@ import { WebSocketServer } from 'ws';
 import { createServer } from 'http';
 import { LedController } from './led-controller.js';
 import { PatternEngine } from './patterns.js';
+import { ProgramScheduler } from './scheduler.js';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -21,12 +22,14 @@ app.use(cors());
 app.use(express.json());
 app.use(express.text());
 
-// Initialize LED controller and pattern engine
+// Initialize LED controller, pattern engine, and program scheduler
 const ledController = new LedController();
 const patternEngine = new PatternEngine(ledController);
 
 // WebSocket clients
 const wsClients = new Set();
+
+// Program scheduler (initialized after broadcast is defined)
 
 // Create HTTP server
 const server = createServer(app);
@@ -83,6 +86,12 @@ function broadcast(message) {
         }
     }
 }
+
+// Initialize program scheduler (needs handleCommand + broadcast)
+const scheduler = new ProgramScheduler(
+    (cmd) => handleCommand(cmd),
+    (msg) => broadcast(msg)
+);
 
 // Handle LED control commands
 function handleCommand(command) {
@@ -222,20 +231,63 @@ app.post('/solid', (req, res) => {
     res.json({ success: true, color });
 });
 
+// ============= Program API =============
+
+// Submit a light program
+app.post('/program', (req, res) => {
+    const program = req.body.program || req.body;
+
+    if (!program || !program.steps) {
+        return res.status(400).json({ error: 'Expected a program with steps' });
+    }
+
+    const result = scheduler.start(program);
+    if (result.success) {
+        res.json(result);
+    } else {
+        res.status(400).json(result);
+    }
+});
+
+// Get program status
+app.get('/program/status', (req, res) => {
+    res.json(scheduler.getStatus());
+});
+
+// Pause program
+app.post('/program/pause', (req, res) => {
+    res.json(scheduler.pause());
+});
+
+// Resume program
+app.post('/program/resume', (req, res) => {
+    res.json(scheduler.resume());
+});
+
+// Cancel program
+app.post('/program/cancel', (req, res) => {
+    res.json(scheduler.cancel());
+});
+
 // Start server
 server.listen(PORT, () => {
     console.log(`🔮 Moonside Lamp Server running on http://localhost:${PORT}`);
     console.log(`📡 WebSocket available at ws://localhost:${PORT}/ws`);
     console.log('');
     console.log('Available endpoints:');
-    console.log('  GET  /         - API info');
-    console.log('  GET  /state    - Current LED state');
-    console.log('  POST /led/:id  - Set individual LED');
-    console.log('  POST /leds     - Bulk update');
-    console.log('  POST /gradient - Set gradient');
-    console.log('  POST /pattern  - Start pattern');
-    console.log('  POST /stop     - Stop pattern');
-    console.log('  POST /solid    - Set solid color');
+    console.log('  GET  /               - API info');
+    console.log('  GET  /state          - Current LED state');
+    console.log('  POST /led/:id        - Set individual LED');
+    console.log('  POST /leds           - Bulk update');
+    console.log('  POST /gradient       - Set gradient');
+    console.log('  POST /pattern        - Start pattern');
+    console.log('  POST /stop           - Stop pattern');
+    console.log('  POST /solid          - Set solid color');
+    console.log('  POST /program        - Submit light program');
+    console.log('  GET  /program/status - Program status');
+    console.log('  POST /program/pause  - Pause program');
+    console.log('  POST /program/resume - Resume program');
+    console.log('  POST /program/cancel - Cancel program');
 });
 
-export { app, server, ledController, patternEngine };
+export { app, server, ledController, patternEngine, scheduler };

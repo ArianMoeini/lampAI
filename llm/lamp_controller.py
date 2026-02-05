@@ -34,6 +34,7 @@ except ImportError:
 
 from prompts import (
     LAMP_CONTROLLER_SYSTEM_PROMPT,
+    LAMP_PROGRAM_SYSTEM_PROMPT,
     MOOD_MAPPING_PROMPT,
     AUTONOMOUS_PROMPT,
 )
@@ -107,6 +108,51 @@ class LampController:
             print(f"Error sending command: {e}")
             return False
 
+    def send_program(self, program: dict) -> bool:
+        """Send a light program to the scheduler."""
+        try:
+            response = requests.post(
+                f"{self.server_url}/program",
+                json={"program": program},
+                timeout=5,
+            )
+            if response.status_code == 200:
+                result = response.json()
+                if result.get("success"):
+                    self.last_pattern = program
+                    return True
+                else:
+                    print(f"Program rejected: {result.get('error')}")
+                    return False
+            else:
+                print(f"Server error: {response.status_code}")
+                return False
+        except requests.exceptions.ConnectionError:
+            print(f"Cannot connect to lamp server at {self.server_url}")
+            return False
+        except Exception as e:
+            print(f"Error sending program: {e}")
+            return False
+
+    def get_program_status(self) -> dict | None:
+        """Get current program status."""
+        try:
+            response = requests.get(f"{self.server_url}/program/status", timeout=5)
+            if response.status_code == 200:
+                return response.json()
+        except Exception as e:
+            print(f"Error getting program status: {e}")
+        return None
+
+    def cancel_program(self) -> bool:
+        """Cancel the running program."""
+        try:
+            response = requests.post(f"{self.server_url}/program/cancel", timeout=5)
+            return response.status_code == 200
+        except Exception as e:
+            print(f"Error cancelling program: {e}")
+            return False
+
     def get_state(self) -> dict | None:
         """Get current lamp state."""
         try:
@@ -121,33 +167,54 @@ class LampController:
 class LLMController:
     """Interfaces with Ollama for natural language processing."""
 
-    def __init__(self, model: str = OLLAMA_MODEL):
+    def __init__(self, model: str = OLLAMA_MODEL, use_programs: bool = True):
         self.model = model
-        self.system_prompt = LAMP_CONTROLLER_SYSTEM_PROMPT
+        self.use_programs = use_programs
+        self.system_prompt = LAMP_PROGRAM_SYSTEM_PROMPT if use_programs else LAMP_CONTROLLER_SYSTEM_PROMPT
 
     def process_input(self, user_input: str) -> dict | None:
-        """Convert natural language to lamp command."""
+        """Convert natural language to a light program (or single command)."""
         if not HAS_OLLAMA:
             print("Ollama not available. Using fallback command.")
-            return self._fallback_command(user_input)
+            return self._fallback_program(user_input) if self.use_programs else self._fallback_command(user_input)
 
         try:
             prompt = MOOD_MAPPING_PROMPT.format(input=user_input)
 
-            response = ollama.chat(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": self.system_prompt},
-                    {"role": "user", "content": prompt},
-                ],
-            )
+            messages = [
+                {"role": "system", "content": self.system_prompt},
+                {"role": "user", "content": prompt},
+            ]
 
-            content = response["message"]["content"]
-            return self._extract_json(content)
+            # Try up to 2 times — small models occasionally produce malformed JSON
+            for attempt in range(2):
+                response = ollama.chat(
+                    model=self.model,
+                    messages=messages,
+                    options={"temperature": 0.3},  # Lower temp for more precise JSON
+                )
+
+                content = response["message"]["content"]
+                result = self._extract_json(content)
+
+                if result is not None:
+                    break
+
+                if attempt == 0:
+                    print("Retrying LLM call...")
+
+            if result is None:
+                return self._fallback_program(user_input) if self.use_programs else self._fallback_command(user_input)
+
+            # If we got a single command but expect programs, wrap it
+            if self.use_programs and "program" not in result and "type" in result:
+                result = self._wrap_command_as_program(result, user_input)
+
+            return result
 
         except Exception as e:
             print(f"LLM error: {e}")
-            return self._fallback_command(user_input)
+            return self._fallback_program(user_input) if self.use_programs else self._fallback_command(user_input)
 
     def generate_autonomous(self, iteration: int, previous_pattern: dict | None) -> dict | None:
         """Generate a pattern for autonomous mode."""
@@ -180,31 +247,125 @@ class LLMController:
             return self._autonomous_fallback(iteration)
 
     def _extract_json(self, text: str) -> dict | None:
-        """Extract JSON from LLM response."""
-        # Try to find JSON in the response
+        """Extract JSON from LLM response using bracket-counting for nested objects."""
         text = text.strip()
 
         # Remove markdown code blocks if present
-        if text.startswith("```"):
-            text = re.sub(r"```(?:json)?\n?", "", text)
-            text = text.rstrip("`").strip()
+        text = re.sub(r"```(?:json)?\s*", "", text)
+        text = text.rstrip("`").strip()
 
-        # Try direct parse
+        # Strip trailing non-JSON characters (small models sometimes add trailing quotes)
+        text = text.rstrip('"\'')
+
+        # Try direct parse first
         try:
             return json.loads(text)
         except json.JSONDecodeError:
             pass
 
-        # Try to find JSON object in text
-        match = re.search(r"\{[^{}]*\}", text, re.DOTALL)
-        if match:
-            try:
-                return json.loads(match.group())
-            except json.JSONDecodeError:
-                pass
+        # Find the outermost { and its matching } using bracket counting
+        start = text.find("{")
+        if start == -1:
+            print(f"No JSON object found in: {text[:100]}...")
+            return None
 
-        print(f"Could not parse JSON from: {text[:100]}...")
+        depth = 0
+        in_string = False
+        escape = False
+        for i in range(start, len(text)):
+            c = text[i]
+            if escape:
+                escape = False
+                continue
+            if c == "\\":
+                escape = True
+                continue
+            if c == '"':
+                in_string = not in_string
+                continue
+            if in_string:
+                continue
+            if c == "{":
+                depth += 1
+            elif c == "}":
+                depth -= 1
+                if depth == 0:
+                    candidate = text[start : i + 1]
+                    try:
+                        return json.loads(candidate)
+                    except json.JSONDecodeError:
+                        # Try bracket repair before giving up
+                        repaired = self._repair_json(candidate)
+                        if repaired is not None:
+                            print("(repaired malformed JSON from LLM)")
+                            return repaired
+                        print(f"JSON parse error in ({len(candidate)} chars): {candidate[:200]}...")
+                        return None
+
+        # Unmatched braces — try closing them
+        candidate = text[start:]
+        repaired = self._repair_json(candidate)
+        if repaired is not None:
+            print("(repaired unclosed JSON from LLM)")
+            return repaired
+
+        print(f"Unmatched braces in ({len(text)} chars): {text[:200]}...")
         return None
+
+    @staticmethod
+    def _repair_json(text: str) -> dict | None:
+        """Try to fix common JSON errors from small LLMs (missing brackets)."""
+        # Common error: missing ] before , or } at the end
+        # Strategy: try adding missing ] and } in likely positions
+        for fix in [
+            # Fix: missing } before ] (e.g. "duration":300000] → "duration":300000}])
+            lambda t: re.sub(r'(\d+)(])', r'\1}\2', t),
+            # Fix: missing ] before ,"on_complete" or ,"loop"
+            lambda t: re.sub(r'(})(,"(?:on_complete|loop)")', r'\1]\2', t),
+            # Fix: add missing closing brackets at end
+            lambda t: t + ']' + '}' * (t.count('{') - t.count('}')),
+        ]:
+            try:
+                fixed = fix(text)
+                if fixed != text:
+                    return json.loads(fixed)
+            except (json.JSONDecodeError, Exception):
+                continue
+
+        # Brute-force: try adding 1-3 missing ] or } at various positions
+        try:
+            err = json.loads(text)
+            return err  # Shouldn't reach here, but just in case
+        except json.JSONDecodeError as e:
+            pos = e.pos
+            for insert in ['}', ']', '}]', ']}', '}}', ']]']:
+                try:
+                    return json.loads(text[:pos] + insert + text[pos:])
+                except json.JSONDecodeError:
+                    continue
+
+        return None
+
+    @staticmethod
+    def _wrap_command_as_program(command: dict, name: str = "Quick") -> dict:
+        """Wrap a single command in a minimal program structure."""
+        return {
+            "program": {
+                "name": name[:30],
+                "steps": [
+                    {
+                        "id": "main",
+                        "command": command,
+                        "duration": None,
+                    }
+                ],
+            }
+        }
+
+    def _fallback_program(self, user_input: str) -> dict:
+        """Simple keyword-based fallback that returns a program."""
+        command = self._fallback_command(user_input)
+        return self._wrap_command_as_program(command, user_input)
 
     def _fallback_command(self, user_input: str) -> dict:
         """Simple keyword-based fallback when LLM is unavailable."""
@@ -255,6 +416,16 @@ class LLMController:
         return patterns[iteration % len(patterns)]
 
 
+def _send_result(lamp: LampController, result: dict) -> bool:
+    """Send an LLM result — either a program or a single command."""
+    if "program" in result:
+        program = result["program"]
+        print(f"Program: {program.get('name', '?')} ({len(program.get('steps', []))} steps)")
+        return lamp.send_program(program)
+    else:
+        return lamp.send_command(result)
+
+
 def interactive_mode(lamp: LampController, llm: LLMController):
     """Run interactive command-line interface."""
     print("\n🔮 Moonside Lamp Controller")
@@ -262,10 +433,10 @@ def interactive_mode(lamp: LampController, llm: LLMController):
     print("Type natural language commands to control the lamp.")
     print("Examples:")
     print("  - 'make it warm and cozy'")
-    print("  - 'calm blue breathing'")
-    print("  - 'energetic rainbow'")
+    print("  - 'pomodoro timer 25 min work 5 min break'")
+    print("  - 'thunderstorm'")
     print("  - 'turn off'")
-    print("Type 'quit' or 'exit' to stop.\n")
+    print("Commands: 'status', 'cancel', 'quit'\n")
 
     while True:
         try:
@@ -278,15 +449,30 @@ def interactive_mode(lamp: LampController, llm: LLMController):
                 print("Goodbye!")
                 break
 
-            print("Processing...")
-            command = llm.process_input(user_input)
-
-            if command:
-                print(f"Command: {json.dumps(command, indent=2)}")
-                if lamp.send_command(command):
-                    print("✓ Command sent successfully\n")
+            if user_input.lower() == "status":
+                status = lamp.get_program_status()
+                if status:
+                    print(json.dumps(status, indent=2))
                 else:
-                    print("✗ Failed to send command\n")
+                    print("Could not get status")
+                continue
+
+            if user_input.lower() == "cancel":
+                if lamp.cancel_program():
+                    print("✓ Program cancelled")
+                else:
+                    print("✗ Failed to cancel")
+                continue
+
+            print("Processing...")
+            result = llm.process_input(user_input)
+
+            if result:
+                print(f"Output: {json.dumps(result, indent=2)}")
+                if _send_result(lamp, result):
+                    print("✓ Sent successfully\n")
+                else:
+                    print("✗ Failed to send\n")
             else:
                 print("Could not generate command\n")
 
@@ -332,11 +518,11 @@ def single_command(lamp: LampController, llm: LLMController, command_text: str):
     """Process a single command and exit."""
     print(f"Processing: {command_text}")
 
-    command = llm.process_input(command_text)
+    result = llm.process_input(command_text)
 
-    if command:
-        print(f"Command: {json.dumps(command, indent=2)}")
-        if lamp.send_command(command):
+    if result:
+        print(f"Output: {json.dumps(result, indent=2)}")
+        if _send_result(lamp, result):
             print("✓ Success")
         else:
             print("✗ Failed")
