@@ -22,13 +22,11 @@ LAMP_PROGRAM_SYSTEM_PROMPT = """You are a lamp programmer. You control a 172-LED
   {"type":"pattern","name":"pulse","params":{"color":"#FFFFFF","speed":500}}
 - sparkle(color, bgColor, speed, density) — random twinkling
   {"type":"pattern","name":"sparkle","params":{"color":"#FFF","bgColor":"#1a1a1a","speed":100,"density":0.1}}
-- bulk — set individual LEDs by ID for pixel art, text, shapes
-  {"type":"bulk","leds":[{"id":0,"color":"#FF0000"},{"id":1,"color":"#00FF00"},...]}
-
-## Front grid layout (10 cols × 14 rows):
-ID = row × 10 + col. Row 0=top, row 13=bottom. Col 0=left, col 9=right.
-Row 0: IDs 0-9. Row 1: IDs 10-19. ... Row 13: IDs 130-139. Back LEDs: 140-171.
-Use bulk to draw digits, icons, or shapes. Set ALL 140 front LEDs (lit pixels + background) in one bulk command.
+- render(elements) — draw on the 10×14 grid using drawing tools
+  {"type":"render","elements":[{"type":"fill","color":"#000"},{"type":"text","content":"HI","x":2,"y":4,"color":"#FFF"},{"type":"pixel","x":5,"y":1,"color":"#F44"},{"type":"rect","x":0,"y":12,"w":10,"h":2,"color":"#333"}]}
+  Drawing tools: fill(color), text(content,x,y,color), pixel(x,y,color), rect(x,y,w,h,color), line(x1,y1,x2,y2,color)
+  Grid: 10 wide × 14 tall. x=0 left, y=0 top. Text font: 3px wide per char + 1px gap. Use pixel for custom shapes.
+  Combine render with patterns in multi-step programs.
 
 ## Program structure:
 {"program":{"name":"...","steps":[{"id":"...","command":{...},"duration":ms_or_null}],"loop":{"count":N,"start_step":"id","end_step":"id"},"on_complete":{"command":{...}}}}
@@ -50,13 +48,49 @@ User: "pomodoro timer 25 min work 5 min break"
 {"program":{"name":"Pomodoro","steps":[{"id":"work","command":{"type":"pattern","name":"solid","params":{"color":"#CC3333"}},"duration":1500000},{"id":"break","command":{"type":"pattern","name":"breathing","params":{"color":"#33CC66","speed":4000}},"duration":300000}],"loop":{"count":4,"start_step":"work","end_step":"break"},"on_complete":{"command":{"type":"pattern","name":"rainbow","params":{"speed":2000}}}}}
 
 User: "thunderstorm"
-{"program":{"name":"Storm","steps":[{"id":"dark","command":{"type":"pattern","name":"breathing","params":{"color":"#1a1a3a","speed":3000}},"duration":4000},{"id":"flash","command":{"type":"pattern","name":"pulse","params":{"color":"#FFFFFF","speed":300}},"duration":500},{"id":"rumble","command":{"type":"pattern","name":"sparkle","params":{"color":"#4444AA","bgColor":"#0a0a1a","speed":80,"density":0.15}},"duration":3000}],"loop":{"count":0,"start_step":"dark","end_step":"rumble"}}}"""
+{"program":{"name":"Storm","steps":[{"id":"dark","command":{"type":"pattern","name":"breathing","params":{"color":"#1a1a3a","speed":3000}},"duration":4000},{"id":"flash","command":{"type":"pattern","name":"pulse","params":{"color":"#FFFFFF","speed":300}},"duration":500},{"id":"rumble","command":{"type":"pattern","name":"sparkle","params":{"color":"#4444AA","bgColor":"#0a0a1a","speed":80,"density":0.15}},"duration":3000}],"loop":{"count":0,"start_step":"dark","end_step":"rumble"}}}
+
+User: "clock showing 14:30"
+{"program":{"name":"Clock","steps":[{"id":"show","command":{"type":"render","elements":[{"type":"fill","color":"#0a0a1a"},{"type":"text","content":"14","x":2,"y":2,"color":"#00FF88"},{"type":"pixel","x":5,"y":7,"color":"#00FF88"},{"type":"pixel","x":5,"y":9,"color":"#00FF88"},{"type":"text","content":"30","x":2,"y":9,"color":"#00FF88"}]},"duration":null}]}}
+
+User: "show a heart"
+{"program":{"name":"Heart","steps":[{"id":"show","command":{"type":"render","elements":[{"type":"fill","color":"#1a0a1a"},{"type":"pixel","x":3,"y":4,"color":"#FF2266"},{"type":"pixel","x":6,"y":4,"color":"#FF2266"},{"type":"rect","x":2,"y":5,"w":3,"h":2,"color":"#FF2266"},{"type":"rect","x":5,"y":5,"w":3,"h":2,"color":"#FF2266"},{"type":"rect","x":3,"y":7,"w":4,"h":2,"color":"#FF2266"},{"type":"rect","x":4,"y":9,"w":2,"h":1,"color":"#FF2266"}]},"duration":null}]}}"""
 
 MOOD_MAPPING_PROMPT = """Create a light program for this request.
 
 Request: {input}
 
 Respond with ONLY a JSON program. No text."""
+
+# JSON schema for Ollama structured output enforcement.
+# Forces the model to output valid JSON matching this schema.
+PROGRAM_JSON_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "program": {
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "steps": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "id": {"type": "string"},
+                            "command": {"type": "object"},
+                            "duration": {}
+                        },
+                        "required": ["id", "command"]
+                    }
+                },
+                "loop": {"type": "object"},
+                "on_complete": {"type": "object"}
+            },
+            "required": ["name", "steps"]
+        }
+    },
+    "required": ["program"]
+}
 
 # Keep the old single-command prompt for backwards compatibility
 LAMP_CONTROLLER_SYSTEM_PROMPT = """You are a creative lighting controller for a Moonside Neon Crystal Cube lamp. You control 172 individually addressable LEDs (140 on the front display in a 10x14 grid, and 32 ambient LEDs on the back).

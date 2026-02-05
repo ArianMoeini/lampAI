@@ -37,6 +37,7 @@ from prompts import (
     LAMP_PROGRAM_SYSTEM_PROMPT,
     MOOD_MAPPING_PROMPT,
     AUTONOMOUS_PROMPT,
+    PROGRAM_JSON_SCHEMA,
 )
 
 # Configuration
@@ -191,7 +192,7 @@ class LLMController:
                 response = ollama.chat(
                     model=self.model,
                     messages=messages,
-                    options={"temperature": 0.3},  # Lower temp for more precise JSON
+                    options={"temperature": 0.3},
                 )
 
                 content = response["message"]["content"]

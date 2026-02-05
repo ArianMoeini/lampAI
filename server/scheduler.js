@@ -105,15 +105,16 @@ export class ProgramScheduler {
 
         this.broadcastStatus('step_started');
 
-        // If duration is null/undefined, this step runs indefinitely (program stays here)
-        if (step.duration == null) {
+        // If duration is null/undefined/non-numeric, this step runs indefinitely
+        const duration = typeof step.duration === 'number' ? step.duration : null;
+        if (duration == null) {
             return;
         }
 
         // Schedule the next step
         this.stepTimer = setTimeout(() => {
             this.advanceToNextStep();
-        }, step.duration);
+        }, duration);
     }
 
     /**
@@ -205,7 +206,7 @@ export class ProgramScheduler {
         // Calculate remaining time for current step
         if (this.stepTimer && this.stepStartTime) {
             const step = this.program.steps[this.currentStepIndex];
-            if (step.duration != null) {
+            if (typeof step.duration === 'number') {
                 const elapsed = Date.now() - this.stepStartTime;
                 this.pausedRemaining = Math.max(0, step.duration - elapsed);
             }

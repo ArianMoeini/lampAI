@@ -13,6 +13,7 @@ import { createServer } from 'http';
 import { LedController } from './led-controller.js';
 import { PatternEngine } from './patterns.js';
 import { ProgramScheduler } from './scheduler.js';
+import { GridRenderer } from './renderer.js';
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -25,6 +26,7 @@ app.use(express.text());
 // Initialize LED controller, pattern engine, and program scheduler
 const ledController = new LedController();
 const patternEngine = new PatternEngine(ledController);
+const renderer = new GridRenderer();
 
 // WebSocket clients
 const wsClients = new Set();
@@ -125,6 +127,15 @@ function handleCommand(command) {
             });
             break;
             
+        case 'render': {
+            // Convert render elements to bulk LED data
+            patternEngine.stop();
+            const bulkCommand = renderer.render(command.elements || []);
+            ledController.setBulk(bulkCommand.leds);
+            broadcast(bulkCommand);
+            break;
+        }
+
         case 'stop':
             patternEngine.stop();
             broadcast({ type: 'stop' });
