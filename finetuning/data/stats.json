@@ -1,0 +1,36 @@
+{
+  "total": 2500,
+  "valid": 2500,
+  "rejected": 0,
+  "issues": {},
+  "by_category": {
+    "pattern": {
+      "total": 500,
+      "valid": 500
+    },
+    "render": {
+      "total": 600,
+      "valid": 600
+    },
+    "multi_step": {
+      "total": 500,
+      "valid": 500
+    },
+    "text": {
+      "total": 200,
+      "valid": 200
+    },
+    "creative": {
+      "total": 300,
+      "valid": 300
+    },
+    "edge_case": {
+      "total": 200,
+      "valid": 200
+    },
+    "mixed": {
+      "total": 200,
+      "valid": 200
+    }
+  }
+}
