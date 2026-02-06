@@ -1,0 +1,133 @@
+{
+  "model": "phi4-mini",
+  "total": 21,
+  "ok": 0,
+  "results": [
+    {
+      "id": 1,
+      "status": "send_error",
+      "prompt": "show a star",
+      "time": 3.987
+    },
+    {
+      "id": 2,
+      "status": "json_error",
+      "prompt": "draw a smiley face",
+      "time": 2.442
+    },
+    {
+      "id": 3,
+      "status": "ollama_error",
+      "prompt": "show an arrow pointing up",
+      "time": 120.001
+    },
+    {
+      "id": 4,
+      "status": "json_error",
+      "prompt": "draw a house",
+      "time": 7.661
+    },
+    {
+      "id": 5,
+      "status": "json_error",
+      "prompt": "show a music note",
+      "time": 15.822
+    },
+    {
+      "id": 6,
+      "status": "send_error",
+      "prompt": "draw a cat face",
+      "time": 6.21
+    },
+    {
+      "id": 7,
+      "status": "send_error",
+      "prompt": "show a sun",
+      "time": 1.566
+    },
+    {
+      "id": 8,
+      "status": "json_error",
+      "prompt": "draw a tree",
+      "time": 44.131
+    },
+    {
+      "id": 9,
+      "status": "send_error",
+      "prompt": "show a lightning bolt",
+      "time": 2.659
+    },
+    {
+      "id": 10,
+      "status": "send_error",
+      "prompt": "draw a skull",
+      "time": 2.208
+    },
+    {
+      "id": 11,
+      "status": "send_error",
+      "prompt": "show an analog clock at 3 o'clock",
+      "time": 1.492
+    },
+    {
+      "id": 12,
+      "status": "send_error",
+      "prompt": "be a pomodoro timer",
+      "time": 2.21
+    },
+    {
+      "id": 13,
+      "status": "json_error",
+      "prompt": "simulate a sunrise",
+      "time": 1.784
+    },
+    {
+      "id": 14,
+      "status": "send_error",
+      "prompt": "create a meditation session",
+      "time": 2.056
+    },
+    {
+      "id": 15,
+      "status": "json_error",
+      "prompt": "party mode",
+      "time": 2.208
+    },
+    {
+      "id": 16,
+      "status": "json_error",
+      "prompt": "simulate rain and thunder",
+      "time": 2.089
+    },
+    {
+      "id": 17,
+      "status": "send_error",
+      "prompt": "sleep timer that dims over 30 minutes",
+      "time": 1.874
+    },
+    {
+      "id": 18,
+      "status": "send_error",
+      "prompt": "countdown from 5",
+      "time": 1.625
+    },
+    {
+      "id": 19,
+      "status": "json_error",
+      "prompt": "traffic light sequence",
+      "time": 1.659
+    },
+    {
+      "id": 20,
+      "status": "send_error",
+      "prompt": "romantic evening ambiance",
+      "time": 6.373
+    },
+    {
+      "id": 21,
+      "status": "json_error",
+      "prompt": "weather display showing sunny and 24 degrees",
+      "time": 1.59
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "model": "llama3.2",
+  "total": 10,
+  "ok": 4,
+  "results": [
+    {
+      "id": 1,
+      "status": "OK",
+      "prompt": "show a star",
+      "program": {
+        "program": {
+          "name": "Star",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a0a1a"
+                  },
+                  {
+                    "type": "ascii",
+                    "content": "         ***\n      *****\n    ********\n  *********\n *        *\n  *********\n    ********\n      *****\n         ***\n          .\n           \n            "
+                  },
+                  {
+                    "color": "#FF2266"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 1.37617826461792
+    },
+    {
+      "id": 2,
+      "status": "json_error",
+      "prompt": "draw a smiley face",
+      "raw": "{\"program\":{\"name\":\"Smiley\",\"steps\":[{\"id\":\"show\",\"command\":{\"type\":\"render\",\"elements\":[{\"type\":\"fill\",\"color\":\"#1a0a1a\"},{\"type\":\"ascii\",\"content\":\"  ***\\n *****\\n*******\\n ********\\n  ***\\n   **\\n    *\\\\n     \\\\\\n      \\\\n       \\\\\\n        \\\\\\n         \\\\\\n          \\\\\\n           \\\\\\n            \\\\\\n             \\\\\\n              \\\\\\n               \\\\\\n                \\\\\\n                 \\\\\\n                  \\\\\\n                   \\\\\\n                    \\\\\\n                     \\\\\\n     ",
+      "time": 29.82775616645813
+    },
+    {
+      "id": 3,
+      "status": "OK",
+      "prompt": "show an arrow pointing up",
+      "program": {
+        "program": {
+          "name": "Arrow",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a0a1a"
+                  },
+                  {
+                    "type": "ascii",
+                    "content": "   ****\n  *****\n ******\n*******\n********\n*******\n*****\n  ***\n   **\n    *",
+                    "color": "#FF2266"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 1.5875048637390137
+    },
+    {
+      "id": 4,
+      "status": "json_error",
+      "prompt": "draw a house",
+      "raw": "{\"program\":{\"name\":\"House\",\"steps\":[{\"id\":\"show\",\"command\":{\"type\":\"render\",\"elements\":[{\"type\":\"fill\",\"color\":\"#1a0a1a\"},{\"type\":\"ascii\",\"content\":\"  *****\\n *****\\n*   *\\n*   *\\n*   *\\n*   *\\n****\\n*   *\\n*   *\\n*   *\\n  ***\"}},\"duration\":null}]}",
+      "time": 0.8213529586791992
+    },
+    {
+      "id": 5,
+      "status": "json_error",
+      "prompt": "show a music note",
+      "raw": "{\"program\":{\"name\":\"Music Note\",\"steps\":[{\"id\":\"show\",\"command\":{\"type\":\"render\",\"elements\":[{\"type\":\"ascii\",\"content\":\"  ***\\n *****\\n*****\\n****\\n *   \\n*   *\\n*   *\\n*   *\\n*   *\\n  ***\\n *****\\n*****\\n****\\n*****\"}},\"duration\":null}]}",
+      "time": 0.759066104888916
+    },
+    {
+      "id": 6,
+      "status": "OK",
+      "prompt": "draw a cat face",
+      "program": {
+        "program": {
+          "name": "Cat",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a0a1a"
+                  },
+                  {
+                    "type": "ascii",
+                    "content": "  ***\n *   *\n*   *\n*   *\n  ***\n     \n    **\n   ***\n  ***\n  ***\n ***  "
+                  }
+                ],
+                "duration": null
+              }
+            }
+          ]
+        }
+      },
+      "time": 0.8422141075134277
+    },
+    {
+      "id": 7,
+      "status": "json_error",
+      "prompt": "show a sun",
+      "raw": "{\"program\":{\"name\":\"Sun\",\"steps\":[{\"id\":\"show\",\"command\":{\"type\":\"render\",\"elements\":[{\"type\":\"fill\",\"color\":\"#1a0a1a\"},{\"type\":\"ascii\",\"content\":\"         ***\\n        *   *\\n      *****\\n     *     *\\n    *       *\\n   *         *\\n  *           *\\n *             *\\n*               *\\n*                 *\\n*                   \\\\\\n*                     \\\\\\n*                       \\\\\\n*                         \\\\\\n*                           \\\\\\n*                             \\\\\\n*                ",
+      "time": 3.226793050765991
+    },
+    {
+      "id": 8,
+      "status": "json_error",
+      "prompt": "draw a tree",
+      "raw": "{\"program\":{\"name\":\"Tree\",\"steps\":[{\"id\":\"show\",\"command\":{\"type\":\"render\",\"elements\":[{\"type\":\"fill\",\"color\":\"#1a0a1a\"},{\"type\":\"ascii\",\"content\":\"         *   *\\n    ***  *\\n   *****\\n  *     *\\n *       *\\n*         *\\n *       *\\n  *     *\\n   *****\\n    ***  \\\\\\n         *\"}},\"duration\":null}]}",
+      "time": 0.8732202053070068
+    },
+    {
+      "id": 9,
+      "status": "json_error",
+      "prompt": "show a lightning bolt",
+      "raw": "{\"program\":{\"name\":\"Lightning\",\"steps\":[{\"id\":\"show\",\"command\":{\"type\":\"render\",\"elements\":[{\"type\":\"fill\",\"color\":\"#0a0a1a\"},{\"type\":\"ascii\",\"content\":\"   ***  *\\n *   * \\n*   * *\\n*   * *\\n  ***  *\\n   *   \\n    *   \\n     *  \\n      * \\n       *\\n        *\"}],\"duration\":null}]}",
+      "time": 0.8797760009765625
+    },
+    {
+      "id": 10,
+      "status": "OK",
+      "prompt": "draw a skull",
+      "program": {
+        "program": {
+          "name": "Skull",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a0a1a"
+                  },
+                  {
+                    "type": "ascii",
+                    "content": "   ***\n  *****\n ******\n*     *\n*****\n*   *\n*   *\n*****\n  *****\n  ***\n   **\n    *",
+                    "color": "#FF2266"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 0.8965692520141602
+    }
+  ]
+}

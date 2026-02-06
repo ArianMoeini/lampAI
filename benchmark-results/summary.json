@@ -1,0 +1,10 @@
+{
+  "llama": {
+    "sent": 16,
+    "total": 21,
+    "jsonErrors": 5,
+    "ollamaErrors": 0,
+    "duration": "104.0s",
+    "exitCode": 0
+  }
+}

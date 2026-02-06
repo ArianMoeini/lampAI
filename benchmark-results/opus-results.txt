@@ -1,0 +1,95 @@
+============================================================
+  CLAUDE OPUS 4.6 BENCHMARK — 21 test cases
+  Server: http://localhost:3002
+  Pause between tests: 2s
+============================================================
+
+[ 1/21] pixel_art      | show a star
+         -> SENT
+         (waiting 2s — check emulator)
+[ 2/21] pixel_art      | draw a smiley face
+         -> SENT
+         (waiting 2s — check emulator)
+[ 3/21] pixel_art      | show an arrow pointing up
+         -> SENT
+         (waiting 2s — check emulator)
+[ 4/21] pixel_art      | draw a house
+         -> SENT
+         (waiting 2s — check emulator)
+[ 5/21] pixel_art      | show a music note
+         -> SENT
+         (waiting 2s — check emulator)
+[ 6/21] pixel_art      | draw a cat face
+         -> SENT
+         (waiting 2s — check emulator)
+[ 7/21] pixel_art      | show a sun
+         -> SENT
+         (waiting 2s — check emulator)
+[ 8/21] pixel_art      | draw a tree
+         -> SENT
+         (waiting 2s — check emulator)
+[ 9/21] pixel_art      | show a lightning bolt
+         -> SENT
+         (waiting 2s — check emulator)
+[10/21] pixel_art      | draw a skull
+         -> SENT
+         (waiting 2s — check emulator)
+[11/21] analog_clock   | show an analog clock at 3 o'clock
+         -> SENT
+         (waiting 2s — check emulator)
+[12/21] multi_step     | be a pomodoro timer
+         -> SENT
+         (waiting 2s — check emulator)
+[13/21] multi_step     | simulate a sunrise
+         -> SENT
+         (waiting 2s — check emulator)
+[14/21] multi_step     | create a meditation session
+         -> SENT
+         (waiting 2s — check emulator)
+[15/21] multi_step     | party mode
+         -> SENT
+         (waiting 2s — check emulator)
+[16/21] multi_step     | simulate rain and thunder
+         -> SENT
+         (waiting 2s — check emulator)
+[17/21] multi_step     | sleep timer that dims over 30 minutes
+         -> SENT
+         (waiting 2s — check emulator)
+[18/21] multi_step     | countdown from 5
+         -> SENT
+         (waiting 2s — check emulator)
+[19/21] multi_step     | traffic light sequence
+         -> SENT
+         (waiting 2s — check emulator)
+[20/21] multi_step     | romantic evening ambiance
+         -> SENT
+         (waiting 2s — check emulator)
+[21/21] multi_step     | weather display showing sunny and 24 degrees
+         -> SENT
+
+============================================================
+  SUMMARY (Claude Opus 4.6)
+============================================================
+  [ 1] OK   | show a star
+  [ 2] OK   | draw a smiley face
+  [ 3] OK   | show an arrow pointing up
+  [ 4] OK   | draw a house
+  [ 5] OK   | show a music note
+  [ 6] OK   | draw a cat face
+  [ 7] OK   | show a sun
+  [ 8] OK   | draw a tree
+  [ 9] OK   | show a lightning bolt
+  [10] OK   | draw a skull
+  [11] OK   | show an analog clock at 3 o'clock
+  [12] OK   | be a pomodoro timer
+  [13] OK   | simulate a sunrise
+  [14] OK   | create a meditation session
+  [15] OK   | party mode
+  [16] OK   | simulate rain and thunder
+  [17] OK   | sleep timer that dims over 30 minutes
+  [18] OK   | countdown from 5
+  [19] OK   | traffic light sequence
+  [20] OK   | romantic evening ambiance
+  [21] OK   | weather display showing sunny and 24 degrees
+
+  21/21 successfully sent to server

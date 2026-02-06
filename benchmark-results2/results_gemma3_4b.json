@@ -1,0 +1,133 @@
+{
+  "model": "gemma3:4b",
+  "total": 21,
+  "ok": 12,
+  "results": [
+    {
+      "id": 1,
+      "status": "OK",
+      "prompt": "show a star",
+      "time": 7.838
+    },
+    {
+      "id": 2,
+      "status": "OK",
+      "prompt": "draw a smiley face",
+      "time": 3.713
+    },
+    {
+      "id": 3,
+      "status": "OK",
+      "prompt": "show an arrow pointing up",
+      "time": 5.085
+    },
+    {
+      "id": 4,
+      "status": "OK",
+      "prompt": "draw a house",
+      "time": 5.594
+    },
+    {
+      "id": 5,
+      "status": "OK",
+      "prompt": "show a music note",
+      "time": 6.092
+    },
+    {
+      "id": 6,
+      "status": "json_error",
+      "prompt": "draw a cat face",
+      "time": 3.142
+    },
+    {
+      "id": 7,
+      "status": "OK",
+      "prompt": "show a sun",
+      "time": 3.214
+    },
+    {
+      "id": 8,
+      "status": "OK",
+      "prompt": "draw a tree",
+      "time": 12.578
+    },
+    {
+      "id": 9,
+      "status": "OK",
+      "prompt": "show a lightning bolt",
+      "time": 3.974
+    },
+    {
+      "id": 10,
+      "status": "OK",
+      "prompt": "draw a skull",
+      "time": 8.178
+    },
+    {
+      "id": 11,
+      "status": "OK",
+      "prompt": "show an analog clock at 3 o'clock",
+      "time": 5.212
+    },
+    {
+      "id": 12,
+      "status": "OK",
+      "prompt": "be a pomodoro timer",
+      "time": 5.395
+    },
+    {
+      "id": 13,
+      "status": "OK",
+      "prompt": "simulate a sunrise",
+      "time": 4.838
+    },
+    {
+      "id": 14,
+      "status": "send_error",
+      "prompt": "create a meditation session",
+      "time": 5.745
+    },
+    {
+      "id": 15,
+      "status": "send_error",
+      "prompt": "party mode",
+      "time": 5.26
+    },
+    {
+      "id": 16,
+      "status": "send_error",
+      "prompt": "simulate rain and thunder",
+      "time": 4.037
+    },
+    {
+      "id": 17,
+      "status": "json_error",
+      "prompt": "sleep timer that dims over 30 minutes",
+      "time": 2.468
+    },
+    {
+      "id": 18,
+      "status": "send_error",
+      "prompt": "countdown from 5",
+      "time": 9.792
+    },
+    {
+      "id": 19,
+      "status": "send_error",
+      "prompt": "traffic light sequence",
+      "time": 3.428
+    },
+    {
+      "id": 20,
+      "status": "send_error",
+      "prompt": "romantic evening ambiance",
+      "time": 6.897
+    },
+    {
+      "id": 21,
+      "status": "send_error",
+      "prompt": "weather display showing sunny and 24 degrees",
+      "time": 4.196
+    }
+  ]
+}
