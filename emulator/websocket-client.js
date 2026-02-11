@@ -86,7 +86,6 @@ class LampWebSocketClient {
                 break;
 
             case 'program_status':
-                // Log program events for visibility
                 if (message.event) {
                     console.log(`Program: ${message.event}`, message.program_name || '');
                 }

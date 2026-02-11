@@ -1,0 +1,4 @@
+FROM ./lamp-llama-3b.Q8_0.gguf
+PARAMETER temperature 0.3
+PARAMETER num_predict 4096
+PARAMETER stop <|eot_id|>

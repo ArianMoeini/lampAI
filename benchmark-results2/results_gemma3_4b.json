@@ -1,133 +1,1737 @@
 {
   "model": "gemma3:4b",
   "total": 21,
-  "ok": 12,
+  "ok": 20,
   "results": [
     {
       "id": 1,
       "status": "OK",
       "prompt": "show a star",
-      "time": 7.838
+      "program": {
+        "program": {
+          "name": "Star",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a1a1a"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 1,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 2,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 3,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 4,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 5,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 6,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 7,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 8,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 9,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 10,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 11,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 12,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 13,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 14,
+                    "color": "#FFF"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 4.209932088851929
     },
     {
       "id": 2,
       "status": "OK",
       "prompt": "draw a smiley face",
-      "time": 3.713
+      "program": {
+        "program": {
+          "name": "Smiley Face",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "text",
+                    "content": ":)",
+                    "x": 2,
+                    "y": 4,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 1,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 3,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 5,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 7,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 9,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 2,
+                    "y": 10,
+                    "w": 4,
+                    "h": 1,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 6,
+                    "y": 10,
+                    "w": 4,
+                    "h": 1,
+                    "color": "#000"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 3.5911688804626465
     },
     {
       "id": 3,
       "status": "OK",
       "prompt": "show an arrow pointing up",
-      "time": 5.085
+      "program": {
+        "program": {
+          "name": "Arrow Up",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a1a1a"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 5,
+                    "y1": 0,
+                    "x2": 5,
+                    "y2": 14,
+                    "color": "#FFD700"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 2.187412977218628
     },
     {
       "id": 4,
       "status": "OK",
       "prompt": "draw a house",
-      "time": 5.594
+      "program": {
+        "program": {
+          "name": "House",
+          "steps": [
+            {
+              "id": "draw",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#D2B48C"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 2,
+                    "y": 12,
+                    "w": 8,
+                    "h": 6,
+                    "color": "#A0522D"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 5,
+                    "y": 4,
+                    "w": 3,
+                    "h": 4,
+                    "color": "#A0522D"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 8,
+                    "y": 4,
+                    "w": 3,
+                    "h": 4,
+                    "color": "#A0522D"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 2,
+                    "y": 8,
+                    "w": 6,
+                    "h": 2,
+                    "color": "#A0522D"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 3,
+                    "y": 10,
+                    "w": 2,
+                    "h": 2,
+                    "color": "#A0522D"
+                  },
+                  {
+                    "type": "text",
+                    "content": "\ud83c\udfe0",
+                    "x": 4,
+                    "y": 6,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 12,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 11,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 10,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 9,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 8,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 7,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 6,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 5,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 4,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 3,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 2,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 1,
+                    "y": 1,
+                    "color": "#FFF"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 5.777240991592407
     },
     {
       "id": 5,
       "status": "OK",
       "prompt": "show a music note",
-      "time": 6.092
+      "program": {
+        "program": {
+          "name": "Music Note",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a1a1a"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 4,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 4,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 4,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 4,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 11,
+                    "y": 4,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 6,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 6,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 6,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 6,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 11,
+                    "y": 6,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 8,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 8,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 8,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 8,
+                    "color": "#FF0000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 11,
+                    "y": 8,
+                    "color": "#FF0000"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 5.291927814483643
     },
     {
       "id": 6,
-      "status": "json_error",
+      "status": "OK",
       "prompt": "draw a cat face",
-      "time": 3.142
+      "program": {
+        "program": {
+          "name": "Cat Face",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a1a1a"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 4,
+                    "color": "#FF2266"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 6,
+                    "y": 4,
+                    "color": "#FF2266"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 2,
+                    "y": 5,
+                    "w": 3,
+                    "h": 2,
+                    "color": "#FF2266"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 5,
+                    "y": 5,
+                    "w": 3,
+                    "h": 2,
+                    "color": "#FF2266"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 3,
+                    "y": 7,
+                    "w": 4,
+                    "h": 2,
+                    "color": "#FF2266"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 4,
+                    "y": 9,
+                    "w": 2,
+                    "h": 1,
+                    "color": "#FF2266"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 3.5976791381835938
     },
     {
       "id": 7,
       "status": "OK",
       "prompt": "show a sun",
-      "time": 3.214
+      "program": {
+        "program": {
+          "name": "Sun",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 4,
+                    "y": 2,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 2,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 6,
+                    "y": 2,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 2,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 8,
+                    "y": 2,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 2,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 10,
+                    "y": 2,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 4,
+                    "y": 3,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 3,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 6,
+                    "y": 3,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 3,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 8,
+                    "y": 3,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 3,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 10,
+                    "y": 3,
+                    "color": "#FFD700"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 5.199025869369507
     },
     {
       "id": 8,
       "status": "OK",
       "prompt": "draw a tree",
-      "time": 12.578
+      "program": {
+        "program": {
+          "name": "Tree",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#228B22"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 5,
+                    "y": 10,
+                    "w": 8,
+                    "h": 8,
+                    "color": "#228B22"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 10,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 8,
+                    "y": 10,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 10,
+                    "color": "#228B22"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 6,
+                    "y": 11,
+                    "w": 2,
+                    "h": 3,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 8,
+                    "y": 11,
+                    "w": 2,
+                    "h": 3,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 10,
+                    "y": 11,
+                    "w": 2,
+                    "h": 3,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 8,
+                    "y": 14,
+                    "w": 2,
+                    "h": 3,
+                    "color": "#228B22"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 10,
+                    "y": 14,
+                    "w": 2,
+                    "h": 3,
+                    "color": "#228B22"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 6,
+                    "y": 12,
+                    "w": 4,
+                    "h": 2,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 8,
+                    "y": 12,
+                    "w": 4,
+                    "h": 2,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 10,
+                    "y": 12,
+                    "w": 4,
+                    "h": 2,
+                    "color": "#FFFFFF"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 5.298501014709473
     },
     {
       "id": 9,
       "status": "OK",
       "prompt": "show a lightning bolt",
-      "time": 3.974
+      "program": {
+        "program": {
+          "name": "Lightning Bolt",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#000"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 2,
+                    "y1": 1,
+                    "x2": 85,
+                    "y2": 1,
+                    "color": "#FFD700"
+                  },
+                  {
+                    "type": "line",
+                    "x1": 2,
+                    "y1": 15,
+                    "x2": 85,
+                    "y2": 15,
+                    "color": "#FFD700"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 2.7673258781433105
     },
     {
       "id": 10,
       "status": "OK",
       "prompt": "draw a skull",
-      "time": 8.178
+      "program": {
+        "program": {
+          "name": "Skull",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a1a3a"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 4,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 4,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 4,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 4,
+                    "color": "#FFFFFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 6,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 6,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 6,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 6,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 8,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 8,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 8,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 8,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 10,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 10,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 10,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 10,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 3,
+                    "y": 12,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 12,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 7,
+                    "y": 12,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 9,
+                    "y": 12,
+                    "color": "#000"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 6.0460028648376465
     },
     {
       "id": 11,
       "status": "OK",
       "prompt": "show an analog clock at 3 o'clock",
-      "time": 5.212
+      "program": {
+        "program": {
+          "name": "Analog Clock 3:00",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#0a0a1a"
+                  },
+                  {
+                    "type": "text",
+                    "content": "12",
+                    "x": 2,
+                    "y": 2,
+                    "color": "#00FF88"
+                  },
+                  {
+                    "type": "text",
+                    "content": "3",
+                    "x": 2,
+                    "y": 9,
+                    "color": "#00FF88"
+                  },
+                  {
+                    "type": "rect",
+                    "x": 2,
+                    "y": 4,
+                    "w": 8,
+                    "h": 8,
+                    "color": "#000"
+                  },
+                  {
+                    "type": "text",
+                    "content": "6",
+                    "x": 2,
+                    "y": 6,
+                    "color": "#00FF88"
+                  },
+                  {
+                    "type": "text",
+                    "content": "9",
+                    "x": 2,
+                    "y": 7,
+                    "color": "#00FF88"
+                  },
+                  {
+                    "type": "text",
+                    "content": "180",
+                    "x": 2,
+                    "y": 8,
+                    "color": "#00FF88"
+                  },
+                  {
+                    "type": "text",
+                    "content": "270",
+                    "x": 2,
+                    "y": 10,
+                    "color": "#00FF88"
+                  },
+                  {
+                    "type": "text",
+                    "content": "360",
+                    "x": 2,
+                    "y": 12,
+                    "color": "#00FF88"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 4.384617805480957
     },
     {
       "id": 12,
       "status": "OK",
       "prompt": "be a pomodoro timer",
-      "time": 5.395
+      "program": {
+        "program": {
+          "name": "Pomodoro Timer",
+          "steps": [
+            {
+              "id": "work",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#FF4444"
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "break",
+              "command": {
+                "type": "pattern",
+                "name": "breathing",
+                "params": {
+                  "color": "#33CC66",
+                  "speed": 4000
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "short_break",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#FF4444"
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "work_short",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#FF4444"
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "break_short",
+              "command": {
+                "type": "pattern",
+                "name": "breathing",
+                "params": {
+                  "color": "#33CC66",
+                  "speed": 2000
+                }
+              },
+              "duration": 3000
+            }
+          ],
+          "loop": {
+            "count": 2,
+            "start_step": "work",
+            "end_step": "break"
+          },
+          "on_complete": {
+            "command": {
+              "type": "pattern",
+              "name": "rainbow",
+              "params": {
+                "speed": 2000
+              }
+            }
+          }
+        }
+      },
+      "time": 4.34555721282959
     },
     {
       "id": 13,
       "status": "OK",
       "prompt": "simulate a sunrise",
-      "time": 4.838
+      "program": {
+        "program": {
+          "name": "Sunrise",
+          "steps": [
+            {
+              "id": "dark",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#1a1a3a"
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "dawn",
+              "command": {
+                "type": "pattern",
+                "name": "gradient",
+                "params": {
+                  "color": "#FFBF00",
+                  "color2": "#FFE4C4"
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "sunrise",
+              "command": {
+                "type": "pattern",
+                "name": "gradient",
+                "params": {
+                  "color": "#FFF",
+                  "color2": "#FFFFFF"
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "bright",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#FFFFFF"
+                }
+              },
+              "duration": 3000
+            }
+          ],
+          "loop": {
+            "count": 1,
+            "start_step": "dark",
+            "end_step": "bright"
+          },
+          "on_complete": {
+            "command": {
+              "type": "pattern",
+              "name": "rainbow",
+              "params": {
+                "speed": 2000
+              }
+            }
+          }
+        }
+      },
+      "time": 3.8054909706115723
     },
     {
       "id": 14,
-      "status": "send_error",
+      "status": "OK",
       "prompt": "create a meditation session",
-      "time": 5.745
+      "program": {
+        "program": {
+          "name": "Meditation Session",
+          "steps": [
+            {
+              "id": "intro",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#4A90D9"
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "breathing",
+              "command": {
+                "type": "pattern",
+                "name": "breathing",
+                "params": {
+                  "color": "#4A90D9",
+                  "speed": 1500
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "visualization",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#0a0a1a"
+                  },
+                  {
+                    "type": "text",
+                    "content": "Breathe",
+                    "x": 2,
+                    "y": 2,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 7,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "pixel",
+                    "x": 5,
+                    "y": 9,
+                    "color": "#FFF"
+                  }
+                ]
+              },
+              "duration": 3000
+            },
+            {
+              "id": "calm",
+              "command": {
+                "type": "pattern",
+                "name": "gradient",
+                "params": {
+                  "color": "#4A90D9",
+                  "color2": "#008B8B"
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "outro",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#4A90D9"
+                }
+              },
+              "duration": 3000
+            }
+          ]
+        },
+        "loop": {
+          "count": 1,
+          "start_step": "intro",
+          "end_step": "outro"
+        },
+        "on_complete": {
+          "command": {
+            "type": "pattern",
+            "name": "rainbow",
+            "params": {
+              "speed": 1000
+            }
+          }
+        }
+      },
+      "time": 4.969680070877075
     },
     {
       "id": 15,
-      "status": "send_error",
+      "status": "OK",
       "prompt": "party mode",
-      "time": 5.26
+      "program": {
+        "program": {
+          "name": "Party Mode",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "pattern",
+                "name": "rainbow",
+                "params": {
+                  "speed": 1000
+                }
+              },
+              "duration": null
+            },
+            {
+              "id": "sparkle",
+              "command": {
+                "type": "pattern",
+                "name": "sparkle",
+                "params": {
+                  "color": "#FF00FF",
+                  "bgColor": "#000000",
+                  "speed": 50,
+                  "density": 0.2
+                }
+              },
+              "duration": null
+            },
+            {
+              "id": "wave",
+              "command": {
+                "type": "pattern",
+                "name": "wave",
+                "params": {
+                  "color": "#FF6B4A",
+                  "color2": "#FFE4C4",
+                  "speed": 1000
+                }
+              },
+              "duration": null
+            }
+          ],
+          "loop": {
+            "count": 2,
+            "start_step": "main",
+            "end_step": "sparkle"
+          },
+          "on_complete": {
+            "command": {
+              "type": "pattern",
+              "name": "pulse",
+              "params": {
+                "color": "#FFFFFF",
+                "speed": 200
+              }
+            }
+          }
+        }
+      },
+      "time": 3.7177820205688477
     },
     {
       "id": 16,
-      "status": "send_error",
+      "status": "OK",
       "prompt": "simulate rain and thunder",
-      "time": 4.037
+      "program": {
+        "program": {
+          "name": "Rain and Thunder",
+          "steps": [
+            {
+              "id": "rain",
+              "command": {
+                "type": "wave",
+                "params": {
+                  "color": "#87CEEB",
+                  "color2": "#ADD8E6",
+                  "speed": 1500
+                }
+              },
+              "duration": null
+            },
+            {
+              "id": "thunder",
+              "command": {
+                "type": "sparkle",
+                "params": {
+                  "color": "#FF0000",
+                  "bgColor": "#000000",
+                  "speed": 200,
+                  "density": 0.05
+                }
+              },
+              "duration": null
+            },
+            {
+              "id": "darken",
+              "command": {
+                "type": "solid",
+                "params": {
+                  "color": "#263238"
+                }
+              },
+              "duration": null
+            }
+          ],
+          "loop": {
+            "count": 2,
+            "start_step": "rain",
+            "end_step": "darken"
+          },
+          "on_complete": {
+            "command": {
+              "type": "rainbow",
+              "params": {
+                "speed": 1000
+              }
+            }
+          }
+        }
+      },
+      "time": 3.5423638820648193
     },
     {
       "id": 17,
-      "status": "json_error",
+      "status": "send_error",
       "prompt": "sleep timer that dims over 30 minutes",
-      "time": 2.468
+      "program": {
+        "program": {
+          "name": "Sleep Timer",
+          "steps": [
+            {
+              "id": "dim",
+              "command": {
+                "type": "gradient",
+                "params": {
+                  "color": "#191970",
+                  "color2": "#483D8B"
+                }
+              },
+              "duration": 3000
+            }
+          ],
+          "loop": {
+            "count": 2,
+            "start_step": "dim",
+            "end_step": "dim"
+          },
+          "on_complete": {
+            "command": {
+              "type": "solid",
+              "params": {
+                "color": "#191970"
+              }
+            }
+          }
+        }
+      },
+      "time": 2.7408220767974854
     },
     {
       "id": 18,
-      "status": "send_error",
+      "status": "OK",
       "prompt": "countdown from 5",
-      "time": 9.792
+      "program": {
+        "program": {
+          "name": "Countdown",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "pattern",
+                "name": "breathing",
+                "params": {
+                  "color": "#FF4444",
+                  "speed": 1000
+                }
+              },
+              "duration": 3000
+            },
+            {
+              "id": "count",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#1a1a1a"
+                  },
+                  {
+                    "type": "text",
+                    "content": "5",
+                    "x": 2,
+                    "y": 2,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "text",
+                    "content": "4",
+                    "x": 2,
+                    "y": 4,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "text",
+                    "content": "3",
+                    "x": 2,
+                    "y": 6,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "text",
+                    "content": "2",
+                    "x": 2,
+                    "y": 8,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "text",
+                    "content": "1",
+                    "x": 2,
+                    "y": 10,
+                    "color": "#FFF"
+                  }
+                ]
+              },
+              "duration": 5000
+            },
+            {
+              "id": "end",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#FF4444"
+                }
+              },
+              "duration": 1000
+            }
+          ]
+        },
+        "loop": {
+          "count": 0,
+          "start_step": "main",
+          "end_step": "end"
+        },
+        "on_complete": {
+          "command": {
+            "type": "pattern",
+            "name": "rainbow",
+            "params": {
+              "speed": 2000
+            }
+          }
+        }
+      },
+      "time": 5.077302932739258
     },
     {
       "id": 19,
-      "status": "send_error",
+      "status": "OK",
       "prompt": "traffic light sequence",
-      "time": 3.428
+      "program": {
+        "program": {
+          "name": "Traffic Light",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#FF0000"
+                }
+              },
+              "duration": 5000
+            },
+            {
+              "id": "main",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#FFFF00"
+                }
+              },
+              "duration": 5000
+            },
+            {
+              "id": "main",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#00FF00"
+                }
+              },
+              "duration": 5000
+            }
+          ],
+          "loop": {
+            "count": 2,
+            "start_step": "main",
+            "end_step": "main"
+          }
+        }
+      },
+      "time": 3.640657901763916
     },
     {
       "id": 20,
-      "status": "send_error",
+      "status": "OK",
       "prompt": "romantic evening ambiance",
-      "time": 6.897
+      "program": {
+        "program": {
+          "name": "Romantic Evening",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "pattern",
+                "name": "gradient",
+                "params": {
+                  "color": "#FFB6C1",
+                  "color2": "#9370DB"
+                }
+              },
+              "duration": null
+            },
+            {
+              "id": "dim",
+              "command": {
+                "type": "pattern",
+                "name": "solid",
+                "params": {
+                  "color": "#D88B70"
+                }
+              },
+              "duration": null
+            },
+            {
+              "id": "sparkle",
+              "command": {
+                "type": "pattern",
+                "name": "sparkle",
+                "params": {
+                  "color": "#FFB6C1",
+                  "bgColor": "#1a1a1a",
+                  "speed": 50,
+                  "density": 0.05
+                }
+              },
+              "duration": null
+            }
+          ],
+          "loop": {
+            "count": 2,
+            "start_step": "main",
+            "end_step": "sparkle"
+          },
+          "on_complete": {
+            "command": {
+              "type": "pattern",
+              "name": "rainbow",
+              "params": {
+                "speed": 1000
+              }
+            }
+          }
+        }
+      },
+      "time": 5.182748794555664
     },
     {
       "id": 21,
-      "status": "send_error",
+      "status": "OK",
       "prompt": "weather display showing sunny and 24 degrees",
-      "time": 4.196
+      "program": {
+        "program": {
+          "name": "Sunny 24",
+          "steps": [
+            {
+              "id": "main",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#ADD8E6"
+                  },
+                  {
+                    "type": "text",
+                    "content": "Sunny",
+                    "x": 2,
+                    "y": 2,
+                    "color": "#FFF"
+                  },
+                  {
+                    "type": "text",
+                    "content": "24\u00b0C",
+                    "x": 2,
+                    "y": 6,
+                    "color": "#FFF"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      },
+      "time": 4.325311899185181
     }
   ]
 }

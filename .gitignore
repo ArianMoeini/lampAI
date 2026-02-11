@@ -1,2 +1,17 @@
 node_modules/
 firebase-debug.log
+
+# OS files
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+
+# Model files (hosted on HuggingFace: MrMoeeee/lamp-models)
+*.gguf
+*.bin
+*.safetensors
+
+# Large media
+*.mp4

@@ -112,7 +112,7 @@ def query_ollama(prompt: str, model: str = DEFAULT_MODEL) -> str | None:
             {"role": "user", "content": user_msg},
         ],
         "stream": False,
-        "options": {"temperature": 0.3},
+        "options": {"temperature": 0.3, "num_predict": 4096},
     }
     try:
         data = json.dumps(payload).encode("utf-8")
@@ -180,6 +180,41 @@ def extract_json(text: str) -> dict | None:
             except json.JSONDecodeError:
                 pass
     return None
+
+
+def send_title_card(idx: int, prompt: str) -> None:
+    """Show a title card on the lamp so the viewer knows what's being tested."""
+    # Grid is 10 wide x 14 tall. Font: 3px per char + 1px gap.
+    # Line 1: test number (e.g. "#03")
+    # Line 2-3: short prompt, split into ~2-char chunks across lines
+    num_str = f"{idx:02d}"
+
+    # Split prompt into short lines (~2 chars each due to 10px width)
+    words = prompt.replace("show ", "").replace("draw ", "").replace("a ", "").replace("an ", "").split()
+    label = " ".join(words)[:8].upper()  # max ~2 words
+
+    elements = [
+        {"type": "fill", "color": "#0a0a2a"},
+        {"type": "text", "content": num_str, "x": 2, "y": 1, "color": "#FFD700"},
+    ]
+
+    # Render label as individual letters via pixels if too long,
+    # otherwise use text command for short labels
+    if len(label) <= 2:
+        elements.append({"type": "text", "content": label, "x": 2, "y": 6, "color": "#AAAAAA"})
+    else:
+        # Show first 2 chars on row 6, next 2 on row 10
+        elements.append({"type": "text", "content": label[:2], "x": 2, "y": 6, "color": "#AAAAAA"})
+        if len(label) > 2:
+            elements.append({"type": "text", "content": label[2:4], "x": 2, "y": 10, "color": "#AAAAAA"})
+
+    title_program = {
+        "program": {
+            "name": f"Test #{idx}",
+            "steps": [{"id": "title", "command": {"type": "render", "elements": elements}, "duration": None}],
+        }
+    }
+    send_program(title_program)
 
 
 def send_program(program_data: dict) -> bool:
@@ -270,7 +305,7 @@ def main():
 
         # Cap loop count for demo
         loop = program.get("loop")
-        if loop and isinstance(loop.get("count"), int) and (loop["count"] == 0 or loop["count"] > 3):
+        if isinstance(loop, dict) and isinstance(loop.get("count"), int) and (loop["count"] == 0 or loop["count"] > 3):
             loop["count"] = 2
 
         ok = send_program(parsed)
