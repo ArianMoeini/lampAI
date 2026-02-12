@@ -1,0 +1,997 @@
+{"prompt": "that fresh early june feeling when school lets out", "category": "contextual"}
+{"prompt": "december darkness, need all the light I can get", "category": "contextual"}
+{"prompt": "the world smells new after last night's spring rain", "category": "contextual"}
+{"prompt": "that liminal space between seasons when you can't tell if it's late winter or early spring", "category": "contextual"}
+{"prompt": "do something nice", "category": "conversational"}
+{"prompt": "I don't know, surprise me", "category": "conversational"}
+{"prompt": "something warm but not too warm", "category": "conversational"}
+{"prompt": "whatever you think looks best", "category": "conversational"}
+{"prompt": "just make it look good", "category": "conversational"}
+{"prompt": "hmm, I'm not sure what I want", "category": "conversational"}
+{"prompt": "something that goes with my mood", "category": "conversational"}
+{"prompt": "you pick", "category": "conversational"}
+{"prompt": "anything really", "category": "conversational"}
+{"prompt": "eh, just do your thing", "category": "conversational"}
+{"prompt": "something pleasant", "category": "conversational"}
+{"prompt": "make me feel something", "category": "conversational"}
+{"prompt": "I trust your judgement", "category": "conversational"}
+{"prompt": "dealer's choice", "category": "conversational"}
+{"prompt": "something different from usual", "category": "conversational"}
+{"prompt": "I want a change", "category": "conversational"}
+{"prompt": "show me what you got", "category": "conversational"}
+{"prompt": "do your best", "category": "conversational"}
+{"prompt": "something... calming? I think?", "category": "conversational"}
+{"prompt": "not sure, maybe something soft", "category": "conversational"}
+{"prompt": "a nice vibe, you know?", "category": "conversational"}
+{"prompt": "just anything that's not boring", "category": "conversational"}
+{"prompt": "something kind of moody", "category": "conversational"}
+{"prompt": "something that doesn't hurt my eyes", "category": "conversational"}
+{"prompt": "a gentle something", "category": "conversational"}
+{"prompt": "I feel like a color change", "category": "conversational"}
+{"prompt": "hit me with something cool", "category": "conversational"}
+{"prompt": "whatever, just not too bright", "category": "conversational"}
+{"prompt": "give me a mood", "category": "conversational"}
+{"prompt": "something soft maybe", "category": "conversational"}
+{"prompt": "I want something but I can't describe it", "category": "conversational"}
+{"prompt": "something pretty", "category": "conversational"}
+{"prompt": "something that makes the room feel cozy", "category": "conversational"}
+{"prompt": "just pick a color and go with it", "category": "conversational"}
+{"prompt": "go wild", "category": "conversational"}
+{"prompt": "be creative", "category": "conversational"}
+{"prompt": "something vibrant maybe", "category": "conversational"}
+{"prompt": "I dunno, something atmospheric", "category": "conversational"}
+{"prompt": "set a mood for me", "category": "conversational"}
+{"prompt": "something warm-ish", "category": "conversational"}
+{"prompt": "make it feel like home", "category": "conversational"}
+{"prompt": "just chill", "category": "conversational"}
+{"prompt": "something fresh", "category": "conversational"}
+{"prompt": "maybe something earthy?", "category": "conversational"}
+{"prompt": "something that isn't too in your face", "category": "conversational"}
+{"prompt": "I want a new look", "category": "conversational"}
+{"prompt": "do what you think is right", "category": "conversational"}
+{"prompt": "something that'll impress my friends", "category": "conversational"}
+{"prompt": "just something nice to look at", "category": "conversational"}
+{"prompt": "make the room feel different", "category": "conversational"}
+{"prompt": "I need a vibe check", "category": "conversational"}
+{"prompt": "I want you to decide", "category": "conversational"}
+{"prompt": "whatever's popular", "category": "conversational"}
+{"prompt": "something elegant I guess", "category": "conversational"}
+{"prompt": "surprise me with something new", "category": "conversational"}
+{"prompt": "pick something random", "category": "conversational"}
+{"prompt": "something easy on the eyes", "category": "conversational"}
+{"prompt": "make me happy", "category": "conversational"}
+{"prompt": "just make it work", "category": "conversational"}
+{"prompt": "something that feels alive", "category": "conversational"}
+{"prompt": "do something unexpected", "category": "conversational"}
+{"prompt": "anything peaceful", "category": "conversational"}
+{"prompt": "something dreamy", "category": "conversational"}
+{"prompt": "I want to feel something different tonight", "category": "conversational"}
+{"prompt": "give me that feeling, you know the one", "category": "conversational"}
+{"prompt": "something to set the tone", "category": "conversational"}
+{"prompt": "make it look fancy", "category": "conversational"}
+{"prompt": "something understated", "category": "conversational"}
+{"prompt": "something I haven't seen before", "category": "conversational"}
+{"prompt": "try something", "category": "conversational"}
+{"prompt": "I'm open to anything", "category": "conversational"}
+{"prompt": "maybe a bit of everything?", "category": "conversational"}
+{"prompt": "something natural feeling", "category": "conversational"}
+{"prompt": "change it up", "category": "conversational"}
+{"prompt": "do something artsy", "category": "conversational"}
+{"prompt": "something soothing would be nice", "category": "conversational"}
+{"prompt": "not sure what I'm in the mood for", "category": "conversational"}
+{"prompt": "something lowkey", "category": "conversational"}
+{"prompt": "I guess something colorful?", "category": "conversational"}
+{"prompt": "just a little ambiance", "category": "conversational"}
+{"prompt": "something magical", "category": "conversational"}
+{"prompt": "whatever is your favorite", "category": "conversational"}
+{"prompt": "your call", "category": "conversational"}
+{"prompt": "give me the works", "category": "conversational"}
+{"prompt": "something to match the evening", "category": "conversational"}
+{"prompt": "I want the room to feel inviting", "category": "conversational"}
+{"prompt": "something flowy", "category": "conversational"}
+{"prompt": "not too much, not too little", "category": "conversational"}
+{"prompt": "something... I don't know, just something", "category": "conversational"}
+{"prompt": "make it look alive", "category": "conversational"}
+{"prompt": "something to zone out to", "category": "conversational"}
+{"prompt": "give me ambient vibes", "category": "conversational"}
+{"prompt": "let's try something new", "category": "conversational"}
+{"prompt": "maybe something with movement?", "category": "conversational"}
+{"prompt": "I want to be wowed", "category": "conversational"}
+{"prompt": "something that isn't just white", "category": "conversational"}
+{"prompt": "something to stare at", "category": "conversational"}
+{"prompt": "something that changes", "category": "conversational"}
+{"prompt": "idk, just vibe", "category": "conversational"}
+{"prompt": "something not too crazy", "category": "conversational"}
+{"prompt": "just impress me", "category": "conversational"}
+{"prompt": "a little bit of magic please", "category": "conversational"}
+{"prompt": "I want to feel relaxed", "category": "conversational"}
+{"prompt": "set the scene", "category": "conversational"}
+{"prompt": "something comfy", "category": "conversational"}
+{"prompt": "go for it", "category": "conversational"}
+{"prompt": "what looks good right now?", "category": "conversational"}
+{"prompt": "something mellow", "category": "conversational"}
+{"prompt": "a chill look", "category": "conversational"}
+{"prompt": "something that matches the darkness outside", "category": "conversational"}
+{"prompt": "something that feels expensive", "category": "conversational"}
+{"prompt": "give me some eye candy", "category": "conversational"}
+{"prompt": "something hypnotic", "category": "conversational"}
+{"prompt": "set the lamp to something you like", "category": "conversational"}
+{"prompt": "show off a little", "category": "conversational"}
+{"prompt": "something cool-toned maybe?", "category": "conversational"}
+{"prompt": "something that sparkles", "category": "conversational"}
+{"prompt": "make it gorgeous", "category": "conversational"}
+{"prompt": "I just want it to look nice, nothing specific", "category": "conversational"}
+{"prompt": "surprise me, but keep it tasteful", "category": "conversational"}
+{"prompt": "anything but boring", "category": "conversational"}
+{"prompt": "something with character", "category": "conversational"}
+{"prompt": "make the lamp do its thing", "category": "conversational"}
+{"prompt": "something warm-ish and gentle", "category": "conversational"}
+{"prompt": "just something to fill the room with light", "category": "conversational"}
+{"prompt": "something that pulses maybe?", "category": "conversational"}
+{"prompt": "do whatever makes you happy", "category": "conversational"}
+{"prompt": "I'm feeling indecisive, help me out", "category": "conversational"}
+{"prompt": "show me your best trick", "category": "conversational"}
+{"prompt": "a background mood", "category": "conversational"}
+{"prompt": "I just want ambiance", "category": "conversational"}
+{"prompt": "something thoughtful", "category": "conversational"}
+{"prompt": "just light", "category": "conversational"}
+{"prompt": "something abstract", "category": "conversational"}
+{"prompt": "give me a default kind of look", "category": "conversational"}
+{"prompt": "warm or cool, you decide", "category": "conversational"}
+{"prompt": "something that doesn't distract", "category": "conversational"}
+{"prompt": "dim and moody", "category": "conversational"}
+{"prompt": "bright and happy", "category": "conversational"}
+{"prompt": "something in between", "category": "conversational"}
+{"prompt": "a good nighttime look", "category": "conversational"}
+{"prompt": "something deep", "category": "conversational"}
+{"prompt": "just vibes", "category": "conversational"}
+{"prompt": "something tranquil", "category": "conversational"}
+{"prompt": "a mood setter", "category": "conversational"}
+{"prompt": "something that flows", "category": "conversational"}
+{"prompt": "just whatever looks cool", "category": "conversational"}
+{"prompt": "actually, make it a bit brighter", "category": "conversational"}
+{"prompt": "that but in blue instead", "category": "conversational"}
+{"prompt": "same thing but slower", "category": "conversational"}
+{"prompt": "more of that warm feeling", "category": "conversational"}
+{"prompt": "less intense please", "category": "conversational"}
+{"prompt": "can you add some sparkle to it", "category": "conversational"}
+{"prompt": "keep the color but make it pulse", "category": "conversational"}
+{"prompt": "darker version of that", "category": "conversational"}
+{"prompt": "a little more to the left", "category": "conversational"}
+{"prompt": "turn it up a notch", "category": "conversational"}
+{"prompt": "now make it fade in and out", "category": "conversational"}
+{"prompt": "actually, go back to what you had before", "category": "conversational"}
+{"prompt": "that's nice but maybe a touch warmer", "category": "conversational"}
+{"prompt": "same vibe but green", "category": "conversational"}
+{"prompt": "okay now speed it up", "category": "conversational"}
+{"prompt": "no wait, slower than that", "category": "conversational"}
+{"prompt": "a little less red", "category": "conversational"}
+{"prompt": "more purple please", "category": "conversational"}
+{"prompt": "can you dim it slightly", "category": "conversational"}
+{"prompt": "brighten just the edges", "category": "conversational"}
+{"prompt": "now add some movement", "category": "conversational"}
+{"prompt": "make it breathe", "category": "conversational"}
+{"prompt": "that but calmer", "category": "conversational"}
+{"prompt": "same colors but mix them differently", "category": "conversational"}
+{"prompt": "can you make the transition smoother", "category": "conversational"}
+{"prompt": "hold on, keep that color", "category": "conversational"}
+{"prompt": "try it with orange instead", "category": "conversational"}
+{"prompt": "actually yeah that's close, just a bit softer", "category": "conversational"}
+{"prompt": "more contrast between the colors", "category": "conversational"}
+{"prompt": "flatten it out a bit", "category": "conversational"}
+{"prompt": "zoom in on that pattern", "category": "conversational"}
+{"prompt": "spread it across the whole thing", "category": "conversational"}
+{"prompt": "center it more", "category": "conversational"}
+{"prompt": "make it bigger", "category": "conversational"}
+{"prompt": "shrink it down a bit", "category": "conversational"}
+{"prompt": "take away the animation", "category": "conversational"}
+{"prompt": "now bring back the animation", "category": "conversational"}
+{"prompt": "just the ambient part, not the grid", "category": "conversational"}
+{"prompt": "okay forget the ambient, just the grid", "category": "conversational"}
+{"prompt": "reverse the direction", "category": "conversational"}
+{"prompt": "flip the colors around", "category": "conversational"}
+{"prompt": "try a deeper shade", "category": "conversational"}
+{"prompt": "lighter shade of that", "category": "conversational"}
+{"prompt": "same but with white mixed in", "category": "conversational"}
+{"prompt": "can you remove the background color", "category": "conversational"}
+{"prompt": "add a background glow to that", "category": "conversational"}
+{"prompt": "make the whole thing more saturated", "category": "conversational"}
+{"prompt": "desaturate it a little", "category": "conversational"}
+{"prompt": "keep going with that idea", "category": "conversational"}
+{"prompt": "now evolve it into something else", "category": "conversational"}
+{"prompt": "that was too fast, slow it way down", "category": "conversational"}
+{"prompt": "perfect speed but wrong color", "category": "conversational"}
+{"prompt": "right color but can you make it wave", "category": "conversational"}
+{"prompt": "like that but more dramatic", "category": "conversational"}
+{"prompt": "tone it down", "category": "conversational"}
+{"prompt": "crank it up", "category": "conversational"}
+{"prompt": "almost there, just a hair brighter", "category": "conversational"}
+{"prompt": "nah, go even darker", "category": "conversational"}
+{"prompt": "that's too much, dial it back", "category": "conversational"}
+{"prompt": "ooh, do more of that", "category": "conversational"}
+{"prompt": "yes but also add some teal", "category": "conversational"}
+{"prompt": "keep the pattern but change all the colors", "category": "conversational"}
+{"prompt": "swap the foreground and background", "category": "conversational"}
+{"prompt": "make the shape glow", "category": "conversational"}
+{"prompt": "lose the glow", "category": "conversational"}
+{"prompt": "try it with a warmer background", "category": "conversational"}
+{"prompt": "cooler tones this time", "category": "conversational"}
+{"prompt": "wait, can you blend those two together", "category": "conversational"}
+{"prompt": "separate them more", "category": "conversational"}
+{"prompt": "add a second color to the mix", "category": "conversational"}
+{"prompt": "take out the pink", "category": "conversational"}
+{"prompt": "replace blue with violet", "category": "conversational"}
+{"prompt": "shift everything a bit towards red", "category": "conversational"}
+{"prompt": "make it cycle instead of staying still", "category": "conversational"}
+{"prompt": "freeze it right there", "category": "conversational"}
+{"prompt": "that exact shade but on the whole lamp", "category": "conversational"}
+{"prompt": "mmm, close, try a bit more yellow", "category": "conversational"}
+{"prompt": "that was better, go back to that one", "category": "conversational"}
+{"prompt": "undo that last change", "category": "conversational"}
+{"prompt": "you know what, start over but keep the colors", "category": "conversational"}
+{"prompt": "do the same effect but mirrored", "category": "conversational"}
+{"prompt": "make it twinkle instead of pulse", "category": "conversational"}
+{"prompt": "smooth it out", "category": "conversational"}
+{"prompt": "make the edges sharper", "category": "conversational"}
+{"prompt": "soften the whole thing", "category": "conversational"}
+{"prompt": "bump up the brightness just a tiny bit", "category": "conversational"}
+{"prompt": "the speed is good, the color is wrong", "category": "conversational"}
+{"prompt": "now layer another pattern on top", "category": "conversational"}
+{"prompt": "strip it back to basics", "category": "conversational"}
+{"prompt": "keep the mood but try different colors", "category": "conversational"}
+{"prompt": "same energy different look", "category": "conversational"}
+{"prompt": "close but make it moodier", "category": "conversational"}
+{"prompt": "that but less clinical", "category": "conversational"}
+{"prompt": "warmer version of what you just did", "category": "conversational"}
+{"prompt": "try it without the pulsing", "category": "conversational"}
+{"prompt": "add pulsing to it", "category": "conversational"}
+{"prompt": "can you do a gradient version of that", "category": "conversational"}
+{"prompt": "solid color instead of gradient", "category": "conversational"}
+{"prompt": "rotate the whole thing 90 degrees", "category": "conversational"}
+{"prompt": "move it up higher on the grid", "category": "conversational"}
+{"prompt": "bring it down a bit", "category": "conversational"}
+{"prompt": "stretch it out horizontally", "category": "conversational"}
+{"prompt": "compress it vertically", "category": "conversational"}
+{"prompt": "double the speed of the animation", "category": "conversational"}
+{"prompt": "half the speed please", "category": "conversational"}
+{"prompt": "invert all the colors", "category": "conversational"}
+{"prompt": "make the dark parts light and light parts dark", "category": "conversational"}
+{"prompt": "add some randomness to it", "category": "conversational"}
+{"prompt": "make it more uniform", "category": "conversational"}
+{"prompt": "throw in some gold accents", "category": "conversational"}
+{"prompt": "lose the accents, just keep the base", "category": "conversational"}
+{"prompt": "that's almost perfect, just a smidge more blue", "category": "conversational"}
+{"prompt": "perfect, now make it slowly transition to red over time", "category": "conversational"}
+{"prompt": "go deeper with the purples", "category": "conversational"}
+{"prompt": "lighten up the whole mood", "category": "conversational"}
+{"prompt": "keep that going but add a twinkle effect", "category": "conversational"}
+{"prompt": "remove everything except the center", "category": "conversational"}
+{"prompt": "fill in the rest now", "category": "conversational"}
+{"prompt": "let it evolve on its own", "category": "conversational"}
+{"prompt": "hold that, don't let it change", "category": "conversational"}
+{"prompt": "okay now let it change again", "category": "conversational"}
+{"prompt": "turn off just the ambient ring", "category": "conversational"}
+{"prompt": "now turn the ambient back on but in a matching color", "category": "conversational"}
+{"prompt": "blend everything into one smooth color", "category": "conversational"}
+{"prompt": "break it up into patches", "category": "conversational"}
+{"prompt": "scatter the colors around more", "category": "conversational"}
+{"prompt": "organize it into neat rows", "category": "conversational"}
+{"prompt": "that but messier", "category": "conversational"}
+{"prompt": "clean version of what you just showed", "category": "conversational"}
+{"prompt": "make each pixel a slightly different shade", "category": "conversational"}
+{"prompt": "unify all the pixels to one color", "category": "conversational"}
+{"prompt": "ramp up the energy", "category": "conversational"}
+{"prompt": "bring the energy way down", "category": "conversational"}
+{"prompt": "try it in pastel", "category": "conversational"}
+{"prompt": "neon version of that", "category": "conversational"}
+{"prompt": "earth tones instead", "category": "conversational"}
+{"prompt": "jewel tones this time", "category": "conversational"}
+{"prompt": "make it monochrome", "category": "conversational"}
+{"prompt": "add a pop of color to the monochrome", "category": "conversational"}
+{"prompt": "fade the whole thing to black slowly", "category": "conversational"}
+{"prompt": "bring it back up from black", "category": "conversational"}
+{"prompt": "maintain this but at half brightness", "category": "conversational"}
+{"prompt": "full brightness now", "category": "conversational"}
+{"prompt": "that's way too bright, bring it down to like thirty percent", "category": "conversational"}
+{"prompt": "hmm try something completely different from this", "category": "conversational"}
+{"prompt": "go in the opposite direction", "category": "conversational"}
+{"prompt": "same concept but make it feel more organic", "category": "conversational"}
+{"prompt": "can you try that in a completely different palette", "category": "conversational"}
+{"prompt": "keep the animation but flatten the colors", "category": "conversational"}
+{"prompt": "that but make the transitions less abrupt", "category": "conversational"}
+{"prompt": "what would look good for a date night?", "category": "conversational"}
+{"prompt": "what's a good color for focus?", "category": "conversational"}
+{"prompt": "can you do something christmassy?", "category": "conversational"}
+{"prompt": "is there a sleep mode?", "category": "conversational"}
+{"prompt": "what about something for kids?", "category": "conversational"}
+{"prompt": "any ideas for a party?", "category": "conversational"}
+{"prompt": "what would you recommend for reading?", "category": "conversational"}
+{"prompt": "got anything festive?", "category": "conversational"}
+{"prompt": "what color helps with concentration?", "category": "conversational"}
+{"prompt": "do you have anything for meditation?", "category": "conversational"}
+{"prompt": "what would a spa look like?", "category": "conversational"}
+{"prompt": "can you do a sunrise effect?", "category": "conversational"}
+{"prompt": "is there something good for a baby room?", "category": "conversational"}
+{"prompt": "what do people usually ask for?", "category": "conversational"}
+{"prompt": "what's your most popular setting?", "category": "conversational"}
+{"prompt": "know any good patterns for falling asleep?", "category": "conversational"}
+{"prompt": "what goes well with jazz music?", "category": "conversational"}
+{"prompt": "can you simulate a fireplace?", "category": "conversational"}
+{"prompt": "do you do holiday stuff?", "category": "conversational"}
+{"prompt": "got anything that looks like stars?", "category": "conversational"}
+{"prompt": "what's good for anxiety?", "category": "conversational"}
+{"prompt": "have you got a movie mode?", "category": "conversational"}
+{"prompt": "what happens if I say rainbow?", "category": "conversational"}
+{"prompt": "can you show the time?", "category": "conversational"}
+{"prompt": "what would work for a study session?", "category": "conversational"}
+{"prompt": "is there a romantic setting?", "category": "conversational"}
+{"prompt": "what color is best for mornings?", "category": "conversational"}
+{"prompt": "can you do anything with shapes?", "category": "conversational"}
+{"prompt": "what's a calming combination?", "category": "conversational"}
+{"prompt": "do you have anything that moves?", "category": "conversational"}
+{"prompt": "got a nightlight mode?", "category": "conversational"}
+{"prompt": "what would match a rainy day?", "category": "conversational"}
+{"prompt": "anything good for a hangover?", "category": "conversational"}
+{"prompt": "can you make pictures?", "category": "conversational"}
+{"prompt": "is there a way to make it blink?", "category": "conversational"}
+{"prompt": "what kind of things can you do?", "category": "conversational"}
+{"prompt": "do you know any cool tricks?", "category": "conversational"}
+{"prompt": "can you do a countdown?", "category": "conversational"}
+{"prompt": "what about something for halloween?", "category": "conversational"}
+{"prompt": "can you match my wall color?", "category": "conversational"}
+{"prompt": "is there something that slowly changes?", "category": "conversational"}
+{"prompt": "do you have ocean vibes?", "category": "conversational"}
+{"prompt": "what would be good for a headache?", "category": "conversational"}
+{"prompt": "can you do letters and words?", "category": "conversational"}
+{"prompt": "what about a birthday setting?", "category": "conversational"}
+{"prompt": "got anything cyberpunk?", "category": "conversational"}
+{"prompt": "is there a mode for working out?", "category": "conversational"}
+{"prompt": "what pairs well with candles?", "category": "conversational"}
+{"prompt": "can you do gradients?", "category": "conversational"}
+{"prompt": "what color says welcome home?", "category": "conversational"}
+{"prompt": "do you have anything nature-themed?", "category": "conversational"}
+{"prompt": "what's the best thing you can do?", "category": "conversational"}
+{"prompt": "can you surprise me with something seasonal?", "category": "conversational"}
+{"prompt": "is there a disco mode?", "category": "conversational"}
+{"prompt": "what's a good daytime look?", "category": "conversational"}
+{"prompt": "can you simulate northern lights?", "category": "conversational"}
+{"prompt": "have you got a thunderstorm effect?", "category": "conversational"}
+{"prompt": "what would you suggest for a first date?", "category": "conversational"}
+{"prompt": "do you do anything interactive?", "category": "conversational"}
+{"prompt": "is there a gaming mode?", "category": "conversational"}
+{"prompt": "what would make this room feel bigger?", "category": "conversational"}
+{"prompt": "got a cozy cabin vibe?", "category": "conversational"}
+{"prompt": "can you do something retro?", "category": "conversational"}
+{"prompt": "what's a good combination for dinner?", "category": "conversational"}
+{"prompt": "do you know what color aids sleep?", "category": "conversational"}
+{"prompt": "is there a gentle wake up mode?", "category": "conversational"}
+{"prompt": "what about something for new years?", "category": "conversational"}
+{"prompt": "can you make emoji faces?", "category": "conversational"}
+{"prompt": "any good sunset options?", "category": "conversational"}
+{"prompt": "what do you think looks best at night?", "category": "conversational"}
+{"prompt": "can you help me wind down?", "category": "conversational"}
+{"prompt": "what would a coffee shop look like?", "category": "conversational"}
+{"prompt": "got anything minimal?", "category": "conversational"}
+{"prompt": "what's your warmest setting?", "category": "conversational"}
+{"prompt": "can you do something underwater?", "category": "conversational"}
+{"prompt": "is there a way to display a heart?", "category": "conversational"}
+{"prompt": "what goes with lo-fi music?", "category": "conversational"}
+{"prompt": "do you have a romantic dinner preset?", "category": "conversational"}
+{"prompt": "what's good background lighting for TV?", "category": "conversational"}
+{"prompt": "can you simulate candlelight?", "category": "conversational"}
+{"prompt": "any settings that help with seasonal depression?", "category": "conversational"}
+{"prompt": "what would an art gallery look like?", "category": "conversational"}
+{"prompt": "have you got earth tones?", "category": "conversational"}
+{"prompt": "is there a mode that reacts to time of day?", "category": "conversational"}
+{"prompt": "what's something totally unique you can do?", "category": "conversational"}
+{"prompt": "can you show me something I've never seen before?", "category": "conversational"}
+{"prompt": "what's the most relaxing thing you've got?", "category": "conversational"}
+{"prompt": "do you have a favorites list?", "category": "conversational"}
+{"prompt": "can you cycle through some options for me to pick?", "category": "conversational"}
+{"prompt": "what would a forest clearing look like?", "category": "conversational"}
+{"prompt": "got any spring vibes?", "category": "conversational"}
+{"prompt": "what would complement a bookshelf?", "category": "conversational"}
+{"prompt": "can you do anything with stars and moons?", "category": "conversational"}
+{"prompt": "what setting uses the least power?", "category": "conversational"}
+{"prompt": "can you do anything tropical?", "category": "conversational"}
+{"prompt": "what would you do for a wine night?", "category": "conversational"}
+{"prompt": "any good options for a nursery?", "category": "conversational"}
+{"prompt": "have you got a camping fire effect?", "category": "conversational"}
+{"prompt": "what's your coolest animation?", "category": "conversational"}
+{"prompt": "is there something good for painting?", "category": "conversational"}
+{"prompt": "show a star and make the background sparkle", "category": "conversational"}
+{"prompt": "I want a timer but make it look pretty", "category": "conversational"}
+{"prompt": "something cozy but with a countdown for 10 minutes", "category": "conversational"}
+{"prompt": "draw a moon and then transition to a calm blue", "category": "conversational"}
+{"prompt": "put up a christmas tree then slowly fade to warm amber", "category": "conversational"}
+{"prompt": "make a heart but also have the ambient ring pulse pink", "category": "conversational"}
+{"prompt": "show the word HELLO and then explode into confetti colors", "category": "conversational"}
+{"prompt": "start with a sunrise and end with a starry night", "category": "conversational"}
+{"prompt": "display a smiley face with a rainbow background", "category": "conversational"}
+{"prompt": "do a countdown from 5 and then burst into fireworks", "category": "conversational"}
+{"prompt": "show a cat and make the background slowly shift colors", "category": "conversational"}
+{"prompt": "ocean waves pattern with a little sailboat", "category": "conversational"}
+{"prompt": "make it look like a forest and add fireflies", "category": "conversational"}
+{"prompt": "draw a sun and gradually warm up the whole room color", "category": "conversational"}
+{"prompt": "peaceful blue but throw in an occasional shooting star", "category": "conversational"}
+{"prompt": "warm gradient but with a timer showing 20 minutes", "category": "conversational"}
+{"prompt": "relaxing pattern and also show the time", "category": "conversational"}
+{"prompt": "northern lights effect with a silhouette of mountains", "category": "conversational"}
+{"prompt": "campfire flicker with a moon in the corner", "category": "conversational"}
+{"prompt": "a raindrop animation with thunder flashes", "category": "conversational"}
+{"prompt": "show me a flower and make it slowly bloom", "category": "conversational"}
+{"prompt": "breathing exercise with calming colors that match the pace", "category": "conversational"}
+{"prompt": "party mode but alternate between a disco ball and color explosions", "category": "conversational"}
+{"prompt": "snow falling with a warm glow underneath", "category": "conversational"}
+{"prompt": "draw a tree and have leaves fall from it", "category": "conversational"}
+{"prompt": "put on a lava lamp effect and show a peace sign", "category": "conversational"}
+{"prompt": "do something romantic and include a countdown for dinner", "category": "conversational"}
+{"prompt": "candle flicker that slowly transitions into deep sleep blue", "category": "conversational"}
+{"prompt": "write my name and then dissolve it into sparkles", "category": "conversational"}
+{"prompt": "galaxy pattern with a rocket ship flying through", "category": "conversational"}
+{"prompt": "zen garden with gentle ripples and soft ambient glow", "category": "conversational"}
+{"prompt": "christmas lights on the grid and warm white ambient ring", "category": "conversational"}
+{"prompt": "waterfall animation that fills up from bottom to top", "category": "conversational"}
+{"prompt": "draw a coffee cup with steam rising from it", "category": "conversational"}
+{"prompt": "sunset gradient that fades into a night sky with stars", "category": "conversational"}
+{"prompt": "show a skull for halloween and make everything orange and purple", "category": "conversational"}
+{"prompt": "make it look like a fish tank with colorful fish", "category": "conversational"}
+{"prompt": "morning alarm that starts dim and builds to full brightness over 5 minutes", "category": "conversational"}
+{"prompt": "gentle waves with the number 7 displayed in the middle", "category": "conversational"}
+{"prompt": "chill lofi vibes with a rain effect on top", "category": "conversational"}
+{"prompt": "start with a blank canvas and slowly paint a landscape", "category": "conversational"}
+{"prompt": "matrix rain effect but in green and show a smiley", "category": "conversational"}
+{"prompt": "aurora borealis and slowly cycle through seasons", "category": "conversational"}
+{"prompt": "fireside glow with occasional crackling bright spots", "category": "conversational"}
+{"prompt": "show a butterfly that flaps its wings and changes color", "category": "conversational"}
+{"prompt": "meditation timer for 10 minutes with breathing colors", "category": "conversational"}
+{"prompt": "romantic pink ambient and draw a pair of wine glasses", "category": "conversational"}
+{"prompt": "night mode that gets progressively dimmer over an hour", "category": "conversational"}
+{"prompt": "waves crashing with seafoam sparkles on the crest", "category": "conversational"}
+{"prompt": "show GAME OVER in red and then reset to a happy green", "category": "conversational"}
+{"prompt": "gentle candle that flickers but also show the temperature", "category": "conversational"}
+{"prompt": "tropical sunset with palm tree silhouettes", "category": "conversational"}
+{"prompt": "rainbow road animation with a star at the finish line", "category": "conversational"}
+{"prompt": "thunderstorm effect with lightning flashes and calm blue between", "category": "conversational"}
+{"prompt": "music visualizer style with pulsing bars and color changes", "category": "conversational"}
+{"prompt": "show a clock face and have the ambient match the hour color", "category": "conversational"}
+{"prompt": "draw a penguin on an ice background that slowly melts to blue", "category": "conversational"}
+{"prompt": "sparkle burst every 30 seconds with calm lavender in between", "category": "conversational"}
+{"prompt": "galaxy spin with planets orbiting and a warm core", "category": "conversational"}
+{"prompt": "campfire bottom half and starry sky top half", "category": "conversational"}
+{"prompt": "peaceful meadow with flowers that bloom one by one", "category": "conversational"}
+{"prompt": "rain on a window with warm interior glow", "category": "conversational"}
+{"prompt": "deep ocean blue with bioluminescent flashes", "category": "conversational"}
+{"prompt": "spa mode with slow color transitions and a 30 minute timer", "category": "conversational"}
+{"prompt": "birthday cake with candles that flicker and then blow out", "category": "conversational"}
+{"prompt": "show a rocket launching and have the background go from blue to black", "category": "conversational"}
+{"prompt": "lava flowing down with smoke rising at the top", "category": "conversational"}
+{"prompt": "cherry blossom petals drifting with a soft pink ambient", "category": "conversational"}
+{"prompt": "wave pattern but with a jumping dolphin silhouette", "category": "conversational"}
+{"prompt": "forest at night with glowing mushrooms", "category": "conversational"}
+{"prompt": "cozy reading light plus a 45 minute study timer", "category": "conversational"}
+{"prompt": "abstract art mode where shapes morph and colors evolve", "category": "conversational"}
+{"prompt": "sunrise alarm that also shows GOOD MORNING at peak brightness", "category": "conversational"}
+{"prompt": "starfield with a spaceship and warp speed effect", "category": "conversational"}
+{"prompt": "make a snowman and surround it with falling snow", "category": "conversational"}
+{"prompt": "haunted house scene that gets spookier every minute", "category": "conversational"}
+{"prompt": "coral reef with colorful fish darting around", "category": "conversational"}
+{"prompt": "bonfire that slowly dies down to embers over an hour", "category": "conversational"}
+{"prompt": "show the weather outside and match the ambient to it", "category": "conversational"}
+{"prompt": "draw a peace sign and radiate calming waves outward", "category": "conversational"}
+{"prompt": "volcano eruption that settles into warm lava glow", "category": "conversational"}
+{"prompt": "moonrise animation followed by soft silver ambient", "category": "conversational"}
+{"prompt": "heart that beats with the ambient pulsing red in sync", "category": "conversational"}
+{"prompt": "spinning globe with day and night sides", "category": "conversational"}
+{"prompt": "watercolor wash that bleeds through different hues", "category": "conversational"}
+{"prompt": "neon city skyline with animated traffic below", "category": "conversational"}
+{"prompt": "dandelion seeds floating away on a green background", "category": "conversational"}
+{"prompt": "hot air balloon rising through layers of color", "category": "conversational"}
+{"prompt": "ocean surface with sunlight filtering through", "category": "conversational"}
+{"prompt": "kaleidoscope pattern that never repeats the same way", "category": "conversational"}
+{"prompt": "hourglass draining with sand particles and a calm blue", "category": "conversational"}
+{"prompt": "draw an anchor and surround it with ocean waves", "category": "conversational"}
+{"prompt": "show a cactus with a desert sunset behind it", "category": "conversational"}
+{"prompt": "make lightning bolts strike and then calm into soft purple", "category": "conversational"}
+{"prompt": "pomodoro timer with energizing red for work and cool blue for break", "category": "conversational"}
+{"prompt": "snow globe effect with a tiny house inside and warm glow", "category": "conversational"}
+{"prompt": "falling autumn leaves with a harvest moon in the background", "category": "conversational"}
+{"prompt": "draw a compass and slowly rotate the ambient colors like a map", "category": "conversational"}
+{"prompt": "jellyfish floating upward with a dark ocean blue background", "category": "conversational"}
+{"prompt": "show a crown and make the ambient shimmer gold", "category": "conversational"}
+{"prompt": "so like, I was thinking, maybe something that's like, you know, kind of like being at the beach at sunset but not too orange, more like a peaceful purple-ish thing", "category": "conversational"}
+{"prompt": "okay so I have people coming over in like an hour and I want the lamp to look really nice, something sophisticated but not boring", "category": "conversational"}
+{"prompt": "I just came home from work and I'm exhausted, give me something that helps me relax and unwind, nothing too bright", "category": "conversational"}
+{"prompt": "hmm so my girlfriend is coming over tonight and I want the apartment to have this like, warm romantic glow, but not like cheesy romantic, more like classy romantic if that makes sense", "category": "conversational"}
+{"prompt": "okay I know this sounds weird but can you make it look like that scene in blade runner where everything is neon and rainy, you know what I mean, that vibe", "category": "conversational"}
+{"prompt": "so it's like 2am and I can't sleep and the room is too dark but I don't want to turn on a real light, just give me something super dim and calming", "category": "conversational"}
+{"prompt": "I'm hosting this dinner party tomorrow and the theme is like Mediterranean, so maybe something with warm yellows and terracotta and olive greens, nothing too flashy", "category": "conversational"}
+{"prompt": "you know what, I've been in a funk all day and I just need something that's going to lift my spirits, like bright happy colors or something energetic, surprise me", "category": "conversational"}
+{"prompt": "I'm trying to meditate but the room feels too sterile, can you put on something that feels organic and natural, like being in a forest or near a stream or something", "category": "conversational"}
+{"prompt": "my kid just fell asleep and I need a really gentle nightlight situation, nothing that flashes or moves, just a soft steady glow that won't wake them up", "category": "conversational"}
+{"prompt": "so we're watching a scary movie and I thought it would be cool if the lamp did something atmospheric, like dim and moody with maybe occasional flickers", "category": "conversational"}
+{"prompt": "I'm working from home today and I need the lighting to be focused but not depressing, like a warm daylight kind of thing but with a hint of coziness", "category": "conversational"}
+{"prompt": "I just finished a really hard workout and I'm cooling down, give me something that transitions from intense to calm, like red to blue or something like that", "category": "conversational"}
+{"prompt": "listen, I don't know anything about colors or design, I just want my room to look like those aesthetic rooms you see on instagram, whatever that means in light form", "category": "conversational"}
+{"prompt": "it's raining outside and I've got a cup of tea and a book, set the lamp to match that energy, cozy and warm and kind of sleepy but in a good way", "category": "conversational"}
+{"prompt": "so my friend saw my lamp and thought it was cool and now she's watching, can you do something impressive, like show off all the cool stuff you can do", "category": "conversational"}
+{"prompt": "I want something that reminds me of being a kid on christmas morning, like that magical feeling when you first see the tree lit up, warm and sparkly and exciting", "category": "conversational"}
+{"prompt": "okay weird request but I'm writing a story set in space and I want the room to feel like a spaceship cockpit, dark with cool blues and maybe some blinking lights", "category": "conversational"}
+{"prompt": "I'm getting ready for a zoom call and I need the lighting behind me to look professional but interesting, not just plain white but not distracting either", "category": "conversational"}
+{"prompt": "we're having a game night with friends and I want the lamp to add to the fun atmosphere, bright and playful colors, maybe changing, but not like seizure-inducing", "category": "conversational"}
+{"prompt": "I've been staring at a computer screen all day and my eyes are tired, give me something really soft and warm that doesn't strain, like sunset colors maybe", "category": "conversational"}
+{"prompt": "I want to recreate that feeling when you're in a jazz bar late at night, dim lighting, warm amber, maybe a hint of smoky blue, very chill very smooth", "category": "conversational"}
+{"prompt": "so my cat is sitting on the desk staring at the lamp, do something that she might find interesting, like gentle movement or something that catches the eye", "category": "conversational"}
+{"prompt": "I'm doing yoga right now and the room feels too harsh, put on something that flows and breathes with me, natural colors, gentle transitions, nothing jarring", "category": "conversational"}
+{"prompt": "okay so it's new years eve and we're about to start the countdown, I need the lamp to build excitement, start calm and then get more and more festive", "category": "conversational"}
+{"prompt": "I'm feeling nostalgic tonight, like missing my hometown kind of nostalgic, put something on that feels warm and homey, like a fireplace in winter", "category": "conversational"}
+{"prompt": "I just moved into this apartment and the walls are really bare and white, the lamp needs to add personality to the room, something that makes it feel lived in", "category": "conversational"}
+{"prompt": "we're having a cocktail party and the vibe should be upscale lounge, think dark jewel tones, deep purples and golds, elegant and moody", "category": "conversational"}
+{"prompt": "my baby won't stop crying and I read that certain colors are soothing for infants, do something really gentle and calming, soft blues or lavenders or whatever works", "category": "conversational"}
+{"prompt": "I'm about to take a bubble bath and I want the bathroom to feel like a spa, so the lamp should do that zen peaceful water-inspired thing", "category": "conversational"}
+{"prompt": "I'm super pumped because I just got promoted and I want the room to celebrate with me, like a mini party, bright colors confetti vibes the whole thing", "category": "conversational"}
+{"prompt": "so it's a lazy sunday afternoon and I'm just lying on the couch, set the lamp to lazy sunday mode, whatever that means, just mellow and easy", "category": "conversational"}
+{"prompt": "I'm trying to set up for a twitch stream and I want the background lighting to look cool on camera, something with interesting colors that pop on video", "category": "conversational"}
+{"prompt": "it's the first snow of winter and I can see it through the window, match the feeling, cold and crisp outside but warm and inviting on the lamp", "category": "conversational"}
+{"prompt": "my friend is going through a breakup and she's coming over, I need comforting vibes, warm and safe feeling, like a big hug in light form", "category": "conversational"}
+{"prompt": "we're listening to vinyl records tonight, old school soul music, the lamp should match that retro warm golden vibe, like a record shop in the seventies", "category": "conversational"}
+{"prompt": "I'm pulling an all-nighter studying for finals and I need lighting that keeps me alert but doesn't give me a headache, something cool and bright but not harsh", "category": "conversational"}
+{"prompt": "okay so hear me out, what if the lamp slowly went through all four seasons over the course of an hour, like spring colors to summer to fall to winter", "category": "conversational"}
+{"prompt": "I want the lamp to feel like I'm underwater in a tropical reef, bright blues and greens and pops of color like coral and fish, but dreamy not literal", "category": "conversational"}
+{"prompt": "my roommate is sleeping in the next room so I need something really dim, like barely visible, but I still want to see enough to not trip over things", "category": "conversational"}
+{"prompt": "we're doing a wine tasting thing at home and the ambiance should be sophisticated, deep burgundy and gold tones, like a wine cellar vibe", "category": "conversational"}
+{"prompt": "I'm trying to paint a picture and I need the lamp to be neutral enough to see true colors but also inspiring, is that even possible, warm white maybe", "category": "conversational"}
+{"prompt": "so it's 4th of july and I want patriotic colors obviously but not like tackily, more like elegant red white and blue with some sparkle maybe", "category": "conversational"}
+{"prompt": "I just adopted a puppy and he seems scared of the dark, can the lamp do a very gentle warm nightlight thing that stays on all night without being too bright", "category": "conversational"}
+{"prompt": "my therapist said I should surround myself with calming things so I'm starting with the lamp, give me your most therapeutic soothing anxiety-reducing light", "category": "conversational"}
+{"prompt": "we're making homemade pizza and the kitchen has this Italian trattoria energy tonight, warm yellows and reds, something festive and food-related and fun", "category": "conversational"}
+{"prompt": "I'm reading a fantasy novel about enchanted forests and I want the lamp to immerse me in that world, mystical greens and soft glowing lights like magic", "category": "conversational"}
+{"prompt": "so I just got back from the gym and I need to transition from pumped up energy to chill mode, start energetic and gradually wind down over like 20 minutes", "category": "conversational"}
+{"prompt": "it's golden hour right now and the sunlight through my window is gorgeous, can the lamp complement that, like extend the golden hour feeling as it fades", "category": "conversational"}
+{"prompt": "I'm having a terrible day and honestly I just want the lamp to be comforting, nothing fancy, just warm and steady and reliable, like a hug you can see", "category": "conversational"}
+{"prompt": "okay so my apartment has this mid century modern aesthetic and I want the lamp to match, think warm retro tones, mustard yellow teal burnt orange", "category": "conversational"}
+{"prompt": "I'm doing a jigsaw puzzle and I need good visibility but also cozy vibes because it's a rainy saturday, so like bright enough to see but warm", "category": "conversational"}
+{"prompt": "so my parents are visiting and they think this lamp is just a normal lamp, blow their minds with something spectacular that shows what it can really do", "category": "conversational"}
+{"prompt": "I need something that matches the energy of drinking coffee on a sunday morning while reading the paper, calm but alert, warm but bright", "category": "conversational"}
+{"prompt": "honestly I'm just bored and I want to watch the lamp do cool things for a while, give me your most mesmerizing animated pattern that I can zone out to", "category": "conversational"}
+{"prompt": "we're telling ghost stories in the dark and the lamp should help set the mood, eerie and spooky but not so bright that it ruins the darkness", "category": "conversational"}
+{"prompt": "I want the lamp to feel like a sunset over the ocean, you know, that moment when the sky goes from blue to orange to pink to purple, the whole progression", "category": "conversational"}
+{"prompt": "so I'm trying to learn Spanish and I'm in a Mexico-inspired mood tonight, warm terracotta, bright fiesta colors, something that feels like Oaxaca at dusk", "category": "conversational"}
+{"prompt": "my daughter wants a princess theme in her room for her sleepover, think sparkly pinks and purples and maybe a tiara shape or something girly and magical", "category": "conversational"}
+{"prompt": "I need the lamp to help me stay awake for this really boring documentary I promised I'd watch, stimulating colors that keep my brain engaged", "category": "conversational"}
+{"prompt": "so it's autumn and I want the lamp to look like a New England fall, like those trees with the oranges and reds and yellows, a crisp autumn day feeling", "category": "conversational"}
+{"prompt": "we're having a fondue night and I want the lamp to add to the Swiss chalet cozy vibe, warm firelight with maybe some snowy whites mixed in", "category": "conversational"}
+{"prompt": "I'm about to propose to my partner and I need the lamp to be absolutely perfect, romantic but not over the top, warm glowing intimate special", "category": "conversational"}
+{"prompt": "my kids want a dance party in the living room, colorful fun energetic kid-friendly, nothing scary, just pure joy and excitement in light form", "category": "conversational"}
+{"prompt": "I feel like the room is too cold emotionally if that makes sense, not temperature wise but like the feeling, make it warmer and more inviting", "category": "conversational"}
+{"prompt": "I just finished a really good book and I'm sitting with that satisfied feeling, give me something contemplative and warm, like the afterglow of a good story", "category": "conversational"}
+{"prompt": "so we're meal prepping on sunday and the kitchen needs to feel productive and upbeat, bright cheerful colors that keep the energy going", "category": "conversational"}
+{"prompt": "I'm on the phone with an old friend I haven't talked to in years, set the mood to nostalgic and happy, like warm memories", "category": "conversational"}
+{"prompt": "it's the middle of the night and I woke up thirsty, I need just enough light to get to the kitchen without stubbing my toe, minimal and gentle", "category": "conversational"}
+{"prompt": "I'm building a lego set and I need really good light to see the tiny pieces but also I want the room to feel fun and creative, not like an operating room", "category": "conversational"}
+{"prompt": "we just finished watching the season finale and it was mind blowing, match that post-binge-watch excitement, something epic and dramatic", "category": "conversational"}
+{"prompt": "I need to pack for a trip and I'm stressed about forgetting stuff, bright practical light but with a touch of excitement about the journey ahead", "category": "conversational"}
+{"prompt": "it's friday evening and the weekend is finally here, I want the lamp to celebrate that feeling of freedom, whatever friday night vibes look like", "category": "conversational"}
+{"prompt": "I'm doing a face mask and watching trash tv, the ultimate self care evening, give me the lighting equivalent of that energy, pampered and indulgent", "category": "conversational"}
+{"prompt": "so I got this new plant and I want the lamp to complement it, like a botanical garden sort of feel, greens and natural light vibes", "category": "conversational"}
+{"prompt": "I'm journaling and I need the light to be introspective, if that's a thing, like soft and quiet and thoughtful, not stimulating at all", "category": "conversational"}
+{"prompt": "we're assembling furniture and getting frustrated, give us something cheerful that keeps our spirits up while we fight with these Allen wrenches", "category": "conversational"}
+{"prompt": "I walked into the room and it just feels blah, fix it, make it feel like somewhere I actually want to be", "category": "conversational"}
+{"prompt": "so we're doing a tasting menu dinner at home, each course should have different lighting, start fancy and progress through courses, you figure it out", "category": "conversational"}
+{"prompt": "my grandma is visiting and she loves nature, do something with flowers and gardens and soft colors, something a sweet old lady would appreciate", "category": "conversational"}
+{"prompt": "I need to give a presentation tomorrow and I'm practicing in the living room, set the lighting like a conference room but less depressing", "category": "conversational"}
+{"prompt": "I'm making a playlist of sad songs and I want the room to match, melancholy blue and grey tones, rainy day inside feeling, beautifully sad", "category": "conversational"}
+{"prompt": "okay so I watch this anime and the aesthetic is very like, neon Tokyo at night vibes, can you do that, electric blues and pinks and that cyberpunk feel", "category": "conversational"}
+{"prompt": "I'm decluttering my room and I need bright motivating light that makes me feel productive, like spring cleaning energy, fresh and energetic", "category": "conversational"}
+{"prompt": "it's valentines day but I'm single and honestly having a great time, give me something that's festive without being romantic, self-love celebration vibes", "category": "conversational"}
+{"prompt": "so I'm on a video call with my long distance partner and I want the room to look warm and inviting on camera, like I'm someone they'd want to come home to", "category": "conversational"}
+{"prompt": "my dog is having anxiety from the thunderstorm outside, is there a calming light pattern that might help, like what they use in vet offices or something", "category": "conversational"}
+{"prompt": "I just ordered takeout and it's going to be here in 30 minutes, set the mood for a solo fancy dinner, treat myself energy, warm and elegant", "category": "conversational"}
+{"prompt": "we're playing dungeons and dragons and I'm the dungeon master, I need atmospheric lighting for a tavern scene, warm fire tones with some mystery", "category": "conversational"}
+{"prompt": "I'm folding laundry which is the most boring chore ever, at least make the lighting interesting so I have something nice to look at", "category": "conversational"}
+{"prompt": "it's spring and the cherry blossoms are out and I want the lamp to bring that energy inside, soft pinks and whites and the feeling of new beginnings", "category": "conversational"}
+{"prompt": "so I'm trying to manifest good things, I read you should visualize with warm colors, give me golden abundance vibes, like luxury and positivity", "category": "conversational"}
+{"prompt": "my sister just had a baby and I want to send her a photo of the lamp doing something cute and pink or blue, actually I don't know the gender, just do both", "category": "conversational"}
+{"prompt": "I'm in one of those moods where everything annoys me and I don't want bright lights or dark lights I just want something that doesn't bother me, neutral I guess", "category": "conversational"}
+{"prompt": "we're wrapping christmas presents and the room needs to feel festive and jolly, reds and greens and sparkle, but not garish, tasteful holiday warmth", "category": "conversational"}
+{"prompt": "I just woke up from a really weird dream and the room feels strange, put on something grounding and normal, plain warm light to bring me back to reality", "category": "conversational"}
+{"prompt": "so my neighbor has this really annoying bright porch light and I want my lamp to counteract it, something that makes the room feel cozy despite the light pollution", "category": "conversational"}
+{"prompt": "I'm cleaning the house because my in-laws are coming and I'm stressed, I need bright light to see the dust but also something calming to keep me from panicking", "category": "conversational"}
+{"prompt": "it's the last day of summer and I'm feeling kind of melancholy about it, give me something that captures that bittersweet end of season feeling, warm but fading", "category": "conversational"}
+{"prompt": "so I'm trying to take a good selfie for my profile pic and the lighting needs to be flattering, warm and even and makes my skin look nice on camera", "category": "conversational"}
+{"prompt": "bright but dark", "category": "edge_case"}
+{"prompt": "warm ice", "category": "edge_case"}
+{"prompt": "calm party", "category": "edge_case"}
+{"prompt": "loud light", "category": "edge_case"}
+{"prompt": "slow fast", "category": "edge_case"}
+{"prompt": "happy sad", "category": "edge_case"}
+{"prompt": "cold fire", "category": "edge_case"}
+{"prompt": "silent screaming colors", "category": "edge_case"}
+{"prompt": "invisible glow", "category": "edge_case"}
+{"prompt": "peaceful chaos", "category": "edge_case"}
+{"prompt": "dark brightness", "category": "edge_case"}
+{"prompt": "frozen flames", "category": "edge_case"}
+{"prompt": "gentle storm", "category": "edge_case"}
+{"prompt": "boring excitement", "category": "edge_case"}
+{"prompt": "energetic calm", "category": "edge_case"}
+{"prompt": "make it bright but I don't want any light", "category": "edge_case"}
+{"prompt": "something hot and freezing at the same time", "category": "edge_case"}
+{"prompt": "wild but tame", "category": "edge_case"}
+{"prompt": "organized mess of colors", "category": "edge_case"}
+{"prompt": "sharp softness", "category": "edge_case"}
+{"prompt": "quiet explosion", "category": "edge_case"}
+{"prompt": "relaxing adrenaline", "category": "edge_case"}
+{"prompt": "simple complexity", "category": "edge_case"}
+{"prompt": "make it colorful but only use black", "category": "edge_case"}
+{"prompt": "dim it to maximum brightness", "category": "edge_case"}
+{"prompt": "fast and slow at the same time", "category": "edge_case"}
+{"prompt": "make it move but keep it still", "category": "edge_case"}
+{"prompt": "old and modern simultaneously", "category": "edge_case"}
+{"prompt": "happy funeral vibes", "category": "edge_case"}
+{"prompt": "elegantly ugly", "category": "edge_case"}
+{"prompt": "blinding darkness", "category": "edge_case"}
+{"prompt": "turn it on but off", "category": "edge_case"}
+{"prompt": "something minimal but over the top", "category": "edge_case"}
+{"prompt": "warm cool blue red", "category": "edge_case"}
+{"prompt": "gently aggressive", "category": "edge_case"}
+{"prompt": "serious silly", "category": "edge_case"}
+{"prompt": "make it smaller and bigger", "category": "edge_case"}
+{"prompt": "cheerful gloom", "category": "edge_case"}
+{"prompt": "ancient futurism", "category": "edge_case"}
+{"prompt": "structured randomness", "category": "edge_case"}
+{"prompt": "something empty but full", "category": "edge_case"}
+{"prompt": "dry rain", "category": "edge_case"}
+{"prompt": "light that weighs heavy", "category": "edge_case"}
+{"prompt": "sweet bitterness", "category": "edge_case"}
+{"prompt": "solid liquid light", "category": "edge_case"}
+{"prompt": "deafening whisper of color", "category": "edge_case"}
+{"prompt": "stationary motion", "category": "edge_case"}
+{"prompt": "clear confusion", "category": "edge_case"}
+{"prompt": "something both on and off", "category": "edge_case"}
+{"prompt": "joyful misery", "category": "edge_case"}
+{"prompt": "show a 3D cube", "category": "edge_case"}
+{"prompt": "play music", "category": "edge_case"}
+{"prompt": "change the room temperature", "category": "edge_case"}
+{"prompt": "order pizza", "category": "edge_case"}
+{"prompt": "tell me the weather", "category": "edge_case"}
+{"prompt": "make it smell like lavender", "category": "edge_case"}
+{"prompt": "turn on the TV", "category": "edge_case"}
+{"prompt": "set an alarm for 7am", "category": "edge_case"}
+{"prompt": "play my spotify playlist", "category": "edge_case"}
+{"prompt": "send a text to mom", "category": "edge_case"}
+{"prompt": "lock the front door", "category": "edge_case"}
+{"prompt": "start the dishwasher", "category": "edge_case"}
+{"prompt": "show a video of cats", "category": "edge_case"}
+{"prompt": "read me the news", "category": "edge_case"}
+{"prompt": "turn off all the lights in the house", "category": "edge_case"}
+{"prompt": "adjust the thermostat to 72", "category": "edge_case"}
+{"prompt": "remind me to call the dentist", "category": "edge_case"}
+{"prompt": "what time is my meeting tomorrow", "category": "edge_case"}
+{"prompt": "project a hologram", "category": "edge_case"}
+{"prompt": "make it emit sound waves", "category": "edge_case"}
+{"prompt": "translate this document", "category": "edge_case"}
+{"prompt": "show me my calendar", "category": "edge_case"}
+{"prompt": "take a photo of the room", "category": "edge_case"}
+{"prompt": "connect to my bluetooth speaker", "category": "edge_case"}
+{"prompt": "display 4K resolution image", "category": "edge_case"}
+{"prompt": "track my sleep quality", "category": "edge_case"}
+{"prompt": "emit a scent of pine trees", "category": "edge_case"}
+{"prompt": "make the walls change color", "category": "edge_case"}
+{"prompt": "start the vacuum cleaner", "category": "edge_case"}
+{"prompt": "preheat the oven to 350", "category": "edge_case"}
+{"prompt": "close the blinds", "category": "edge_case"}
+{"prompt": "play a youtube video", "category": "edge_case"}
+{"prompt": "call 911", "category": "edge_case"}
+{"prompt": "scan this QR code", "category": "edge_case"}
+{"prompt": "show a live camera feed", "category": "edge_case"}
+{"prompt": "measure the room temperature", "category": "edge_case"}
+{"prompt": "detect motion in the hallway", "category": "edge_case"}
+{"prompt": "charge my phone wirelessly", "category": "edge_case"}
+{"prompt": "turn on the air conditioning", "category": "edge_case"}
+{"prompt": "display a map to the nearest restaurant", "category": "edge_case"}
+{"prompt": "check if the front door is locked", "category": "edge_case"}
+{"prompt": "adjust the ceiling fan speed", "category": "edge_case"}
+{"prompt": "play white noise through the speaker", "category": "edge_case"}
+{"prompt": "show my step count for today", "category": "edge_case"}
+{"prompt": "stream netflix on the lamp", "category": "edge_case"}
+{"prompt": "print a photo", "category": "edge_case"}
+{"prompt": "water my plants", "category": "edge_case"}
+{"prompt": "tell me a joke", "category": "edge_case"}
+{"prompt": "feed the cat", "category": "edge_case"}
+{"prompt": "project the screen from my laptop", "category": "edge_case"}
+{"prompt": "haz algo bonito", "category": "edge_case"}
+{"prompt": "luz calida por favor", "category": "edge_case"}
+{"prompt": "ponlo en rojo", "category": "edge_case"}
+{"prompt": "quiero algo relajante", "category": "edge_case"}
+{"prompt": "muestra un corazon", "category": "edge_case"}
+{"prompt": "colores del atardecer", "category": "edge_case"}
+{"prompt": "montre-moi un coeur", "category": "edge_case"}
+{"prompt": "lumiere douce", "category": "edge_case"}
+{"prompt": "quelque chose de romantique", "category": "edge_case"}
+{"prompt": "fais-le en bleu", "category": "edge_case"}
+{"prompt": "une ambiance chaleureuse", "category": "edge_case"}
+{"prompt": "zeig mir einen stern", "category": "edge_case"}
+{"prompt": "warmes licht bitte", "category": "edge_case"}
+{"prompt": "etwas beruhigendes", "category": "edge_case"}
+{"prompt": "mach es heller", "category": "edge_case"}
+{"prompt": "regenbogen farben", "category": "edge_case"}
+{"prompt": "mostra una stella", "category": "edge_case"}
+{"prompt": "luce calda per favore", "category": "edge_case"}
+{"prompt": "qualcosa di rilassante", "category": "edge_case"}
+{"prompt": "colori dell'arcobaleno", "category": "edge_case"}
+{"prompt": "fammi vedere qualcosa di bello", "category": "edge_case"}
+{"prompt": "mostre algo bonito", "category": "edge_case"}
+{"prompt": "luz quente por favor", "category": "edge_case"}
+{"prompt": "algo relaxante", "category": "edge_case"}
+{"prompt": "cores do por do sol", "category": "edge_case"}
+{"prompt": "toon me iets moois", "category": "edge_case"}
+{"prompt": "warm licht alsjeblieft", "category": "edge_case"}
+{"prompt": "iets rustgevends", "category": "edge_case"}
+{"prompt": "maak het blauw", "category": "edge_case"}
+{"prompt": "visa mig en stjarna", "category": "edge_case"}
+{"prompt": "varmt ljus tack", "category": "edge_case"}
+{"prompt": "nagot lugnande", "category": "edge_case"}
+{"prompt": "gor det ljusare", "category": "edge_case"}
+{"prompt": "kirei ni shite", "category": "edge_case"}
+{"prompt": "akai hikari onegai", "category": "edge_case"}
+{"prompt": "yuttari shita kanji", "category": "edge_case"}
+{"prompt": "niji no iro", "category": "edge_case"}
+{"prompt": "yeppeuge haejwo", "category": "edge_case"}
+{"prompt": "ttatteuthan bichi joa", "category": "edge_case"}
+{"prompt": "pyeonhan neukkim", "category": "edge_case"}
+{"prompt": "pokaz mi gwiazde", "category": "edge_case"}
+{"prompt": "cieple swiatlo prosze", "category": "edge_case"}
+{"prompt": "cos kojacego", "category": "edge_case"}
+{"prompt": "ukaz mi serdtse", "category": "edge_case"}
+{"prompt": "tepliy svet pozhaluysta", "category": "edge_case"}
+{"prompt": "chto-nibud spokoynoye", "category": "edge_case"}
+{"prompt": "goek yildizi goster", "category": "edge_case"}
+{"prompt": "sicak isik lutfen", "category": "edge_case"}
+{"prompt": "rahatlatici bir sey", "category": "edge_case"}
+{"prompt": "kuch acha dikhao", "category": "edge_case"}
+{"prompt": "blu lgt pls", "category": "edge_case"}
+{"prompt": "wrm n cozy", "category": "edge_case"}
+{"prompt": "prty mode", "category": "edge_case"}
+{"prompt": "shw a hrt", "category": "edge_case"}
+{"prompt": "mke it briter", "category": "edge_case"}
+{"prompt": "rd and grn", "category": "edge_case"}
+{"prompt": "smthng chill", "category": "edge_case"}
+{"prompt": "rnbow plz", "category": "edge_case"}
+{"prompt": "dmm it dwn", "category": "edge_case"}
+{"prompt": "pnk lite", "category": "edge_case"}
+{"prompt": "giv me prple", "category": "edge_case"}
+{"prompt": "chng colr", "category": "edge_case"}
+{"prompt": "nite mode thx", "category": "edge_case"}
+{"prompt": "do somthin nice", "category": "edge_case"}
+{"prompt": "watever u think", "category": "edge_case"}
+{"prompt": "sunst vibes pls", "category": "edge_case"}
+{"prompt": "grn forst", "category": "edge_case"}
+{"prompt": "orng n ylw", "category": "edge_case"}
+{"prompt": "slw pulsng", "category": "edge_case"}
+{"prompt": "sprkle fx", "category": "edge_case"}
+{"prompt": "candle lght", "category": "edge_case"}
+{"prompt": "xmas colors", "category": "edge_case"}
+{"prompt": "hlwn mode", "category": "edge_case"}
+{"prompt": "chill vibs", "category": "edge_case"}
+{"prompt": "trun it of", "category": "edge_case"}
+{"prompt": "maek it warmer", "category": "edge_case"}
+{"prompt": "somethng romantic", "category": "edge_case"}
+{"prompt": "relaxxing plz", "category": "edge_case"}
+{"prompt": "brght whte", "category": "edge_case"}
+{"prompt": "strs n moon", "category": "edge_case"}
+{"prompt": "fde to blk", "category": "edge_case"}
+{"prompt": "lava lmp fx", "category": "edge_case"}
+{"prompt": "ocen wavs", "category": "edge_case"}
+{"prompt": "2 brite 4 me", "category": "edge_case"}
+{"prompt": "mk it flashy", "category": "edge_case"}
+{"prompt": "nrthern lites", "category": "edge_case"}
+{"prompt": "calmin bloo", "category": "edge_case"}
+{"prompt": "gldnt hr vibes", "category": "edge_case"}
+{"prompt": "evning mode plss", "category": "edge_case"}
+{"prompt": "idk do smthng", "category": "edge_case"}
+{"prompt": "lol suprise me", "category": "edge_case"}
+{"prompt": "sho me ur best", "category": "edge_case"}
+{"prompt": "cozzy pls", "category": "edge_case"}
+{"prompt": "neon sty", "category": "edge_case"}
+{"prompt": "retero vibes", "category": "edge_case"}
+{"prompt": "fier red plz", "category": "edge_case"}
+{"prompt": "ambeint glo", "category": "edge_case"}
+{"prompt": "trquoise pls", "category": "edge_case"}
+{"prompt": "galaxxy mde", "category": "edge_case"}
+{"prompt": "beutiful clrs", "category": "edge_case"}
+{"prompt": "I would really love it if you could create a warm amber glow that slowly fades into a deep rich purple over the course of about five minutes while keeping the ambient ring a steady soft white", "category": "edge_case"}
+{"prompt": "can you please make the entire grid display a gradient that starts with a really deep navy blue at the bottom and transitions through teal and then into a bright mint green at the top with the ambient ring matching the middle color", "category": "edge_case"}
+{"prompt": "I want something that looks like a real sunset with the bottom being a dark silhouette and the middle being orange and red and the top transitioning to deep purple and navy blue like the sky getting darker as you look up", "category": "edge_case"}
+{"prompt": "could you create a pattern where random pixels light up one at a time in different warm colors like candle flickers and then slowly fade out while new ones appear so it looks like a field of tiny campfires all across the grid", "category": "edge_case"}
+{"prompt": "I need the lamp to slowly cycle through all the colors of the rainbow starting from red and going through orange yellow green blue indigo and violet and then back again and I want each transition to take about thirty seconds", "category": "edge_case"}
+{"prompt": "make it so the grid shows a calm blue ocean with gentle waves moving from left to right and the ambient ring pulses slowly in a slightly darker shade of blue to simulate the deep sea below the surface", "category": "edge_case"}
+{"prompt": "please create something that starts completely dark and then gradually brings up one pixel at a time in a warm golden color starting from the center and spiraling outward until the entire grid is lit up over the course of about two minutes", "category": "edge_case"}
+{"prompt": "I want the lamp to display alternating diagonal stripes of emerald green and deep purple that slowly scroll downward like a barber pole effect but with a holiday color scheme and the ambient ring should alternate between the two colors", "category": "edge_case"}
+{"prompt": "can you make a pattern that simulates rain falling down the grid with each raindrop being a slightly different shade of blue or grey and when they hit the bottom they create a tiny splash of white light that fades quickly", "category": "edge_case"}
+{"prompt": "I would like to see a display where the top half of the grid shows a warm sunny yellow that gradually blends into a cool midnight blue on the bottom half like the transition between day and night at the horizon", "category": "edge_case"}
+{"prompt": "make something that looks like the northern lights with ribbons of green and purple and sometimes a touch of pink weaving across the grid in slow undulating waves with the ambient ring doing a very slow pulse of deep teal", "category": "edge_case"}
+{"prompt": "please show a pattern where every other row of pixels is a different warm color starting from deep red at the top through orange and amber to a bright warm yellow at the bottom and have them all breathing slowly at slightly different rates", "category": "edge_case"}
+{"prompt": "I want you to create a display that simulates fireflies on a warm summer night with the background being a very dark green and small points of light randomly appearing and disappearing across the grid in warm yellow-green colors", "category": "edge_case"}
+{"prompt": "can you make something that looks like a stained glass window with distinct patches of deep rich colors like ruby red sapphire blue emerald green and amethyst purple separated by thin dark lines and the ambient ring glowing gold", "category": "edge_case"}
+{"prompt": "I need the lamp to show a heartbeat pattern where the entire grid pulses red in the shape of a heartbeat rhythm and between pulses it fades to a very dark maroon and the ambient ring pulses in sync with the grid", "category": "edge_case"}
+{"prompt": "please make a pattern where columns of light slowly rise from the bottom of the grid in different heights like an equalizer visualization with colors changing from green at the base through yellow to red at the peaks", "category": "edge_case"}
+{"prompt": "I want to see something that simulates a lava lamp with large blobs of warm red and orange slowly moving upward through a background of deep dark purple and the shapes should morph and merge as they float", "category": "edge_case"}
+{"prompt": "create a display that looks like a galaxy with a bright white center that fades into deep purple and blue swirling arms and occasional tiny white pixels flickering like distant stars scattered throughout the dark regions", "category": "edge_case"}
+{"prompt": "make the grid show a pattern inspired by van gogh's starry night with swirling deep blues and bright yellows concentrated in circular patterns and the ambient ring should glow a deep midnight blue to complete the effect", "category": "edge_case"}
+{"prompt": "I would like a pattern that starts with all cool blues and then over the course of ten minutes gradually shifts to all warm reds and oranges and then slowly shifts back creating an endless slow oscillation between warm and cool", "category": "edge_case"}
+{"prompt": "please show me a pattern where groups of four pixels form tiny squares that each independently cycle through different colors at different speeds creating an ever-changing mosaic of small colorful blocks across the entire grid", "category": "edge_case"}
+{"prompt": "I want something that simulates the view from underwater looking up at the surface with dappled light patterns in blue and turquoise and occasional brighter spots where the sunlight breaks through the rippling water above", "category": "edge_case"}
+{"prompt": "make a pattern that looks like embers floating up from a dying fire with a dark background and small points of orange red and yellow drifting slowly upward and fading out before they reach the top of the grid", "category": "edge_case"}
+{"prompt": "create something that looks like frost forming on a window pane with a very dark blue background and white and light blue crystal patterns slowly growing outward from random seed points across the grid over time", "category": "edge_case"}
+{"prompt": "I need something that simulates a thunderstorm with a dark grey and blue base and random bright white flashes that illuminate nearby pixels for just a moment before fading back to darkness with the ambient ring doing low rumbles of deep blue", "category": "edge_case"}
+{"prompt": "please display a pattern where the grid is divided into concentric rectangles and each ring slowly transitions between different pastel colors at different rates creating a hypnotic nested rectangle animation that draws the eye inward", "category": "edge_case"}
+{"prompt": "I want to see a sunrise animation where the bottom two rows start glowing deep red then orange creeps up through the middle and eventually the top rows become bright golden yellow with the ambient ring warming up to match the progression", "category": "edge_case"}
+{"prompt": "make a display that shows waves of color washing across the grid from left to right with each wave being a different color in a carefully chosen sequence like a flowing abstract painting that never repeats the exact same combination", "category": "edge_case"}
+{"prompt": "create an effect where the grid starts fully lit in bright white and then pixels randomly turn off one by one like stars going out until only a handful remain glowing in warm amber like the last embers of the night", "category": "edge_case"}
+{"prompt": "I would like the lamp to alternate between showing a peaceful calm blue breathing pattern for thirty seconds and then briefly flashing through a quick burst of rainbow colors for five seconds before returning to the calm blue", "category": "edge_case"}
+{"prompt": "please make something that transitions through all four seasons with spring pastels melting into bright summer yellows and greens then transforming into fall oranges and reds and finally settling into cool winter blues and whites", "category": "edge_case"}
+{"prompt": "I want a pattern where diagonal lines of warm copper and cool silver alternate across the grid and slowly rotate clockwise like a metallic pinwheel with the ambient ring alternating between the two metal tones in a slow breathing rhythm", "category": "edge_case"}
+{"prompt": "make something that looks like cherry blossom petals falling against a pale blue sky background with small clusters of soft pink pixels drifting downward at slightly different speeds across the grid creating a gentle spring rain of petals", "category": "edge_case"}
+{"prompt": "I need the grid to display an abstract representation of ocean coral with a dark blue background and branching structures of coral pink orange and red that slowly grow and sway as if moved by gentle underwater currents", "category": "edge_case"}
+{"prompt": "please create something where the entire grid breathes between two complementary colors like deep blue and warm orange with each breath taking about eight seconds and the ambient ring breathing in the opposite phase creating contrast", "category": "edge_case"}
+{"prompt": "I want to see pixels that appear to be dripping down the grid like colorful paint drops starting from the top in random colors and sliding down leaving fading trails behind them before they disappear at the bottom edge", "category": "edge_case"}
+{"prompt": "make the lamp simulate bioluminescence in a dark ocean with a very dark background and random organic shapes of glowing teal and soft blue-green that pulse and drift slowly across the grid like deep sea jellyfish", "category": "edge_case"}
+{"prompt": "create something that represents the passage of time with the left side of the grid in dawn colors and the right side in dusk colors with the transition zone slowly moving from left to right over the course of an hour", "category": "edge_case"}
+{"prompt": "I would like a pattern inspired by moroccan tile work with repeating geometric patterns in deep blue and gold and white that tile across the grid in an intricate but organized way with the ambient ring glowing a warm gold", "category": "edge_case"}
+{"prompt": "please show something where individual pixels twinkle like stars but at completely random intervals and in random warm colors so the grid looks like a living breathing wall of tiny warm lights each doing their own thing independently", "category": "edge_case"}
+{"prompt": "I want the grid to display concentric circles expanding outward from the center in alternating warm and cool colors like a pebble dropped in water but with colored ripples that fade as they reach the edges of the grid", "category": "edge_case"}
+{"prompt": "make an effect where bright white pixels chase each other around the perimeter of the grid like lights on a marquee sign while the interior displays a slowly shifting gradient from deep purple to midnight blue", "category": "edge_case"}
+{"prompt": "create a display that starts with the entire grid in deep red and then patches of orange appear and spread like a slow burn eventually taking over and then those give way to yellow creating a slow color wildfire across the grid", "category": "edge_case"}
+{"prompt": "I need something that looks like the surface of the sun with a bright yellow-orange base and darker spots that slowly drift across and occasional bright solar flare eruptions that shoot up from the bottom of the grid in intense white-yellow", "category": "edge_case"}
+{"prompt": "please make a calming pattern where very slow waves of slightly different shades of the same color like five or six different blues move horizontally across the grid creating a subtle ocean-like motion that is barely perceptible but deeply soothing", "category": "edge_case"}
+{"prompt": "I want to see a pattern that simulates a campfire viewed from directly above with a bright yellow-white center surrounded by concentric rings of orange then red then a dark glow and occasional sparks flying outward to the edges", "category": "edge_case"}
+{"prompt": "make something that represents a cosmic nebula with clouds of pink and purple gas surrounding a bright star cluster in the center with tiny blue and white pixels scattered throughout like newly forming stars in the stellar nursery", "category": "edge_case"}
+{"prompt": "create an aurora effect where curtains of green and purple light slowly descend from the top of the grid and ripple horizontally like silk curtains in a gentle breeze with the ambient ring cycling between deep green and violet", "category": "edge_case"}
+{"prompt": "I would like the grid to simulate a field of wildflowers with a green base and random clusters of small colorful pixels in pink yellow purple and white that sway gently as if a soft breeze is passing through the meadow", "category": "edge_case"}
+{"prompt": "please display something that looks like a deep cave with bioluminescent minerals where most of the grid is nearly black but scattered throughout are small clusters of glowing crystals in cool blue and warm amber and pale green", "category": "edge_case"}
+{"prompt": "wow", "category": "edge_case"}
+{"prompt": "ugh", "category": "edge_case"}
+{"prompt": "hmm", "category": "edge_case"}
+{"prompt": "nice", "category": "edge_case"}
+{"prompt": "cool", "category": "edge_case"}
+{"prompt": "meh", "category": "edge_case"}
+{"prompt": "red", "category": "edge_case"}
+{"prompt": "party", "category": "edge_case"}
+{"prompt": "on", "category": "edge_case"}
+{"prompt": "yes", "category": "edge_case"}
+{"prompt": "no", "category": "edge_case"}
+{"prompt": "ok", "category": "edge_case"}
+{"prompt": "go", "category": "edge_case"}
+{"prompt": "more", "category": "edge_case"}
+{"prompt": "less", "category": "edge_case"}
+{"prompt": "brighter", "category": "edge_case"}
+{"prompt": "dimmer", "category": "edge_case"}
+{"prompt": "faster", "category": "edge_case"}
+{"prompt": "slower", "category": "edge_case"}
+{"prompt": "again", "category": "edge_case"}
+{"prompt": "reset", "category": "edge_case"}
+{"prompt": "green", "category": "edge_case"}
+{"prompt": "pink", "category": "edge_case"}
+{"prompt": "warm", "category": "edge_case"}
+{"prompt": "cold", "category": "edge_case"}
+{"prompt": "dark", "category": "edge_case"}
+{"prompt": "hard", "category": "edge_case"}
+{"prompt": "hype", "category": "edge_case"}
+{"prompt": "calm", "category": "edge_case"}
+{"prompt": "zen", "category": "edge_case"}
+{"prompt": "ocean", "category": "edge_case"}
+{"prompt": "forest", "category": "edge_case"}
+{"prompt": "space", "category": "edge_case"}
+{"prompt": "love", "category": "edge_case"}
+{"prompt": "peace", "category": "edge_case"}
+{"prompt": "joy", "category": "edge_case"}
+{"prompt": "sad", "category": "edge_case"}
+{"prompt": "angry", "category": "edge_case"}
+{"prompt": "tired", "category": "edge_case"}
+{"prompt": "gradient from pink through purple to blue", "category": "pattern"}
+{"prompt": "sunset gradient, orange to deep red", "category": "pattern"}
+{"prompt": "rainbow fade across the whole lamp", "category": "pattern"}
+{"prompt": "warm to cool gradient top to bottom", "category": "pattern"}
+{"prompt": "ocean gradient from turquoise to midnight blue", "category": "pattern"}
+{"prompt": "autumn gradient, gold to crimson to brown", "category": "pattern"}
+{"prompt": "pastel gradient from baby blue to soft pink", "category": "pattern"}
+{"prompt": "neon gradient green to purple", "category": "pattern"}
+{"prompt": "gradient like a tropical sunset, yellow through orange to magenta", "category": "pattern"}
+{"prompt": "earth tone gradient, sand to forest green", "category": "pattern"}
+{"prompt": "icy gradient from white to pale blue to deep blue", "category": "pattern"}
+{"prompt": "fire gradient, yellow to orange to dark red", "category": "pattern"}
+{"prompt": "spring gradient, light green fading into pink", "category": "pattern"}
+{"prompt": "galaxy gradient, dark purple to sparkly blue", "category": "pattern"}
+{"prompt": "copper to gold to bronze gradient", "category": "pattern"}
+{"prompt": "peach melting into lavender", "category": "pattern"}
+{"prompt": "gradient that goes from blood red to black", "category": "pattern"}
+{"prompt": "cotton candy gradient, pink and light blue swirled together", "category": "pattern"}
+{"prompt": "forest gradient, dark green to moss to lime", "category": "pattern"}
+{"prompt": "gradient from candle warm to cool moonlight", "category": "pattern"}
+{"prompt": "mint to teal to navy gradient", "category": "pattern"}
+{"prompt": "coral reef colors fading from one to the next", "category": "pattern"}
+{"prompt": "sky gradient, like looking straight up during golden hour", "category": "pattern"}
+{"prompt": "desert gradient, sandy beige to burnt sienna to rust", "category": "pattern"}
+{"prompt": "northern sky gradient, green to teal to dark blue", "category": "pattern"}
+{"prompt": "lemon yellow fading into lime green", "category": "pattern"}
+{"prompt": "rose gold melting into deep plum", "category": "pattern"}
+{"prompt": "gradient like a bruise, purple to blue to yellow", "category": "pattern"}
+{"prompt": "winter gradient, white to silver to steel blue", "category": "pattern"}
+{"prompt": "seafoam fading into deep ocean blue", "category": "pattern"}
+{"prompt": "burgundy to soft pink gradient", "category": "pattern"}
+{"prompt": "make it go from warm amber on one side to cool teal on the other", "category": "pattern"}
+{"prompt": "three color gradient: red, white, and blue", "category": "pattern"}
+{"prompt": "gradient from sunrise orange to noon blue to sunset purple", "category": "pattern"}
+{"prompt": "jade green fading through turquoise to sapphire", "category": "pattern"}
+{"prompt": "multicolor gradient like a bag of skittles", "category": "pattern"}
+{"prompt": "watercolor gradient, bleeding pinks and blues", "category": "pattern"}
+{"prompt": "autumn leaves gradient, green to yellow to orange to red", "category": "pattern"}
+{"prompt": "bubblegum pink gradient with white at the edges", "category": "pattern"}
+{"prompt": "gradient from black at the edges to bright white in the center", "category": "pattern"}
+{"prompt": "cream to honey to amber gradient", "category": "pattern"}
+{"prompt": "dusty mauve fading to soft grey", "category": "pattern"}
+{"prompt": "gradient that looks like the inside of an abalone shell", "category": "pattern"}
+{"prompt": "wine red flowing into dark purple", "category": "pattern"}
+{"prompt": "sage green blending into dusty rose", "category": "pattern"}
+{"prompt": "electric blue to hot pink gradient", "category": "pattern"}
+{"prompt": "slowly shifting gradient from gold to silver", "category": "pattern"}
+{"prompt": "champagne to rose gold blend", "category": "pattern"}
+{"prompt": "midnight blue to electric purple gradient", "category": "pattern"}
+{"prompt": "olive to emerald to bright green gradient", "category": "pattern"}
+{"prompt": "gradient going from tangerine to cherry red", "category": "pattern"}
+{"prompt": "something that moves slowly like honey", "category": "pattern"}
+{"prompt": "fast flickering like a candle in the wind", "category": "pattern"}
+{"prompt": "gentle pulsing, like breathing", "category": "pattern"}
+{"prompt": "quick strobing effect", "category": "pattern"}
+{"prompt": "water ripple movement", "category": "pattern"}
+{"prompt": "super slow color shift, barely noticeable", "category": "pattern"}
+{"prompt": "rapid fire color changes", "category": "pattern"}
+{"prompt": "lazy drifting clouds of color", "category": "pattern"}
+{"prompt": "smooth flowing like a lava lamp", "category": "pattern"}
+{"prompt": "twitching neon lights", "category": "pattern"}
+{"prompt": "undulating like sea grass in a current", "category": "pattern"}
+{"prompt": "something that swirls really slowly", "category": "pattern"}
+{"prompt": "heartbeat rhythm pulse", "category": "pattern"}
+{"prompt": "waves crashing and receding", "category": "pattern"}
+{"prompt": "dripping paint effect, slow and gooey", "category": "pattern"}
+{"prompt": "quick fluttering like butterfly wings", "category": "pattern"}
+{"prompt": "very slow tide coming in and out", "category": "pattern"}
+{"prompt": "erratic lightning flash pattern", "category": "pattern"}
+{"prompt": "glacial movement, incredibly slow blue shift", "category": "pattern"}
+{"prompt": "hummingbird speed color flicker", "category": "pattern"}
+{"prompt": "lazy sunday afternoon pace, warm drifting colors", "category": "pattern"}
+{"prompt": "colors chasing each other around the lamp", "category": "pattern"}
+{"prompt": "slow motion explosion of color", "category": "pattern"}
+{"prompt": "bouncing light like a rubber ball", "category": "pattern"}
+{"prompt": "swaying like a hammock in a breeze", "category": "pattern"}
+{"prompt": "ripples from the center moving outward slowly", "category": "pattern"}
+{"prompt": "cascading downward like a waterfall of light", "category": "pattern"}
+{"prompt": "spiraling inward slowly", "category": "pattern"}
+{"prompt": "gentle wave pattern left to right", "category": "pattern"}
+{"prompt": "zigzag pattern moving upward", "category": "pattern"}
+{"prompt": "colors that bloom outward from the middle", "category": "pattern"}
+{"prompt": "random twinkle speed, some fast some slow", "category": "pattern"}
+{"prompt": "a slow rotation of colors around the edges", "category": "pattern"}
+{"prompt": "pulsing that speeds up then slows down", "category": "pattern"}
+{"prompt": "pendulum swing of light side to side", "category": "pattern"}
+{"prompt": "rolling waves from bottom to top", "category": "pattern"}
+{"prompt": "snake-like movement of a bright line across the display", "category": "pattern"}
+{"prompt": "hypnotic slow spiral", "category": "pattern"}
+{"prompt": "barely visible glow", "category": "pattern"}
+{"prompt": "blindingly bright white", "category": "pattern"}
+{"prompt": "super dim, just enough to see by", "category": "pattern"}
+{"prompt": "medium brightness warm light", "category": "pattern"}
+{"prompt": "the faintest purple shimmer", "category": "pattern"}
+{"prompt": "as bright as you can possibly go", "category": "pattern"}
+{"prompt": "whisper of light, almost nothing", "category": "pattern"}
+{"prompt": "full blast neon", "category": "pattern"}
+{"prompt": "a subtle hint of blue", "category": "pattern"}
+{"prompt": "dim enough to sleep with on", "category": "pattern"}
+{"prompt": "reading brightness, not too harsh", "category": "pattern"}
+{"prompt": "bright enough to light the whole room", "category": "pattern"}
+{"prompt": "just the tiniest orange glow", "category": "pattern"}
+{"prompt": "extremely low warm amber", "category": "pattern"}
+{"prompt": "max brightness rainbow", "category": "pattern"}
+{"prompt": "so dim you can barely tell it's on", "category": "pattern"}
+{"prompt": "moderate soft white", "category": "pattern"}
+{"prompt": "half brightness blue", "category": "pattern"}

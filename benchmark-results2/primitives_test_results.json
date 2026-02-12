@@ -1,0 +1,56 @@
+{
+  "test": "primitives_comparison",
+  "model": "gemma3:4b",
+  "results_original": [
+    {
+      "id": 1,
+      "prompt": "show a star",
+      "status": "json_error",
+      "time": 30.750386953353882
+    }
+  ],
+  "results_primitives": [
+    {
+      "id": 1,
+      "prompt": "show a star",
+      "status": "ok",
+      "time": 8.365453958511353,
+      "stats": {
+        "total_elements": 2,
+        "primitives_used": [
+          "star"
+        ],
+        "pixel_count": 0,
+        "rect_count": 0,
+        "other": []
+      },
+      "program": {
+        "program": {
+          "name": "Star",
+          "steps": [
+            {
+              "id": "show",
+              "command": {
+                "type": "render",
+                "elements": [
+                  {
+                    "type": "fill",
+                    "color": "#0A0A2E"
+                  },
+                  {
+                    "type": "star",
+                    "cx": 5,
+                    "cy": 7,
+                    "r": 4,
+                    "color": "#FFD700"
+                  }
+                ]
+              },
+              "duration": null
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

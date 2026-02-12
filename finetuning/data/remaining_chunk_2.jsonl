@@ -1,0 +1,828 @@
+{"prompt": "show an hourglass where the sand actually moves down over 15 minutes", "category": "mixed"}
+{"prompt": "draw a campfire that slowly dies out over the next hour", "category": "mixed"}
+{"prompt": "show ice cream that slowly drips and melts over time", "category": "mixed"}
+{"prompt": "make a battery icon that slowly fills up over 30 minutes", "category": "mixed"}
+{"prompt": "draw a tree that slowly changes from green to autumn colors", "category": "mixed"}
+{"prompt": "first show a sunrise then draw a sun then warm gradient background", "category": "mixed"}
+{"prompt": "start with rain then clear to blue then show a rainbow", "category": "mixed"}
+{"prompt": "go from night sky to dawn to full sun", "category": "mixed"}
+{"prompt": "show spring colors then a flower then butterflies", "category": "mixed"}
+{"prompt": "start calm blue then build energy to bright yellow then back down", "category": "mixed"}
+{"prompt": "ocean waves first then a dolphin jumping then sunset", "category": "mixed"}
+{"prompt": "start with a seed then grow into a flower then bloom", "category": "mixed"}
+{"prompt": "show stars first then a shooting star then a moon rises", "category": "mixed"}
+{"prompt": "begin with snow falling then build a snowman then warm up the colors", "category": "mixed"}
+{"prompt": "go from fireplace glow to show a cup of cocoa then cozy amber", "category": "mixed"}
+{"prompt": "sparkle background with a star in the center", "category": "mixed"}
+{"prompt": "rainbow breathing pattern with a diamond shape overlaid", "category": "mixed"}
+{"prompt": "gentle wave pattern behind a sailboat", "category": "mixed"}
+{"prompt": "aurora borealis pattern with a pine tree silhouette", "category": "mixed"}
+{"prompt": "firefly dots floating around a moon in the center", "category": "mixed"}
+{"prompt": "ocean wave pattern with a whale swimming through", "category": "mixed"}
+{"prompt": "confetti falling pattern with PARTY text in the middle", "category": "mixed"}
+{"prompt": "breathing warm glow with a heart shape pulsing in sync", "category": "mixed"}
+{"prompt": "rain drops falling with an umbrella in the center", "category": "mixed"}
+{"prompt": "lava lamp pattern behind a peace sign", "category": "mixed"}
+{"prompt": "draw me a penguin on an icy background that slowly warms to sunset over 20 minutes", "category": "mixed"}
+{"prompt": "show a rocket launching with a fiery trail and then transition to stars", "category": "mixed"}
+{"prompt": "make a fish swimming with waves in the background that pulse gently", "category": "mixed"}
+{"prompt": "draw a cat sleeping with a slowly breathing ambient light", "category": "mixed"}
+{"prompt": "show a clock face and make the ambient match the time of day", "category": "mixed"}
+{"prompt": "put a pizza on the display with warm oven glow ambient", "category": "mixed"}
+{"prompt": "draw a robot with techy blue blinking ambient", "category": "mixed"}
+{"prompt": "show an owl with a dark night sky ambient that has tiny stars", "category": "mixed"}
+{"prompt": "make a dragon breathing fire with red and orange flickering ambient", "category": "mixed"}
+{"prompt": "draw a mermaid with ocean wave patterns in the background", "category": "mixed"}
+{"prompt": "like a sunset but also draw a palm tree silhouette", "category": "mixed"}
+{"prompt": "I want a cozy cabin scene with warm firelight flickering", "category": "mixed"}
+{"prompt": "show a lighthouse with the beam sweeping around like a spotlight", "category": "mixed"}
+{"prompt": "make it look like a lava lamp but with a phoenix in the center", "category": "mixed"}
+{"prompt": "draw a spaceship taking off with stars streaming past", "category": "mixed"}
+{"prompt": "show a butterfly with wings that slowly change colors", "category": "mixed"}
+{"prompt": "make a jellyfish that pulses with bioluminescent glow", "category": "mixed"}
+{"prompt": "draw a volcano erupting then slowly calming to a warm amber", "category": "mixed"}
+{"prompt": "show me snow falling and then a snowflake appears in the center", "category": "mixed"}
+{"prompt": "I want cherry blossoms falling with a soft pink ambient", "category": "mixed"}
+{"prompt": "show WELCOME in warm colors then transition to a cozy fireplace glow", "category": "mixed"}
+{"prompt": "write my name wait actually just write LAMP and make it glow", "category": "mixed"}
+{"prompt": "display 5 4 3 2 1 then show a rocket blasting off", "category": "mixed"}
+{"prompt": "write SLEEP then slowly dim to the faintest blue over 10 minutes", "category": "mixed"}
+{"prompt": "show GO in green then transition to a running cheetah", "category": "mixed"}
+{"prompt": "display FOCUS then calm blue gradient for studying", "category": "mixed"}
+{"prompt": "write YAY then explosion of rainbow sparkles everywhere", "category": "mixed"}
+{"prompt": "show WOW then fireworks bursting all over", "category": "mixed"}
+{"prompt": "display PEACE then morph into a peace sign with ambient purple", "category": "mixed"}
+{"prompt": "write ZEN then very slowly breathe between white and soft lavender", "category": "mixed"}
+{"prompt": "ok so draw a turtle but make it on the ocean floor with bubbles rising", "category": "mixed"}
+{"prompt": "I want like a night sky and a crescent moon with an owl sitting on a branch", "category": "mixed"}
+{"prompt": "make the lamp look like an aquarium with fish swimming and bubbles", "category": "mixed"}
+{"prompt": "so start with a blank dark display then slowly draw a cityscape with lights turning on", "category": "mixed"}
+{"prompt": "draw a fox in a forest with leaves gently falling in the background", "category": "mixed"}
+{"prompt": "show a castle on a hill with storm clouds and lightning flashes", "category": "mixed"}
+{"prompt": "I want a garden scene with a butterfly flying around flowers", "category": "mixed"}
+{"prompt": "make it look like we're underwater with coral and fish and blue light", "category": "mixed"}
+{"prompt": "show the northern lights with a mountain silhouette at the bottom", "category": "mixed"}
+{"prompt": "draw a witch flying on a broom across a full moon", "category": "mixed"}
+{"prompt": "show a bear sleeping in a cave with warm amber light", "category": "mixed"}
+{"prompt": "I want a treasure chest opening with gold light spilling out", "category": "mixed"}
+{"prompt": "make a magic wand casting sparkles across the whole display", "category": "mixed"}
+{"prompt": "draw a piano and make the keys light up like someone's playing", "category": "mixed"}
+{"prompt": "show a disco ball with colorful lights spinning around it", "category": "mixed"}
+{"prompt": "draw a lighthouse and make the ambient rotate like the beam", "category": "mixed"}
+{"prompt": "put up a pumpkin then slowly change to warm halloween orange", "category": "mixed"}
+{"prompt": "show an easter egg hunt scene with colorful eggs and green grass", "category": "mixed"}
+{"prompt": "draw fireworks and countdown from 10 for new years", "category": "mixed"}
+{"prompt": "make a valentine scene with hearts raining down and pink ambient", "category": "mixed"}
+{"prompt": "show a menorah and light one more candle every few minutes", "category": "mixed"}
+{"prompt": "draw a christmas scene with snow falling on a tree with presents", "category": "mixed"}
+{"prompt": "I want a birthday cake with candles flickering on a party background", "category": "mixed"}
+{"prompt": "show a graduation cap being thrown up with confetti", "category": "mixed"}
+{"prompt": "make a baby shower scene with soft pastels and a rattle", "category": "mixed"}
+{"prompt": "draw a wedding scene with bells and white and gold ambient", "category": "mixed"}
+{"prompt": "show a spooky forest scene then a ghost appears then everything goes dark", "category": "mixed"}
+{"prompt": "make a sunrise yoga scene start peaceful then energize with warm colors", "category": "mixed"}
+{"prompt": "draw rain on a window then show a rainbow then sunny blue sky", "category": "mixed"}
+{"prompt": "show a garden growing from seeds to flowers over 15 minutes", "category": "mixed"}
+{"prompt": "I want the four seasons cycling, start with spring end with winter", "category": "mixed"}
+{"prompt": "make a day at the beach, sunrise to sunset with a palm tree", "category": "mixed"}
+{"prompt": "show a thunderstorm building up then lightning then calm after the storm", "category": "mixed"}
+{"prompt": "draw a bonfire scene getting brighter as the night gets darker around it", "category": "mixed"}
+{"prompt": "um can you like make a cat with sparkly eyes and a purring ambient", "category": "mixed"}
+{"prompt": "so first I want a calm blue then slowly bring in some stars and then a moon", "category": "mixed"}
+{"prompt": "do like a rainy window with drops and then clear up to show a sun", "category": "mixed"}
+{"prompt": "kinda want a cozy scene, maybe a cup of tea with steam and warm ambient", "category": "mixed"}
+{"prompt": "could you make a firefly jar, like a mason jar with glowing dots inside", "category": "mixed"}
+{"prompt": "show me a galaxy with a spaceship flying through it", "category": "mixed"}
+{"prompt": "make a forest at night with glowing mushrooms", "category": "mixed"}
+{"prompt": "draw a haunted house with lightning in the background", "category": "mixed"}
+{"prompt": "I want a snowy mountain with a warm cabin glow at the bottom", "category": "mixed"}
+{"prompt": "show a tropical island with waves and a sunset behind it", "category": "mixed"}
+{"prompt": "draw a train going through a tunnel then into a sunny landscape", "category": "mixed"}
+{"prompt": "make it look like a stained glass window with light shining through", "category": "mixed"}
+{"prompt": "show a pizza being made, start with dough then add toppings then oven glow", "category": "mixed"}
+{"prompt": "draw a space scene with planets orbiting a sun", "category": "mixed"}
+{"prompt": "make a music visualizer that pulses with different colors", "category": "mixed"}
+{"prompt": "show me waves crashing with a seagull flying overhead on a blue sky", "category": "mixed"}
+{"prompt": "draw a night market scene with lanterns glowing in warm colors", "category": "mixed"}
+{"prompt": "I want a zen garden with a sand pattern and a bonsai tree", "category": "mixed"}
+{"prompt": "make a coffee shop scene with a steaming mug and warm tones", "category": "mixed"}
+{"prompt": "show fireflies in a meadow at dusk with purple and gold sky", "category": "mixed"}
+{"prompt": "draw a hot air balloon floating over a patchwork of fields below", "category": "mixed"}
+{"prompt": "make a campfire under the stars with the warmth spreading outward", "category": "mixed"}
+{"prompt": "show a dragon sleeping on treasure with a warm gold glow pulsing", "category": "mixed"}
+{"prompt": "draw a pirate ship on the ocean with waves and a sunset behind", "category": "mixed"}
+{"prompt": "I want a snowglobe scene with snow falling inside and warm light outside", "category": "mixed"}
+{"prompt": "make a coral reef with fish swimming and gentle blue light", "category": "mixed"}
+{"prompt": "show a lantern releasing into the night sky with other lanterns floating up", "category": "mixed"}
+{"prompt": "draw a rainbow bridge and make the colors slowly shift and move", "category": "mixed"}
+{"prompt": "I want the lamp to show a puppy then wag its tail by blinking the tail area", "category": "mixed"}
+{"prompt": "make a clock counting down from 5 minutes with calming blue ambient that gets warmer as time runs out", "category": "mixed"}
+{"prompt": "show BREATHE and pulse the display in and out slowly for relaxation", "category": "mixed"}
+{"prompt": "draw a sunflower field with warm golden ambient and a gentle breeze effect", "category": "mixed"}
+{"prompt": "make a morning routine, alarm red then energizing yellow then calm green for ready", "category": "mixed"}
+{"prompt": "show a caterpillar that transforms into a butterfly over 10 minutes", "category": "mixed"}
+{"prompt": "draw a seed that grows into a tree with seasons changing around it", "category": "mixed"}
+{"prompt": "I want a campsite at night with a tent, campfire, and stars twinkling", "category": "mixed"}
+{"prompt": "show a music note that bounces around with different colors where it lands", "category": "mixed"}
+{"prompt": "make a potion brewing in a cauldron with green bubbles and purple smoke", "category": "mixed"}
+{"prompt": "draw a bookshelf with books and a reading lamp glow on one side", "category": "mixed"}
+{"prompt": "show a candy land scene with bright colors and a lollipop in the center", "category": "mixed"}
+{"prompt": "I want a winter night with an igloo and aurora borealis in the sky", "category": "mixed"}
+{"prompt": "make a spaceship cockpit view with stars streaming past the window", "category": "mixed"}
+{"prompt": "draw a cozy reading nook with a candle and warm amber light", "category": "mixed"}
+{"prompt": "show a bicycle riding through autumn leaves with warm tones", "category": "mixed"}
+{"prompt": "I want a waterfall scene with mist and a rainbow in the spray", "category": "mixed"}
+{"prompt": "make a sundial that tracks the light position changing over an hour", "category": "mixed"}
+{"prompt": "show me a wizard casting a spell with sparkles flying everywhere", "category": "mixed"}
+{"prompt": "draw a moonlit lake with reflections and a gentle ripple effect", "category": "mixed"}
+{"prompt": "I want a carnival scene with a ferris wheel and colorful flashing lights", "category": "mixed"}
+{"prompt": "make a greenhouse with plants and warm grow-light amber glow", "category": "mixed"}
+{"prompt": "show a kite flying in a blue sky with clouds drifting by", "category": "mixed"}
+{"prompt": "draw a sleeping fox curled up with northern lights above", "category": "mixed"}
+{"prompt": "I want a paper boat floating on gentle waves with a sunset behind it", "category": "mixed"}
+{"prompt": "make a magic forest with glowing trees and fairy dust floating around", "category": "mixed"}
+{"prompt": "show a hot chocolate mug with marshmallows and cozy warm ambient", "category": "mixed"}
+{"prompt": "draw an astronaut floating in space with stars and earth in the background", "category": "mixed"}
+{"prompt": "make a butterfly garden with flowers blooming and butterflies appearing one by one", "category": "mixed"}
+{"prompt": "show a compass spinning then settling on north with a warm glow", "category": "mixed"}
+{"prompt": "I want a cozy blanket fort scene with fairy lights twinkling", "category": "mixed"}
+{"prompt": "draw a pair of headphones with music notes floating out of them in colors", "category": "mixed"}
+{"prompt": "make a desk lamp scene, like the pixar lamp, bouncing on the display", "category": "mixed"}
+{"prompt": "show a kaleidoscope pattern that slowly morphs with a gem in the center", "category": "mixed"}
+{"prompt": "draw a pizza delivery sequence, oven to box to doorbell", "category": "mixed"}
+{"prompt": "I want a lava lamp effect with a dinosaur silhouette in the middle", "category": "mixed"}
+{"prompt": "make a snow globe with a little house inside and glitter swirling", "category": "mixed"}
+{"prompt": "show a rocket countdown from 10 then launch with fire and then peaceful space", "category": "mixed"}
+{"prompt": "draw a cuckoo clock where a bird pops out every minute", "category": "mixed"}
+{"prompt": "I want ocean waves with a message in a bottle floating by", "category": "mixed"}
+{"prompt": "draw a lotus on a pond with ripples spreading out from it", "category": "mixed"}
+{"prompt": "show a candle and count down 30 minutes while it melts", "category": "mixed"}
+{"prompt": "make a rainbow that appears after rain clouds clear away", "category": "mixed"}
+{"prompt": "draw a dove flying with an olive branch and peaceful green ambient", "category": "mixed"}
+{"prompt": "show a compass needle spinning with adventure-themed warm colors", "category": "mixed"}
+{"prompt": "I want a window scene with rain outside and cozy warm light inside", "category": "mixed"}
+{"prompt": "make an aurora over a frozen lake with a cabin in the distance", "category": "mixed"}
+{"prompt": "draw a sandcastle being built up then slowly washed away by waves", "category": "mixed"}
+{"prompt": "show a hummingbird visiting flowers one by one across the display", "category": "mixed"}
+{"prompt": "make a fireplace scene with stockings hanging and warm amber flickering", "category": "mixed"}
+{"prompt": "draw a sailboat race across the display with wave patterns below", "category": "mixed"}
+{"prompt": "show a lamp that looks like a lava lamp but with a cat shape inside", "category": "mixed"}
+{"prompt": "make a teapot pouring tea into a cup with steam rising", "category": "mixed"}
+{"prompt": "draw the earth rotating slowly with day and night sides visible", "category": "mixed"}
+{"prompt": "I want a tiki torch with flickering flame and warm island ambient", "category": "mixed"}
+{"prompt": "show a vinyl record spinning with music vibes in warm retro colors", "category": "mixed"}
+{"prompt": "make a snow scene with a snowman being built piece by piece", "category": "mixed"}
+{"prompt": "draw a hammock between two palm trees with a lazy afternoon vibe", "category": "mixed"}
+{"prompt": "show a beehive with bees buzzing around and golden honey glow", "category": "mixed"}
+{"prompt": "I want a night drive scene, road lights passing with cool blue ambient", "category": "mixed"}
+{"prompt": "make a sushi conveyor belt with different pieces scrolling across", "category": "mixed"}
+{"prompt": "draw a greenhouse garden growing with morning sunlight warming up", "category": "mixed"}
+{"prompt": "show a telescope pointing at stars and then zoom into a galaxy", "category": "mixed"}
+{"prompt": "make a roller coaster going up slowly then zooming down with fast color changes", "category": "mixed"}
+{"prompt": "draw a cat chasing a laser dot bouncing around the display", "category": "mixed"}
+{"prompt": "I want a fortune cookie cracking open and showing a glowing message", "category": "mixed"}
+{"prompt": "show a sunset timelapse from bright day to golden hour to dusk to stars", "category": "mixed"}
+{"prompt": "make a popcorn machine with kernels popping as bright dots", "category": "mixed"}
+{"prompt": "draw a lighthouse at night with its beam sweeping and stars above", "category": "mixed"}
+{"prompt": "show a penguin sliding on ice with blue ambient and sparkles", "category": "mixed"}
+{"prompt": "I want a rain forest scene with a toucan and green glowing ambient", "category": "mixed"}
+{"prompt": "make a jack-o-lantern with flickering candle inside and spooky purple background", "category": "mixed"}
+{"prompt": "draw a birthday cake then light the candles then blow them out", "category": "mixed"}
+{"prompt": "show a compass rose with the cardinal directions and adventure ambient", "category": "mixed"}
+{"prompt": "make a crystal cave with gems sparkling and blue purple ambient", "category": "mixed"}
+{"prompt": "draw an alarm clock going off with red flashes then calming to green", "category": "mixed"}
+{"prompt": "I want a watercolor painting effect slowly revealing a mountain scene", "category": "mixed"}
+{"prompt": "show a recipe scene with ingredients appearing one by one on a cutting board", "category": "mixed"}
+{"prompt": "make a time machine spinning up from calm to frantic colors then settling", "category": "mixed"}
+{"prompt": "draw a sleeping baby with a gentle rocking motion in the ambient light", "category": "mixed"}
+{"prompt": "show a sunrise alarm that brightens over 30 minutes from dark to warm yellow", "category": "mixed"}
+{"prompt": "I want a map with a dotted line path revealing itself and showing destinations", "category": "mixed"}
+{"prompt": "make a snow globe being shaken, flurries then settling down to calm", "category": "mixed"}
+{"prompt": "draw a dragon egg slowly hatching with cracks of light appearing", "category": "mixed"}
+{"prompt": "show a dandelion with seeds blowing away across the display", "category": "mixed"}
+{"prompt": "make a camera flash then develop a photo slowly appearing", "category": "mixed"}
+{"prompt": "draw a typewriter typing words that glow and fade", "category": "mixed"}
+{"prompt": "I want a garden hose watering flowers and they bloom in response", "category": "mixed"}
+{"prompt": "show a hot springs scene with steam and warm relaxing amber", "category": "mixed"}
+{"prompt": "make a pinball machine with a ball bouncing and lights flashing", "category": "mixed"}
+{"prompt": "draw a circus tent with colorful spotlights moving around", "category": "mixed"}
+{"prompt": "show an arcade game where a little character jumps over obstacles", "category": "mixed"}
+{"prompt": "I want a drive-in movie screen with the car lights in front", "category": "mixed"}
+{"prompt": "make a flower pressing scene, flowers appearing flat with warm vintage colors", "category": "mixed"}
+{"prompt": "draw a paper lantern floating up with other lanterns into a dark sky", "category": "mixed"}
+{"prompt": "show a comet streaking across the sky then a shower of shooting stars", "category": "mixed"}
+{"prompt": "I want a lemonade stand scene with bright sunny yellow ambient", "category": "mixed"}
+{"prompt": "make an old TV turning on with static then showing a retro pattern", "category": "mixed"}
+{"prompt": "draw a ship in a storm then finding calm waters with a rainbow", "category": "mixed"}
+{"prompt": "show an assembly line of cookies being decorated one by one", "category": "mixed"}
+{"prompt": "I want a bookstore with warm lamp light and book pages turning", "category": "mixed"}
+{"prompt": "make a washing machine spinning with colorful clothes inside", "category": "mixed"}
+{"prompt": "draw a music box opening and playing with notes floating out", "category": "mixed"}
+{"prompt": "show a pond with lily pads and frogs jumping between them", "category": "mixed"}
+{"prompt": "I want a ski scene going downhill with snow spraying and cool blue ambient", "category": "mixed"}
+{"prompt": "make a barbecue scene with flames and sizzle and warm glow", "category": "mixed"}
+{"prompt": "draw a fishing scene with a bobber going under and fish jumping", "category": "mixed"}
+{"prompt": "show a swing set swinging back and forth with soft afternoon light", "category": "mixed"}
+{"prompt": "I want a jukebox lighting up and playing with retro neon colors", "category": "mixed"}
+{"prompt": "make a candle shop scene with different colored candles flickering", "category": "mixed"}
+{"prompt": "draw a spinning top with colors blending as it spins", "category": "mixed"}
+{"prompt": "show a fortune teller crystal ball glowing and swirling with purple mist", "category": "mixed"}
+{"prompt": "I want a greenhouse with rain on the glass and warm glow inside", "category": "mixed"}
+{"prompt": "make a subway train arriving with headlights and whoosh of color", "category": "mixed"}
+{"prompt": "draw a neon sign flickering on in a dark alley scene", "category": "mixed"}
+{"prompt": "show a paint palette with colors mixing together in swirls", "category": "mixed"}
+{"prompt": "make a bottle with a ship inside and ocean waves behind it", "category": "mixed"}
+{"prompt": "draw a wind chime tinkling with gentle colors pulsing with each chime", "category": "mixed"}
+{"prompt": "show a sundial with the shadow moving and light shifting warm to cool", "category": "mixed"}
+{"prompt": "I want a fruit stand with colorful fruits and warm market ambient", "category": "mixed"}
+{"prompt": "make a marble run with a marble rolling through colorful tracks", "category": "mixed"}
+{"prompt": "draw a treehouse with fairy lights wrapped around the branches", "category": "mixed"}
+{"prompt": "show a wishing well with a coin splash and ripple of gold light", "category": "mixed"}
+{"prompt": "I want a meteor shower over a mountain range with dark blue ambient", "category": "mixed"}
+{"prompt": "make a puzzle being assembled piece by piece revealing a picture", "category": "mixed"}
+{"prompt": "draw a clock tower at midnight with bells ringing in gold flashes", "category": "mixed"}
+{"prompt": "show a garden path lit by little lanterns leading to a glowing door", "category": "mixed"}
+{"prompt": "I want a volcano scene that erupts then settles to warm amber", "category": "mixed"}
+{"prompt": "make a dance floor with tiles lighting up in patterns", "category": "mixed"}
+{"prompt": "draw a dragon sleeping on gold with one eye opening slowly", "category": "mixed"}
+{"prompt": "show a river flowing through a canyon with sunset colors above", "category": "mixed"}
+{"prompt": "I want a snow angel being made with sparkles where the wings are", "category": "mixed"}
+{"prompt": "make a firefly jar that someone opens and the fireflies spread across the display", "category": "mixed"}
+{"prompt": "draw a peacock fanning its tail with each feather a different color", "category": "mixed"}
+{"prompt": "show a bamboo forest with gentle wind rustling and green ambient", "category": "mixed"}
+{"prompt": "I want a movie clapboard snapping then spotlight turning on", "category": "mixed"}
+{"prompt": "make a birdhouse with birds coming and going and chirpy colors", "category": "mixed"}
+{"prompt": "draw a vintage radio tuning through static to find a warm signal", "category": "mixed"}
+{"prompt": "show a telescope finding a planet then zooming in with discovery colors", "category": "mixed"}
+{"prompt": "make a donut shop with donuts on display and warm bakery light", "category": "mixed"}
+{"prompt": "draw a fairy sprinkling pixie dust that lights up where it falls", "category": "mixed"}
+{"prompt": "show a matryoshka doll opening to reveal smaller ones with different colors each", "category": "mixed"}
+{"prompt": "I want a campfire story vibe where the fire flickers and shadows dance", "category": "mixed"}
+{"prompt": "make a candy factory with sweets rolling by on a conveyor in bright colors", "category": "mixed"}
+{"prompt": "draw a night sky clearing from clouds to reveal the milky way", "category": "mixed"}
+{"prompt": "show a gingerbread house with colorful candy decorations and warm oven glow", "category": "mixed"}
+{"prompt": "I want a carousel spinning with horses going up and down and carnival lights", "category": "mixed"}
+{"prompt": "make a magic mirror rippling when touched then showing stars", "category": "mixed"}
+{"prompt": "draw a campfire that responds to wind, flickering harder when blue gusts blow", "category": "mixed"}
+{"prompt": "show a paint by numbers scene filling in color one section at a time", "category": "mixed"}
+{"prompt": "I want a deep sea scene with an anglerfish light glowing in the dark", "category": "mixed"}
+{"prompt": "make a clock that ticks through colors, each hour a different hue", "category": "mixed"}
+{"prompt": "draw a snow covered bridge with warm lamplight on each post", "category": "mixed"}
+{"prompt": "show a kaleidoscope turning slowly with geometric patterns evolving", "category": "mixed"}
+{"prompt": "I want a tidal pool scene with starfish and anemones in soft colors", "category": "mixed"}
+{"prompt": "make a toy train circling around a christmas tree with twinkling lights", "category": "mixed"}
+{"prompt": "draw a love letter being sealed with a wax stamp and red glow", "category": "mixed"}
+{"prompt": "show a chef's hat with steam and warm kitchen amber ambient", "category": "mixed"}
+{"prompt": "I want a tarot card flipping over and revealing a glowing star symbol", "category": "mixed"}
+{"prompt": "make a chandelier with crystals catching light and rainbow prisms", "category": "mixed"}
+{"prompt": "draw a garden gnome with fairy lights around him at dusk", "category": "mixed"}
+{"prompt": "show a coconut cracking open with tropical colors splashing out", "category": "mixed"}
+{"prompt": "make a tent under the stars with a warm lantern glow inside", "category": "mixed"}
+{"prompt": "draw a train entering a snowy tunnel then emerging into golden sunlight", "category": "mixed"}
+{"prompt": "show a flower crown being woven together with each flower lighting up", "category": "mixed"}
+{"prompt": "I want a space station orbiting earth with blue and white ambient", "category": "mixed"}
+{"prompt": "draw a cozy rainy day scene with tea and a book and warm amber", "category": "mixed"}
+{"prompt": "show a vine growing across the display with flowers blooming along the way", "category": "mixed"}
+{"prompt": "make a sunset picnic scene with a basket and warm golden light fading", "category": "mixed"}
+{"prompt": "show a bird hatching from an egg then learning to fly with blue sky ambient", "category": "mixed"}
+{"prompt": "draw a castle drawbridge lowering then a knight riding out", "category": "mixed"}
+{"prompt": "I want a clock melting like a dali painting with surreal colors", "category": "mixed"}
+{"prompt": "make a river of stars flowing from one side to the other with a moon", "category": "mixed"}
+{"prompt": "draw an origami bird unfolding from paper into a flying crane", "category": "mixed"}
+{"prompt": "show a wave pool effect with a surfboard riding on top", "category": "mixed"}
+{"prompt": "I want a chill lo-fi study vibe with a window showing rain and warm desk lamp", "category": "mixed"}
+{"prompt": "make a cherry tree going through all four seasons in a loop", "category": "mixed"}
+{"prompt": "draw a candle being lit then the wax slowly dripping down", "category": "mixed"}
+{"prompt": "show a cup of hot cocoa with marshmallows bobbing and steam curling up", "category": "mixed"}
+{"prompt": "make a bird feeder scene with different birds visiting one at a time", "category": "mixed"}
+{"prompt": "draw a traffic light counting down green yellow red with city ambient", "category": "mixed"}
+{"prompt": "I want an old map unrolling and showing treasure markers lighting up", "category": "mixed"}
+{"prompt": "show a snow globe scene that shakes every few minutes then settles", "category": "mixed"}
+{"prompt": "make a rainy night neon sign that blinks on saying OPEN in pink", "category": "mixed"}
+{"prompt": "draw a zen rock garden with sand being raked into patterns", "category": "mixed"}
+{"prompt": "show a ship's wheel turning and the sea scene changing from calm to waves", "category": "mixed"}
+{"prompt": "I want a fruit smoothie being blended, fruits dropping in then colorful swirl", "category": "mixed"}
+{"prompt": "make a forest path with autumn leaves falling and warm afternoon sun", "category": "mixed"}
+{"prompt": "draw a record player needle dropping on vinyl then warm vintage colors", "category": "mixed"}
+{"prompt": "show an envelope opening and hearts flying out with pink sparkles", "category": "mixed"}
+{"prompt": "I want a deep forest with a stream and sunlight filtering through leaves", "category": "mixed"}
+{"prompt": "make a waterfall at night with moonlight reflecting on the water", "category": "mixed"}
+{"prompt": "draw a hot dog stand with mustard squiggle and warm summer ambient", "category": "mixed"}
+{"prompt": "show a wishing star being wished upon then exploding into sparkles", "category": "mixed"}
+{"prompt": "I want a meadow with wildflowers swaying and a gentle breeze ambient", "category": "mixed"}
+{"prompt": "make a coral reef at sunset with the light shifting from gold to blue", "category": "mixed"}
+{"prompt": "draw a mailbox flag going up then a heart letter flying out", "category": "mixed"}
+{"prompt": "show a garden sprinkler going tsst tsst with rainbow in the spray", "category": "mixed"}
+{"prompt": "I want a treehouse at night with fireflies and warm window glow", "category": "mixed"}
+{"prompt": "make a snowboard trick where the rider does a flip then lands in powder", "category": "mixed"}
+{"prompt": "draw a bridge over a river with lanterns on each side at twilight", "category": "mixed"}
+{"prompt": "show a butterfly landing on a flower then the flower closes for the night", "category": "mixed"}
+{"prompt": "I want a fishing boat at sunrise with the first golden rays hitting the water", "category": "mixed"}
+{"prompt": "make a bakery window display with cupcakes and warm oven glow inside", "category": "mixed"}
+{"prompt": "draw a spider web with morning dew drops catching light like diamonds", "category": "mixed"}
+{"prompt": "show a ballerina spinning with spotlight following and soft ambient", "category": "mixed"}
+{"prompt": "I want a cozy coffee shop window view with rain outside and espresso steam inside", "category": "mixed"}
+{"prompt": "make a parade going by with confetti and marching band colors", "category": "mixed"}
+{"prompt": "draw a skyline at golden hour with buildings silhouetted against orange sky", "category": "mixed"}
+{"prompt": "show a potters wheel spinning with clay taking shape and earthy warm tones", "category": "mixed"}
+{"prompt": "I want a bird's eye view of a maze with a glowing path showing the solution", "category": "mixed"}
+{"prompt": "make a fireworks show finale with everything going off at once then fading", "category": "mixed"}
+{"prompt": "draw a baby turtle hatching and crawling toward the moonlit ocean", "category": "mixed"}
+{"prompt": "show a chef flipping a pancake that spins in the air then lands", "category": "mixed"}
+{"prompt": "I want a gentle tide coming in and going out on a beach at sunset", "category": "mixed"}
+{"prompt": "make a game of catch with a glowing ball bouncing back and forth", "category": "mixed"}
+{"prompt": "draw a snow angel with sparkly snow and soft winter blue ambient", "category": "mixed"}
+{"prompt": "show a soap bubble floating then popping into rainbow sparks", "category": "mixed"}
+{"prompt": "I want a moon rising behind a mountain with wolves howling in silhouette", "category": "mixed"}
+{"prompt": "make a water droplet falling into a pond and ripples spreading out in color", "category": "mixed"}
+{"prompt": "draw a vine wreath being assembled with berries and leaves appearing", "category": "mixed"}
+{"prompt": "show a magic carpet ride over a desert city at night with golden lights below", "category": "mixed"}
+{"prompt": "I want a slow motion raindrop splashing with ripples of light spreading", "category": "mixed"}
+{"prompt": "make a photo booth strip with four different poses flashing by", "category": "mixed"}
+{"prompt": "draw a treeline silhouette at sunset fading from orange to purple to dark blue", "category": "mixed"}
+{"prompt": "show a harvest moon rising big and orange with a cornfield below", "category": "mixed"}
+{"prompt": "I want a fairy tale castle with a moat and drawbridge at golden hour", "category": "mixed"}
+{"prompt": "make a bottle rocket launching with a trail of sparkles behind it", "category": "mixed"}
+{"prompt": "draw a sleeping dragon that snores little puffs of fire", "category": "mixed"}
+{"prompt": "show a snowflake falling in slow motion spinning and catching the light", "category": "mixed"}
+{"prompt": "I want a jazz club scene with a saxophone and moody blue and warm spotlight", "category": "mixed"}
+{"prompt": "make a time-lapse of a city going from dawn to midday to dusk to night", "category": "mixed"}
+{"prompt": "draw a field of fireflies turning on one by one until the whole display glows", "category": "mixed"}
+{"prompt": "show a polar bear on an iceberg with aurora borealis dancing above", "category": "mixed"}
+{"prompt": "I want a retro diner neon sign buzzing on with warm counter lights inside", "category": "mixed"}
+{"prompt": "make a coral reef scene transition from day with sunbeams to night with bioluminescence", "category": "mixed"}
+{"prompt": "draw a steam train chugging along with puffs of smoke and warm amber headlamp", "category": "mixed"}
+{"prompt": "show a garden at different times of day, morning dew to afternoon sun to moonlight", "category": "mixed"}
+{"prompt": "I want a paper boat race down a rainy stream with the winner getting a gold glow", "category": "mixed"}
+{"prompt": "make a storm brewing on the horizon then a rainbow clearing and sun breaking through", "category": "mixed"}
+{"prompt": "draw a toy box opening and different toys popping out one by one with their own colors", "category": "mixed"}
+{"prompt": "show a sandstorm clearing to reveal pyramids with golden sunset behind them", "category": "mixed"}
+{"prompt": "I want a snowboarding scene going downhill then landing in a spray of snow sparkles", "category": "mixed"}
+{"prompt": "make a series of doors opening one after another with different colored worlds behind each", "category": "mixed"}
+{"prompt": "draw a meadow at dawn with morning mist clearing to reveal flowers and butterflies", "category": "mixed"}
+{"prompt": "show a genie lamp being rubbed and colorful smoke spiraling out into a shape", "category": "mixed"}
+{"prompt": "I want a field of sunflowers turning to follow the sun as it moves across the sky", "category": "mixed"}
+{"prompt": "make a bubble bath scene with iridescent bubbles floating and warm steamy ambient", "category": "mixed"}
+{"prompt": "draw a solar system with planets orbiting and each one a different color", "category": "mixed"}
+{"prompt": "show a seed being planted then growing roots then sprouting then flowering in fast forward", "category": "mixed"}
+{"prompt": "I want a northern lights show that builds up intensity then fades with a wolf silhouette", "category": "mixed"}
+{"prompt": "make a rainstick effect, tilt and let colors cascade down like raindrops with soft patter ambient", "category": "mixed"}
+{"prompt": "draw a lighthouse keeper lighting the lamp and the beam starts sweeping across the night sea", "category": "mixed"}
+{"prompt": "it's 7am, give me something to wake up to", "category": "contextual"}
+{"prompt": "late night coding session lighting", "category": "contextual"}
+{"prompt": "perfect 3pm afternoon slump picker-upper", "category": "contextual"}
+{"prompt": "it's almost bedtime, help me wind down", "category": "contextual"}
+{"prompt": "6am alarm just went off, ease me into the day", "category": "contextual"}
+{"prompt": "midnight snack lighting", "category": "contextual"}
+{"prompt": "golden hour light", "category": "contextual"}
+{"prompt": "it's 10pm and I want to read before sleep", "category": "contextual"}
+{"prompt": "early morning before everyone wakes up", "category": "contextual"}
+{"prompt": "lunch break vibes", "category": "contextual"}
+{"prompt": "it's like 2am and I can't sleep", "category": "contextual"}
+{"prompt": "sunrise mode please", "category": "contextual"}
+{"prompt": "it's getting dark outside, turn up the warmth", "category": "contextual"}
+{"prompt": "5am workout lighting", "category": "contextual"}
+{"prompt": "mid-afternoon energy boost", "category": "contextual"}
+{"prompt": "it's dusk, something to transition into the evening", "category": "contextual"}
+{"prompt": "just woke up, something gentle", "category": "contextual"}
+{"prompt": "nighttime reading light, not too harsh", "category": "contextual"}
+{"prompt": "it's noon, bright and energizing please", "category": "contextual"}
+{"prompt": "4am can't sleep mode", "category": "contextual"}
+{"prompt": "pre-dawn quiet time", "category": "contextual"}
+{"prompt": "it's getting late, something sleepy", "category": "contextual"}
+{"prompt": "after dinner relaxation lighting", "category": "contextual"}
+{"prompt": "morning coffee light", "category": "contextual"}
+{"prompt": "it's 11pm and I should be asleep but here I am", "category": "contextual"}
+{"prompt": "crack of dawn, super gentle wake up light", "category": "contextual"}
+{"prompt": "mid-morning work mode", "category": "contextual"}
+{"prompt": "it's 9pm, movie time lighting", "category": "contextual"}
+{"prompt": "early afternoon pick me up", "category": "contextual"}
+{"prompt": "sun just set, ease into night mode", "category": "contextual"}
+{"prompt": "it's 8am and I'm running late but make it nice", "category": "contextual"}
+{"prompt": "late afternoon study session light", "category": "contextual"}
+{"prompt": "it's past midnight, I need a calming glow", "category": "contextual"}
+{"prompt": "7pm dinner time ambiance", "category": "contextual"}
+{"prompt": "the sun is coming up, match it", "category": "contextual"}
+{"prompt": "2pm post-lunch sleepy light", "category": "contextual"}
+{"prompt": "it's like 3 in the morning, something soft so I don't wake anyone", "category": "contextual"}
+{"prompt": "evening wind-down, maybe around 8ish", "category": "contextual"}
+{"prompt": "bright morning light for getting ready", "category": "contextual"}
+{"prompt": "twilight hour lighting", "category": "contextual"}
+{"prompt": "it's the middle of the night and I got up for water", "category": "contextual"}
+{"prompt": "9am meeting prep lighting, energizing", "category": "contextual"}
+{"prompt": "afternoon tea time glow", "category": "contextual"}
+{"prompt": "late evening journaling light", "category": "contextual"}
+{"prompt": "it's still dark out but I gotta get up", "category": "contextual"}
+{"prompt": "sunset vibes for the living room", "category": "contextual"}
+{"prompt": "1pm back to work after lunch", "category": "contextual"}
+{"prompt": "nighttime nursery light, super dim", "category": "contextual"}
+{"prompt": "it's like 6 in the evening, winding down from work", "category": "contextual"}
+{"prompt": "early bird light, I'm up before the sun", "category": "contextual"}
+{"prompt": "it's 4pm and the sun is streaming in, something to match", "category": "contextual"}
+{"prompt": "around midnight, need just a tiny bit of light", "category": "contextual"}
+{"prompt": "morning meditation glow", "category": "contextual"}
+{"prompt": "it's getting close to dinner, warm it up", "category": "contextual"}
+{"prompt": "late late night, can barely keep my eyes open", "category": "contextual"}
+{"prompt": "the day is just starting, something hopeful", "category": "contextual"}
+{"prompt": "11am brunch lighting", "category": "contextual"}
+{"prompt": "it's pitch black outside, cozy me up", "category": "contextual"}
+{"prompt": "10am focus time", "category": "contextual"}
+{"prompt": "afternoon nap time lighting", "category": "contextual"}
+{"prompt": "it's 5pm, end of work day celebration", "category": "contextual"}
+{"prompt": "wee hours of the morning, something barely there", "category": "contextual"}
+{"prompt": "daybreak glow please", "category": "contextual"}
+{"prompt": "it's 8pm and I'm settling in for the night", "category": "contextual"}
+{"prompt": "post-sunrise morning brightness", "category": "contextual"}
+{"prompt": "the evening is young, something lively", "category": "contextual"}
+{"prompt": "it's 1am, I know I should sleep but make it chill", "category": "contextual"}
+{"prompt": "early morning yoga light, around 6:30", "category": "contextual"}
+{"prompt": "happy hour lighting, it's 5 o'clock somewhere", "category": "contextual"}
+{"prompt": "pre-bedtime routine, about 9:30pm", "category": "contextual"}
+{"prompt": "midday brightness to keep me awake", "category": "contextual"}
+{"prompt": "it's that weird time between afternoon and evening", "category": "contextual"}
+{"prompt": "3am feeding the baby, need something super soft", "category": "contextual"}
+{"prompt": "weekend morning, slow and lazy light", "category": "contextual"}
+{"prompt": "it's getting towards sunset, something warm and orange", "category": "contextual"}
+{"prompt": "just before noon energy", "category": "contextual"}
+{"prompt": "night shift lighting, gotta stay awake at 2am", "category": "contextual"}
+{"prompt": "early evening cooking light", "category": "contextual"}
+{"prompt": "the stars are out, something to match the night sky", "category": "contextual"}
+{"prompt": "it's a little past dawn, fresh and new feeling", "category": "contextual"}
+{"prompt": "3:30pm slump, I need a boost", "category": "contextual"}
+{"prompt": "it's way past my bedtime but whatever", "category": "contextual"}
+{"prompt": "morning shower prep light, bright and awake", "category": "contextual"}
+{"prompt": "dusk settling in, transition me to evening mode", "category": "contextual"}
+{"prompt": "it's about 7:30 in the morning, just having breakfast", "category": "contextual"}
+{"prompt": "late afternoon sun is fading, keep the warmth going", "category": "contextual"}
+{"prompt": "um it's like really late, something sleepy", "category": "contextual"}
+{"prompt": "half past noon energy boost", "category": "contextual"}
+{"prompt": "it's nightfall, make it feel safe and warm", "category": "contextual"}
+{"prompt": "sun just came up, give me that fresh morning feel", "category": "contextual"}
+{"prompt": "the afternoon light is fading, supplement it", "category": "contextual"}
+{"prompt": "it's one of those really early mornings", "category": "contextual"}
+{"prompt": "post-work evening decompression", "category": "contextual"}
+{"prompt": "it's just turned dark, first light of the evening", "category": "contextual"}
+{"prompt": "12:30am and I'm still awake, something mellow", "category": "contextual"}
+{"prompt": "sunrise is happening right now, do something beautiful", "category": "contextual"}
+{"prompt": "it's around 4 in the afternoon, getting drowsy", "category": "contextual"}
+{"prompt": "bedtime light for the kids", "category": "contextual"}
+{"prompt": "it's well past sundown, nighttime glow", "category": "contextual"}
+{"prompt": "6:30am gentle wake-up", "category": "contextual"}
+{"prompt": "late morning chill, kinda lazy day", "category": "contextual"}
+{"prompt": "it's 10:30 at night, dim everything down", "category": "contextual"}
+{"prompt": "right around noon, bright and clear", "category": "contextual"}
+{"prompt": "sunset is almost done, last bit of color", "category": "contextual"}
+{"prompt": "it's so early the birds aren't even up", "category": "contextual"}
+{"prompt": "evening routine light, brushing teeth and getting ready for bed", "category": "contextual"}
+{"prompt": "just hit 5pm, switching from work to relax", "category": "contextual"}
+{"prompt": "deep night, everything is quiet", "category": "contextual"}
+{"prompt": "first light of morning coming through", "category": "contextual"}
+{"prompt": "it's 2:30 in the afternoon and I'm fading fast", "category": "contextual"}
+{"prompt": "tucking in for the night, something dreamy", "category": "contextual"}
+{"prompt": "morning rush, getting the kids ready for school", "category": "contextual"}
+{"prompt": "it's late enough that the streetlights are on", "category": "contextual"}
+{"prompt": "high noon sun, match the energy outside", "category": "contextual"}
+{"prompt": "around 3am and the house is dead quiet", "category": "contextual"}
+{"prompt": "early evening stroll vibes", "category": "contextual"}
+{"prompt": "it's like 7pm and I'm cooking dinner", "category": "contextual"}
+{"prompt": "barely dawn, the sky is just turning pink", "category": "contextual"}
+{"prompt": "it's past 11pm, time to actually go to sleep", "category": "contextual"}
+{"prompt": "the afternoon is dragging on forever", "category": "contextual"}
+{"prompt": "witching hour lighting, it's 3am", "category": "contextual"}
+{"prompt": "good morning light, around 7:30", "category": "contextual"}
+{"prompt": "it's that nice time right before sunset", "category": "contextual"}
+{"prompt": "post-midnight glow, keeping it real low", "category": "contextual"}
+{"prompt": "brunch is happening, late morning festive", "category": "contextual"}
+{"prompt": "it's dimmingtime, sun going down slowly", "category": "contextual"}
+{"prompt": "the morning light is gorgeous outside, echo it inside", "category": "contextual"}
+{"prompt": "around 9pm, movie night with the family", "category": "contextual"}
+{"prompt": "i'm up way too early, like 4:30am", "category": "contextual"}
+{"prompt": "the day is almost over, give me peaceful evening", "category": "contextual"}
+{"prompt": "afternoon coffee break lighting", "category": "contextual"}
+{"prompt": "it's that golden time right before the sun dips below the horizon", "category": "contextual"}
+{"prompt": "late night study cram session", "category": "contextual"}
+{"prompt": "morning light to help me actually get out of bed", "category": "contextual"}
+{"prompt": "somewhere between late afternoon and early evening", "category": "contextual"}
+{"prompt": "it's way too early to be up on a saturday", "category": "contextual"}
+{"prompt": "evening bath time for the kids, calm and warm", "category": "contextual"}
+{"prompt": "the middle of a long day, I need a refresh", "category": "contextual"}
+{"prompt": "it's hours before dawn, just me and the dark", "category": "contextual"}
+{"prompt": "lazy sunday morning, no rush", "category": "contextual"}
+{"prompt": "it's 6pm and the light outside is changing", "category": "contextual"}
+{"prompt": "middle of the night bathroom trip, super low light", "category": "contextual"}
+{"prompt": "first thing in the morning, bright enough to find my clothes", "category": "contextual"}
+{"prompt": "it's almost time for the sunset, get ready", "category": "contextual"}
+{"prompt": "well past bedtime, guilty pleasure late night", "category": "contextual"}
+{"prompt": "8:30am commute-is-over-time, settling into work", "category": "contextual"}
+{"prompt": "last light of the day", "category": "contextual"}
+{"prompt": "it's quarter past midnight and I'm deep in a book", "category": "contextual"}
+{"prompt": "just before the sun comes up, that quiet magical time", "category": "contextual"}
+{"prompt": "around 4:30 in the afternoon, tea and biscuits light", "category": "contextual"}
+{"prompt": "nightcap lighting, winding all the way down", "category": "contextual"}
+{"prompt": "up with the roosters, crack of dawn", "category": "contextual"}
+{"prompt": "it's evening but not quite night yet", "category": "contextual"}
+{"prompt": "so late it's almost early", "category": "contextual"}
+{"prompt": "lunchtime brightness", "category": "contextual"}
+{"prompt": "it's about time for bed, start dimming", "category": "contextual"}
+{"prompt": "fresh new morning, the sun is up and so am I", "category": "contextual"}
+{"prompt": "that sleepy time between 9 and 10pm", "category": "contextual"}
+{"prompt": "afternoon slump is real, help me out", "category": "contextual"}
+{"prompt": "end of the day reflection time", "category": "contextual"}
+{"prompt": "i've been up since 5am, match my tired energy", "category": "contextual"}
+{"prompt": "it's the blue hour, that gorgeous time just after sunset", "category": "contextual"}
+{"prompt": "saturday night in, cozy evening lighting", "category": "contextual"}
+{"prompt": "before the alarm goes off, gentle pre-dawn light", "category": "contextual"}
+{"prompt": "it's like 11:30pm, basically tomorrow already", "category": "contextual"}
+{"prompt": "the sun's at its peak, bright midday mode", "category": "contextual"}
+{"prompt": "okay it's really late I should go to bed, night mode", "category": "contextual"}
+{"prompt": "breakfast table lighting, warm and inviting", "category": "contextual"}
+{"prompt": "the light is changing outside, autumn afternoon at 4pm", "category": "contextual"}
+{"prompt": "up in the middle of the night with a sick kid, soft light", "category": "contextual"}
+{"prompt": "it's finally friday evening", "category": "contextual"}
+{"prompt": "morning person mode, bright and cheerful at 6am", "category": "contextual"}
+{"prompt": "the night is young, it's only 8pm", "category": "contextual"}
+{"prompt": "I pulled an all-nighter, it's now 5:30am", "category": "contextual"}
+{"prompt": "late morning productivity push", "category": "contextual"}
+{"prompt": "it's getting on towards 10pm, wrap up the day", "category": "contextual"}
+{"prompt": "half past three in the afternoon, fighting the yawns", "category": "contextual"}
+{"prompt": "post-dinner 7:30pm settling in", "category": "contextual"}
+{"prompt": "that peaceful 6am before the chaos starts", "category": "contextual"}
+{"prompt": "it's dark thirty, way too early", "category": "contextual"}
+{"prompt": "sunlight is pouring in at 2pm, do something complementary", "category": "contextual"}
+{"prompt": "evening has fully arrived, 9:30pm chill", "category": "contextual"}
+{"prompt": "quarter to seven in the morning, just getting moving", "category": "contextual"}
+{"prompt": "it's dusk and I'm on the porch, inside light to match", "category": "contextual"}
+{"prompt": "around 1:30am, winding down from a late night out", "category": "contextual"}
+{"prompt": "the morning sun just hit my window, complement it", "category": "contextual"}
+{"prompt": "it's like 5pm on a winter day so it's already dark", "category": "contextual"}
+{"prompt": "right before dawn, that grey light", "category": "contextual"}
+{"prompt": "it's noon on a weekend, bright and happy", "category": "contextual"}
+{"prompt": "11pm bedtime routine starting", "category": "contextual"}
+{"prompt": "late morning sun streaming in, around 10:30", "category": "contextual"}
+{"prompt": "it's that awkward 4pm where it's not quite afternoon not quite evening", "category": "contextual"}
+{"prompt": "early early morning, haven't seen the sun yet", "category": "contextual"}
+{"prompt": "post-sunset purple sky time", "category": "contextual"}
+{"prompt": "7:45am, about to head out the door", "category": "contextual"}
+{"prompt": "it's high time for bed, past 11", "category": "contextual"}
+{"prompt": "the day is brand new, sunrise energy", "category": "contextual"}
+{"prompt": "2am thoughts need 2am lighting", "category": "contextual"}
+{"prompt": "just past lunchtime, back at the desk", "category": "contextual"}
+{"prompt": "it's the tail end of the evening, almost night", "category": "contextual"}
+{"prompt": "I'm about to start a zoom call", "category": "contextual"}
+{"prompt": "hosting a dinner party in an hour", "category": "contextual"}
+{"prompt": "kids are coming over for a playdate", "category": "contextual"}
+{"prompt": "setting up for a romantic dinner", "category": "contextual"}
+{"prompt": "writing an essay, need focus lighting", "category": "contextual"}
+{"prompt": "binge watching a horror series", "category": "contextual"}
+{"prompt": "having friends over for board games", "category": "contextual"}
+{"prompt": "trying to fall asleep right now", "category": "contextual"}
+{"prompt": "just woke up from a nap, kinda groggy", "category": "contextual"}
+{"prompt": "about to do some stretching", "category": "contextual"}
+{"prompt": "I'm working from home today, need good desk lighting", "category": "contextual"}
+{"prompt": "getting ready for a date night", "category": "contextual"}
+{"prompt": "studying for finals, need intense focus", "category": "contextual"}
+{"prompt": "painting a watercolor, need natural-looking light", "category": "contextual"}
+{"prompt": "doing a puzzle on the coffee table", "category": "contextual"}
+{"prompt": "making breakfast, need to see what I'm doing", "category": "contextual"}
+{"prompt": "about to take a bath, set the mood", "category": "contextual"}
+{"prompt": "I'm meditating, keep it super calm", "category": "contextual"}
+{"prompt": "playing video games, something immersive", "category": "contextual"}
+{"prompt": "cleaning the apartment, bright and energizing", "category": "contextual"}
+{"prompt": "reading a book on the couch", "category": "contextual"}
+{"prompt": "doing laundry and folding clothes", "category": "contextual"}
+{"prompt": "I've got people coming over for wine and cheese", "category": "contextual"}
+{"prompt": "working on a deadline, crunch time", "category": "contextual"}
+{"prompt": "just got back from the gym, cooling down", "category": "contextual"}
+{"prompt": "baking cookies in the kitchen", "category": "contextual"}
+{"prompt": "I'm journaling before bed", "category": "contextual"}
+{"prompt": "about to start a podcast recording", "category": "contextual"}
+{"prompt": "organizing my closet, need bright light", "category": "contextual"}
+{"prompt": "doing yoga in the living room", "category": "contextual"}
+{"prompt": "I'm on a phone call, something background-ish", "category": "contextual"}
+{"prompt": "having a solo dance party in my room", "category": "contextual"}
+{"prompt": "watching a documentary, cozy but attentive", "category": "contextual"}
+{"prompt": "wrapping birthday presents", "category": "contextual"}
+{"prompt": "I'm practicing guitar, set the vibe", "category": "contextual"}
+{"prompt": "working on my laptop at the kitchen table", "category": "contextual"}
+{"prompt": "feeding the baby, soft and warm please", "category": "contextual"}
+{"prompt": "just finished cooking, sitting down to eat", "category": "contextual"}
+{"prompt": "I'm doing my skincare routine", "category": "contextual"}
+{"prompt": "about to have a difficult conversation, something calming", "category": "contextual"}
+{"prompt": "kids are doing homework at the table", "category": "contextual"}
+{"prompt": "I'm crafting, need detail lighting", "category": "contextual"}
+{"prompt": "having a movie marathon tonight", "category": "contextual"}
+{"prompt": "about to do a presentation from home", "category": "contextual"}
+{"prompt": "I'm sewing, need to see the stitches", "category": "contextual"}
+{"prompt": "playing card games with the family", "category": "contextual"}
+{"prompt": "just sat down to write some music", "category": "contextual"}
+{"prompt": "decluttering the room, energetic light", "category": "contextual"}
+{"prompt": "I'm stretching after a long day at my desk", "category": "contextual"}
+{"prompt": "having a tea ceremony, peaceful and intentional", "category": "contextual"}
+{"prompt": "I'm doing a face mask and chilling", "category": "contextual"}
+{"prompt": "about to start a dnd session with friends", "category": "contextual"}
+{"prompt": "meal prepping for the week", "category": "contextual"}
+{"prompt": "I'm drawing in my sketchbook", "category": "contextual"}
+{"prompt": "assembling furniture, need to see clearly", "category": "contextual"}
+{"prompt": "watching the game with the guys", "category": "contextual"}
+{"prompt": "baby is napping, keep it quiet and dim", "category": "contextual"}
+{"prompt": "I'm working on a jigsaw puzzle", "category": "contextual"}
+{"prompt": "virtual happy hour with coworkers", "category": "contextual"}
+{"prompt": "doing a workout video in the living room", "category": "contextual"}
+{"prompt": "I'm about to give an online interview", "category": "contextual"}
+{"prompt": "knitting on the couch, cozy craft time", "category": "contextual"}
+{"prompt": "watering my plants, bright green vibes", "category": "contextual"}
+{"prompt": "hosting a book club meeting", "category": "contextual"}
+{"prompt": "I'm editing photos, need accurate light", "category": "contextual"}
+{"prompt": "having a girls' night in", "category": "contextual"}
+{"prompt": "I'm doing my makeup, need good visibility", "category": "contextual"}
+{"prompt": "putting together a model kit, need focus light", "category": "contextual"}
+{"prompt": "I'm listening to a podcast and relaxing", "category": "contextual"}
+{"prompt": "teaching my kid to read, bright and cheerful", "category": "contextual"}
+{"prompt": "taking an online class right now", "category": "contextual"}
+{"prompt": "setting up for family game night", "category": "contextual"}
+{"prompt": "I'm doing some light stretching before bed", "category": "contextual"}
+{"prompt": "watching a scary movie alone", "category": "contextual"}
+{"prompt": "working on my resume, need to concentrate", "category": "contextual"}
+{"prompt": "having a slow breakfast, no rush today", "category": "contextual"}
+{"prompt": "about to hop on a team standup call", "category": "contextual"}
+{"prompt": "I'm coloring in an adult coloring book", "category": "contextual"}
+{"prompt": "playing piano, set the concert mood", "category": "contextual"}
+{"prompt": "I'm about to do some deep breathing exercises", "category": "contextual"}
+{"prompt": "sorting through old photos, nostalgic activity", "category": "contextual"}
+{"prompt": "making cocktails for friends coming over", "category": "contextual"}
+{"prompt": "I'm building legos, fun project lighting", "category": "contextual"}
+{"prompt": "doing dishes and cleaning up after dinner", "category": "contextual"}
+{"prompt": "brainstorming ideas on a whiteboard", "category": "contextual"}
+{"prompt": "I'm about to read my kids a bedtime story", "category": "contextual"}
+{"prompt": "setting up a romantic movie night for two", "category": "contextual"}
+{"prompt": "practicing my speech for tomorrow", "category": "contextual"}
+{"prompt": "I'm doing a crossword puzzle", "category": "contextual"}
+{"prompt": "about to start a crochet project", "category": "contextual"}
+{"prompt": "gaming session, about to play some rpg", "category": "contextual"}
+{"prompt": "I'm wrapping christmas presents", "category": "contextual"}
+{"prompt": "just started a new book, getting comfortable", "category": "contextual"}
+{"prompt": "doing planks and core work", "category": "contextual"}
+{"prompt": "I'm about to do a tarot reading", "category": "contextual"}
+{"prompt": "putting the baby down for the night", "category": "contextual"}
+{"prompt": "I'm debugging code, need to focus", "category": "contextual"}
+{"prompt": "about to unbox something exciting", "category": "contextual"}
+{"prompt": "hosting a small gathering, appetizers and wine", "category": "contextual"}
+{"prompt": "I'm doing my nails, need to see the details", "category": "contextual"}
+{"prompt": "just started a video call with my parents", "category": "contextual"}
+{"prompt": "having a lazy movie afternoon", "category": "contextual"}
+{"prompt": "I'm writing thank you cards", "category": "contextual"}
+{"prompt": "about to do a home workout, push-ups and squats", "category": "contextual"}
+{"prompt": "playing with the dog in the living room", "category": "contextual"}
+{"prompt": "I'm catching up on emails before bed", "category": "contextual"}
+{"prompt": "setting up for a birthday party", "category": "contextual"}
+{"prompt": "doing a face-to-face tutoring session", "category": "contextual"}
+{"prompt": "I'm scrolling through my phone mindlessly, set the mood", "category": "contextual"}
+{"prompt": "about to take a power nap", "category": "contextual"}
+{"prompt": "having a picnic indoors because it's raining", "category": "contextual"}
+{"prompt": "I'm packing for a trip", "category": "contextual"}
+{"prompt": "setting the table for thanksgiving", "category": "contextual"}
+{"prompt": "I'm writing poetry, need inspiration lighting", "category": "contextual"}
+{"prompt": "kids are playing quietly, don't disturb the peace", "category": "contextual"}
+{"prompt": "I'm unboxing new tech gadgets", "category": "contextual"}
+{"prompt": "about to start a zoom yoga class", "category": "contextual"}
+{"prompt": "doing a science experiment with my kid", "category": "contextual"}
+{"prompt": "I'm catching up on a tv series", "category": "contextual"}
+{"prompt": "baking bread, the kitchen is warm and cozy", "category": "contextual"}
+{"prompt": "reading the newspaper with morning coffee", "category": "contextual"}
+{"prompt": "I'm having a phone-free evening, just vibing", "category": "contextual"}
+{"prompt": "helping the kids with an art project", "category": "contextual"}
+{"prompt": "about to start my evening meditation practice", "category": "contextual"}
+{"prompt": "I'm playing chess, need thinking light", "category": "contextual"}
+{"prompt": "just got home, taking off my shoes and unwinding", "category": "contextual"}
+{"prompt": "I'm watching cooking videos and trying a recipe", "category": "contextual"}
+{"prompt": "setting up a blanket fort with the kids", "category": "contextual"}
+{"prompt": "about to do some gardening indoors", "category": "contextual"}
+{"prompt": "I'm on hold with customer service, just waiting", "category": "contextual"}
+{"prompt": "grading papers at home, teacher life", "category": "contextual"}
+{"prompt": "I'm doing a diamond painting, need precise light", "category": "contextual"}
+{"prompt": "having friends over for a potluck dinner", "category": "contextual"}
+{"prompt": "I'm about to take a long hot shower, pre-shower chill", "category": "contextual"}
+{"prompt": "playing with my cat, playful vibes", "category": "contextual"}
+{"prompt": "working on a scrapbook project", "category": "contextual"}
+{"prompt": "about to record a video for youtube", "category": "contextual"}
+{"prompt": "I'm fixing something around the house, need task lighting", "category": "contextual"}
+{"prompt": "baby's first steps practice, cheerful light", "category": "contextual"}
+{"prompt": "I'm doing a virtual escape room with friends", "category": "contextual"}
+{"prompt": "folding origami, need to see the creases", "category": "contextual"}
+{"prompt": "having a romantic slow dance in the living room", "category": "contextual"}
+{"prompt": "I'm praying, something reverent and peaceful", "category": "contextual"}
+{"prompt": "about to eat takeout and watch trash tv", "category": "contextual"}
+{"prompt": "I'm trying to concentrate on a report for work", "category": "contextual"}
+{"prompt": "helping my kid build a blanket fort", "category": "contextual"}
+{"prompt": "I'm learning a new language on my laptop", "category": "contextual"}
+{"prompt": "getting ready for a night out", "category": "contextual"}
+{"prompt": "I'm just sitting here thinking, contemplation mode", "category": "contextual"}
+{"prompt": "we're about to play charades", "category": "contextual"}
+{"prompt": "ironing clothes for tomorrow", "category": "contextual"}
+{"prompt": "I'm reading comics in bed", "category": "contextual"}
+{"prompt": "just finished a run, stretching in the living room", "category": "contextual"}
+{"prompt": "about to have a serious talk with my partner", "category": "contextual"}
+{"prompt": "I'm planting seeds in little pots", "category": "contextual"}
+{"prompt": "playing with building blocks with my toddler", "category": "contextual"}
+{"prompt": "I'm doing an online shopping spree, retail therapy lighting", "category": "contextual"}
+{"prompt": "about to open a bottle of wine and unwind", "category": "contextual"}
+{"prompt": "I'm rehearsing lines for a play", "category": "contextual"}
+{"prompt": "doing a spa night at home", "category": "contextual"}
+{"prompt": "I'm assembling a bookshelf, need task light", "category": "contextual"}
+{"prompt": "mixing music on my laptop, studio vibes", "category": "contextual"}
+{"prompt": "I'm about to start a pilates session", "category": "contextual"}
+{"prompt": "doing a puzzle with my grandma", "category": "contextual"}
+{"prompt": "I'm repotting my houseplants", "category": "contextual"}
+{"prompt": "about to play some vinyl records, set the mood", "category": "contextual"}
+{"prompt": "I'm making homemade pasta from scratch", "category": "contextual"}
+{"prompt": "reading bedtime stories to the twins", "category": "contextual"}
+{"prompt": "I'm doing a guided meditation on my phone", "category": "contextual"}
+{"prompt": "having a karaoke night at home", "category": "contextual"}
+{"prompt": "I'm looking through old yearbooks", "category": "contextual"}
+{"prompt": "about to start my morning journaling", "category": "contextual"}
+{"prompt": "I'm decorating the christmas tree", "category": "contextual"}
+{"prompt": "wrapping up work for the day, shutting the laptop", "category": "contextual"}
+{"prompt": "I'm watching an intense thriller movie", "category": "contextual"}
+{"prompt": "having a fondue night with my partner", "category": "contextual"}
+{"prompt": "doing flash cards for my language class", "category": "contextual"}
+{"prompt": "I'm waiting for my friend to arrive", "category": "contextual"}
+{"prompt": "about to start a bob ross painting session", "category": "contextual"}
+{"prompt": "I'm trying to get some writing done for my novel", "category": "contextual"}
+{"prompt": "helping the kids with their science fair project", "category": "contextual"}
+{"prompt": "I'm catching up on work emails on a sunday, ugh", "category": "contextual"}
+{"prompt": "playing hide and seek with the kids", "category": "contextual"}
+{"prompt": "I'm about to start my daily plank challenge", "category": "contextual"}
+{"prompt": "recording a voice memo for work", "category": "contextual"}
+{"prompt": "I'm making friendship bracelets", "category": "contextual"}
+{"prompt": "just sat down to eat dinner alone, make it nice", "category": "contextual"}
+{"prompt": "I'm doing a home facial treatment", "category": "contextual"}
+{"prompt": "about to play some acoustic guitar and sing", "category": "contextual"}
+{"prompt": "I'm debugging a really tricky problem", "category": "contextual"}
+{"prompt": "setting up for a baby shower", "category": "contextual"}
+{"prompt": "I'm watching asmr videos to fall asleep", "category": "contextual"}
+{"prompt": "about to do a virtual tour of a museum", "category": "contextual"}
+{"prompt": "I'm cleaning out the fridge, bright light please", "category": "contextual"}
+{"prompt": "having a sleepover with the kids' friends", "category": "contextual"}
+{"prompt": "I'm about to have afternoon tea, proper style", "category": "contextual"}
+{"prompt": "playing a co-op video game with my buddy online", "category": "contextual"}
+{"prompt": "I'm frosting a cake for tomorrow's party", "category": "contextual"}
+{"prompt": "writing in my gratitude journal before sleep", "category": "contextual"}
+{"prompt": "I'm feeling really anxious right now", "category": "contextual"}
+{"prompt": "just got great news, I'm so happy!", "category": "contextual"}
+{"prompt": "feeling kind of down today", "category": "contextual"}
+{"prompt": "I'm stressed about a deadline", "category": "contextual"}
+{"prompt": "feeling nostalgic, missing home", "category": "contextual"}
+{"prompt": "I'm bored, entertain me", "category": "contextual"}
+{"prompt": "feeling creative and inspired", "category": "contextual"}
+{"prompt": "I need to calm down", "category": "contextual"}
+{"prompt": "feeling lonely tonight", "category": "contextual"}
+{"prompt": "I'm pumped up, just finished a workout", "category": "contextual"}
+{"prompt": "feeling really grateful right now, warm and thankful", "category": "contextual"}
+{"prompt": "I'm so frustrated I could scream", "category": "contextual"}
+{"prompt": "feeling peaceful and content with everything", "category": "contextual"}
+{"prompt": "I'm overwhelmed, too much going on", "category": "contextual"}
+{"prompt": "in a playful mood, something fun", "category": "contextual"}
+{"prompt": "feeling melancholy, you know that bittersweet feeling", "category": "contextual"}
+{"prompt": "I'm excited about tomorrow, can't sit still", "category": "contextual"}
+{"prompt": "feeling kinda restless, need something to look at", "category": "contextual"}
+{"prompt": "I'm in a really thoughtful mood tonight", "category": "contextual"}
+{"prompt": "feeling proud of myself today", "category": "contextual"}
+{"prompt": "I'm confused and scattered, help me focus", "category": "contextual"}
+{"prompt": "feeling hopeful about the future", "category": "contextual"}
+{"prompt": "I just want to feel cozy and safe", "category": "contextual"}
+{"prompt": "I'm angry and I need something to calm me down", "category": "contextual"}
+{"prompt": "feeling super energetic and alive", "category": "contextual"}
+{"prompt": "I'm tired but not sleepy, you know?", "category": "contextual"}
+{"prompt": "feeling really romantic tonight", "category": "contextual"}
+{"prompt": "I'm in a funk, need cheering up", "category": "contextual"}
+{"prompt": "feeling zen, everything is aligned", "category": "contextual"}
+{"prompt": "I'm feeling vulnerable right now, something gentle", "category": "contextual"}
+{"prompt": "just had a really good cry, feeling lighter now", "category": "contextual"}
+{"prompt": "I'm nervous about an interview tomorrow", "category": "contextual"}
+{"prompt": "feeling whimsical and silly", "category": "contextual"}
+{"prompt": "I'm in deep thought, contemplating life stuff", "category": "contextual"}
+{"prompt": "feeling accomplished, just finished a big project", "category": "contextual"}
+{"prompt": "I'm mourning, lost someone close", "category": "contextual"}
+{"prompt": "feeling adventurous, like anything could happen", "category": "contextual"}
+{"prompt": "I'm feeling really tender and emotional", "category": "contextual"}
+{"prompt": "high energy vibes, I'm hyped", "category": "contextual"}
+{"prompt": "feeling disconnected from everything", "category": "contextual"}
+{"prompt": "I'm in a super chill mood, nothing can bother me", "category": "contextual"}
+{"prompt": "feeling homesick, far from where I grew up", "category": "contextual"}
+{"prompt": "I'm giddy, like a kid on christmas morning", "category": "contextual"}
+{"prompt": "feeling overwhelmed with love and happiness", "category": "contextual"}
+{"prompt": "I'm irritated, everything is annoying today", "category": "contextual"}
+{"prompt": "feeling like I need a hug", "category": "contextual"}
+{"prompt": "I'm determined and focused, nothing stopping me", "category": "contextual"}
+{"prompt": "feeling spacey and daydreamy", "category": "contextual"}
+{"prompt": "I'm feeling generous and warm towards everyone", "category": "contextual"}
+{"prompt": "kinda depressed, don't really want to do anything", "category": "contextual"}
+{"prompt": "feeling mysterious, like a noir movie", "category": "contextual"}
+{"prompt": "I'm bursting with creative energy", "category": "contextual"}
+{"prompt": "just had a panic attack, something really soothing please", "category": "contextual"}
+{"prompt": "feeling sentimental about the past", "category": "contextual"}
+{"prompt": "I'm so relaxed I could melt into the couch", "category": "contextual"}
+{"prompt": "feeling competitive and fired up", "category": "contextual"}
+{"prompt": "I'm feeling small and insecure today", "category": "contextual"}
+{"prompt": "joyful, everything feels right", "category": "contextual"}
+{"prompt": "I'm dealing with some heavy emotions right now", "category": "contextual"}

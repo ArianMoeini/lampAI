@@ -237,13 +237,13 @@ def send_program(program_data: dict) -> bool:
 def main():
     parser = argparse.ArgumentParser(description="Benchmark local Ollama models on lamp prompts")
     parser.add_argument("--model", default=DEFAULT_MODEL, help="Ollama model name (default: llama3.2)")
-    parser.add_argument("--fast", action="store_true", help="2s pause instead of 5s")
+    parser.add_argument("--fast", action="store_true", help="0.5s pause instead of 5s")
     parser.add_argument("--index", type=int, help="Run a single test by index (1-21)")
     parser.add_argument("--category", choices=["pixel_art", "analog_clock", "multi_step"])
     args = parser.parse_args()
 
     model = args.model
-    pause = 2 if args.fast else 5
+    pause = 0.5 if args.fast else 5
     tests = PROMPTS
 
     if args.index:

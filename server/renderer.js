@@ -89,6 +89,21 @@ export class GridRenderer {
                 case 'line':
                     this.drawLine(buffer, el.x1 || 0, el.y1 || 0, el.x2 || 0, el.y2 || 0, el.color || '#FFFFFF');
                     break;
+                case 'circle':
+                    this.drawCircle(buffer, el.cx || 5, el.cy || 7, el.r || 3, el.color || '#FFFFFF', el.fill !== false);
+                    break;
+                case 'triangle':
+                    this.drawTriangle(buffer, el.cx || 5, el.cy || 5, el.size || 4, el.direction || 'up', el.color || '#FFFFFF', el.fill !== false);
+                    break;
+                case 'star':
+                    this.drawStar(buffer, el.cx || 5, el.cy || 5, el.r || 3, el.color || '#FFFFFF');
+                    break;
+                case 'diamond':
+                    this.drawDiamond(buffer, el.cx || 5, el.cy || 5, el.r || 3, el.color || '#FFFFFF', el.fill !== false);
+                    break;
+                case 'heart':
+                    this.drawHeart(buffer, el.cx || 5, el.cy || 5, el.size || 4, el.color || '#FFFFFF');
+                    break;
                 default:
                     // Unknown element type — skip
                     break;
@@ -189,6 +204,138 @@ export class GridRenderer {
             if (e2 > -dy) { err -= dy; x += sx; }
             if (e2 < dx) { err += dx; y += sy; }
         }
+    }
+    /**
+     * Draw a circle centered at (cx, cy) with radius r.
+     * If fill=true, fills the circle. Otherwise draws outline only.
+     */
+    drawCircle(buffer, cx, cy, r, color, fill = true) {
+        for (let y = Math.floor(cy - r); y <= Math.ceil(cy + r); y++) {
+            for (let x = Math.floor(cx - r); x <= Math.ceil(cx + r); x++) {
+                const dist = Math.sqrt((x - cx) ** 2 + (y - cy) ** 2);
+                if (fill) {
+                    if (dist <= r + 0.5) this.drawPixel(buffer, x, y, color);
+                } else {
+                    if (dist >= r - 0.5 && dist <= r + 0.5) this.drawPixel(buffer, x, y, color);
+                }
+            }
+        }
+    }
+
+    /**
+     * Draw a triangle centered at (cx, cy) with given size.
+     * direction: 'up', 'down', 'left', 'right'
+     * If fill=true, fills the triangle. Otherwise draws outline only.
+     */
+    drawTriangle(buffer, cx, cy, size, direction = 'up', color, fill = true) {
+        const half = Math.floor(size / 2);
+        if (direction === 'up') {
+            for (let row = 0; row <= size; row++) {
+                const width = Math.floor(row * half / size);
+                const y = cy - half + row;
+                if (fill) {
+                    for (let dx = -width; dx <= width; dx++) this.drawPixel(buffer, cx + dx, y, color);
+                } else {
+                    this.drawPixel(buffer, cx - width, y, color);
+                    this.drawPixel(buffer, cx + width, y, color);
+                    if (row === size) for (let dx = -width; dx <= width; dx++) this.drawPixel(buffer, cx + dx, y, color);
+                }
+            }
+        } else if (direction === 'down') {
+            for (let row = 0; row <= size; row++) {
+                const width = Math.floor((size - row) * half / size);
+                const y = cy - half + row;
+                if (fill) {
+                    for (let dx = -width; dx <= width; dx++) this.drawPixel(buffer, cx + dx, y, color);
+                } else {
+                    this.drawPixel(buffer, cx - width, y, color);
+                    this.drawPixel(buffer, cx + width, y, color);
+                    if (row === 0) for (let dx = -width; dx <= width; dx++) this.drawPixel(buffer, cx + dx, y, color);
+                }
+            }
+        } else if (direction === 'left') {
+            for (let col = 0; col <= size; col++) {
+                const height = Math.floor(col * half / size);
+                const x = cx - half + col;
+                if (fill) {
+                    for (let dy = -height; dy <= height; dy++) this.drawPixel(buffer, x, cy + dy, color);
+                } else {
+                    this.drawPixel(buffer, x, cy - height, color);
+                    this.drawPixel(buffer, x, cy + height, color);
+                }
+            }
+        } else if (direction === 'right') {
+            for (let col = 0; col <= size; col++) {
+                const height = Math.floor((size - col) * half / size);
+                const x = cx - half + col;
+                if (fill) {
+                    for (let dy = -height; dy <= height; dy++) this.drawPixel(buffer, x, cy + dy, color);
+                } else {
+                    this.drawPixel(buffer, x, cy - height, color);
+                    this.drawPixel(buffer, x, cy + height, color);
+                }
+            }
+        }
+    }
+
+    /**
+     * Draw a 5-pointed star centered at (cx, cy) with radius r.
+     * Uses a fixed pixel pattern scaled to the radius.
+     */
+    drawStar(buffer, cx, cy, r, color) {
+        // Top point
+        this.drawPixel(buffer, cx, cy - r, color);
+        // Upper arms
+        for (let i = 1; i <= Math.floor(r * 0.4); i++) {
+            this.drawPixel(buffer, cx - i, cy - r + i, color);
+            this.drawPixel(buffer, cx + i, cy - r + i, color);
+        }
+        // Middle wide row
+        const midY = cy - Math.floor(r * 0.3);
+        for (let x = cx - r; x <= cx + r; x++) this.drawPixel(buffer, x, midY, color);
+        // Inner body
+        for (let i = 0; i <= Math.floor(r * 0.5); i++) {
+            const width = Math.floor(r * 0.6) - Math.floor(i * 0.4);
+            const y = midY + 1 + i;
+            for (let dx = -width; dx <= width; dx++) this.drawPixel(buffer, cx + dx, y, color);
+        }
+        // Lower V legs
+        for (let i = 1; i <= Math.floor(r * 0.8); i++) {
+            const y = cy + Math.floor(r * 0.3) + i;
+            this.drawPixel(buffer, cx - Math.floor(r * 0.5) - Math.floor(i * 0.3), y, color);
+            this.drawPixel(buffer, cx + Math.floor(r * 0.5) + Math.floor(i * 0.3), y, color);
+            this.drawPixel(buffer, cx - Math.floor(i * 0.3), y, color);
+            this.drawPixel(buffer, cx + Math.floor(i * 0.3), y, color);
+        }
+        // Bottom point
+        this.drawPixel(buffer, cx, cy + r, color);
+    }
+
+    /**
+     * Draw a diamond centered at (cx, cy) with radius r.
+     */
+    drawDiamond(buffer, cx, cy, r, color, fill = true) {
+        for (let dy = -r; dy <= r; dy++) {
+            const width = r - Math.abs(dy);
+            if (fill) {
+                for (let dx = -width; dx <= width; dx++) this.drawPixel(buffer, cx + dx, cy + dy, color);
+            } else {
+                this.drawPixel(buffer, cx - width, cy + dy, color);
+                this.drawPixel(buffer, cx + width, cy + dy, color);
+            }
+        }
+    }
+
+    /**
+     * Draw a heart centered at (cx, cy) with given size.
+     */
+    drawHeart(buffer, cx, cy, size, color) {
+        const r = Math.max(1, Math.floor(size / 3));
+        // Two circles for the top bumps
+        this.drawCircle(buffer, cx - r, cy - Math.floor(r * 0.5), r, color, true);
+        this.drawCircle(buffer, cx + r, cy - Math.floor(r * 0.5), r, color, true);
+        // Triangle for the bottom point
+        this.drawTriangle(buffer, cx, cy + r, size, 'down', color, true);
     }
 }
 

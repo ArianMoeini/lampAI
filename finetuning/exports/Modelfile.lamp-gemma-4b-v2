@@ -1,0 +1,4 @@
+FROM ./lamp-gemma-4b-v2.Q8_0.gguf
+PARAMETER temperature 0.3
+PARAMETER num_predict 4096
+PARAMETER stop <end_of_turn>

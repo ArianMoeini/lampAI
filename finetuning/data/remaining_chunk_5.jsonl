@@ -1,0 +1,830 @@
+{"prompt": "window shopping, browsing leisurely, something catches your eye bright, considering, walking away, going back, buying celebration", "category": "multi_step"}
+{"prompt": "rainy day indoors, grey outside, cozy blanket warm, reading immersed, rain stopping, sun peeking through golden", "category": "multi_step"}
+{"prompt": "farmers market morning, arrival fresh, browsing colors, sampling warm, bags full, heading home satisfied golden", "category": "multi_step"}
+{"prompt": "board game night, setting up, playing strategically, close game tension, winning moment, good game warm glow", "category": "multi_step"}
+{"prompt": "planting spring bulbs, digging dark earth, placing bulbs, covering with hope, waiting patient, first green shoots, full bloom", "category": "multi_step"}
+{"prompt": "painting a room, taping off prep, first roller stroke, halfway done, finishing touches, stepping back to admire, satisfied", "category": "multi_step"}
+{"prompt": "catching fireflies, dusk approaching, first one spotted, chasing and catching glow, jar full of light, releasing them, dark peaceful", "category": "multi_step"}
+{"prompt": "snow day from school, waking up excited, checking outside bright white, bundling up, playing all day, coming inside exhausted warm", "category": "multi_step"}
+{"prompt": "moving into a new apartment, empty rooms echo, bringing in boxes, arranging furniture, first night in, morning light home feeling", "category": "multi_step"}
+{"prompt": "hammock afternoon, setting up, lying down, gentle swaying, dozing, waking to golden hour, watching sunset, going in for dinner", "category": "multi_step"}
+{"prompt": "car wash rainbow, entering dark, soap suds white, colored wax, rinse blue, dry warm, shiny exit bright", "category": "multi_step"}
+{"prompt": "visiting an aquarium, entrance dark, tank by tank blue, jellyfish glow, shark tunnel, gift shop bright, exit daylight", "category": "multi_step"}
+{"prompt": "making friendship bracelets, choosing colors, weaving pattern, knotting focused, giving it away warm, seeing them wear it bright", "category": "multi_step"}
+{"prompt": "night drive, leaving city bright, open highway dark, stars above, small town passing, destination arrival warm", "category": "multi_step"}
+{"prompt": "blanket fort movie night, building fort, choosing movie, lights off dark, watching immersed, falling asleep in the fort peaceful", "category": "multi_step"}
+{"prompt": "a whole weather system passing through, clear calm, clouds forming, rain starting, storm peak, clearing, gorgeous aftermath", "category": "multi_step"}
+{"prompt": "botanical garden walk, entrance green, tropical house warm, desert room golden, orchid room pink, zen garden peaceful exit", "category": "multi_step"}
+{"prompt": "paper airplane contest, folding focused, throwing bright, flying soaring, landing, measuring, winner celebration", "category": "multi_step"}
+{"prompt": "sunrise hike, headlamp dark start, pre-dawn grey, summit pink and gold, full sun warm, breakfast celebration", "category": "multi_step"}
+{"prompt": "slow sunday morning, sleeping in warm dark, one eye open, stretching, coffee making, newspaper reading, fully awake bright", "category": "multi_step"}
+{"prompt": "garden hose on a hot day, turning it on, rainbow in the mist, kids running through colorful, cooling off, dripping warm sun", "category": "multi_step"}
+{"prompt": "letter arriving in the mail, normal day, envelope spotted, opening anticipation, reading warm, good news bright, sharing excitement", "category": "multi_step"}
+{"prompt": "s'mores making, fire building, marshmallow roasting gold, sandwich assembly, gooey biting, satisfied warmth", "category": "multi_step"}
+{"prompt": "kicking autumn leaves, walking through park, pile spotted, running into them, leaves flying colorful, landing laughing, continuing warm walk", "category": "multi_step"}
+{"prompt": "building a sand castle that gets washed away by the tide, start hopeful, build proud, waves approaching, accepting, starting again", "category": "multi_step"}
+{"prompt": "making a wish on a dandelion, finding it, picking it, blowing seeds away scattering light, seeds floating, wish settling", "category": "multi_step"}
+{"prompt": "putting together a model train, track laying, engine placing, scenery building, first run around the track, whistle celebration", "category": "multi_step"}
+{"prompt": "rainstorm clearing into double rainbow, dark heavy rain, lightning, rain lightening, sun breaking through, full rainbow, peace", "category": "multi_step"}
+{"prompt": "building a card house, careful first cards, second level tension, almost done hold breath, complete triumph or collapse and retry", "category": "multi_step"}
+{"prompt": "spring cleaning, opening windows fresh, scrubbing bright, organizing calm, finished sparkling, sitting back satisfied warm", "category": "multi_step"}
+{"prompt": "packing for vacation, excitement choosing clothes colorful, stuffing suitcase, sitting on it to close, heading to airport bright", "category": "multi_step"}
+{"prompt": "maple syrup making, tapping trees, collecting sap, boiling down warm, thickening amber, golden finished product", "category": "multi_step"}
+{"prompt": "a pond through the day, morning mist, noon turtle basking, afternoon dragonflies, evening frogs, night reflection still", "category": "multi_step"}
+{"prompt": "chalk art on a sidewalk, blank concrete, drawing colorful, passersby admiring, rain approaching, washed away beautiful impermanence", "category": "multi_step"}
+{"prompt": "thunderstorm approaching from a porch, distant lightning, getting closer, overhead boom, downpour, moving away, petrichor peace", "category": "multi_step"}
+{"prompt": "baby chick hatching, egg warming, first peck, crack spreading, breaking free, fluffy yellow, first steps wobbling", "category": "multi_step"}
+{"prompt": "sourdough bread making, starter bubbling, kneading, rising overnight dim, baking golden, slicing, steaming fresh", "category": "multi_step"}
+{"prompt": "watching the international space station pass overhead, dark sky, first spot moving, brightest moment, fading away, gone, awe", "category": "multi_step"}
+{"prompt": "finger painting with a kid, blank paper, first handprint, wild colors everywhere, stepping back to see the art, fridge display proud", "category": "multi_step"}
+{"prompt": "sunrise from a tent, waking in sleeping bag, unzipping tent, crawling out, seeing the view, coffee in the wilderness, grateful warm", "category": "multi_step"}
+{"prompt": "putting up holiday decorations, getting boxes from storage, untangling lights, hanging each piece, stepping back, plugging in the big reveal", "category": "multi_step"}
+{"prompt": "wind chimes in changing wind, gentle tinkling calm, breeze picking up more active, strong wind wild, dying down, still peaceful", "category": "multi_step"}
+{"prompt": "I'm feeling really happy right now", "category": "creative"}
+{"prompt": "pure joy, light me up", "category": "creative"}
+{"prompt": "giddy and excited about tonight", "category": "creative"}
+{"prompt": "light up my happiness", "category": "creative"}
+{"prompt": "overflowing with joy", "category": "creative"}
+{"prompt": "I can't stop smiling, match my energy", "category": "creative"}
+{"prompt": "feeling like a kid on christmas morning", "category": "creative"}
+{"prompt": "happy tears kind of mood", "category": "creative"}
+{"prompt": "I'm so sad right now", "category": "creative"}
+{"prompt": "feeling really down today", "category": "creative"}
+{"prompt": "heavy heart energy", "category": "creative"}
+{"prompt": "everything feels grey and sad", "category": "creative"}
+{"prompt": "the weight of sadness", "category": "creative"}
+{"prompt": "melancholy kind of evening", "category": "creative"}
+{"prompt": "tears on a rainy night feeling", "category": "creative"}
+{"prompt": "I'm really angry right now", "category": "creative"}
+{"prompt": "seeing red, absolutely furious", "category": "creative"}
+{"prompt": "rage mode", "category": "creative"}
+{"prompt": "frustrated beyond belief", "category": "creative"}
+{"prompt": "angry but trying to calm down", "category": "creative"}
+{"prompt": "burning with anger", "category": "creative"}
+{"prompt": "I'm feeling so anxious", "category": "creative"}
+{"prompt": "anxiety is through the roof", "category": "creative"}
+{"prompt": "nervous energy everywhere", "category": "creative"}
+{"prompt": "tight chest anxious feeling", "category": "creative"}
+{"prompt": "can't stop worrying, help me breathe", "category": "creative"}
+{"prompt": "anxious butterflies in my stomach", "category": "creative"}
+{"prompt": "I'm so stressed out", "category": "creative"}
+{"prompt": "deadline stress is killing me", "category": "creative"}
+{"prompt": "overwhelmed with work stress", "category": "creative"}
+{"prompt": "stressed to the max", "category": "creative"}
+{"prompt": "tension headache stress vibes", "category": "creative"}
+{"prompt": "everything is due tomorrow and I'm panicking", "category": "creative"}
+{"prompt": "I'm so excited I could burst", "category": "creative"}
+{"prompt": "pumped up and ready to go", "category": "creative"}
+{"prompt": "electric excitement", "category": "creative"}
+{"prompt": "can't contain my excitement", "category": "creative"}
+{"prompt": "buzzing with anticipation", "category": "creative"}
+{"prompt": "the night before vacation feeling", "category": "creative"}
+{"prompt": "feeling really lonely tonight", "category": "creative"}
+{"prompt": "alone in the apartment loneliness", "category": "creative"}
+{"prompt": "missing someone I love", "category": "creative"}
+{"prompt": "empty room lonely feeling", "category": "creative"}
+{"prompt": "quiet solitude but the sad kind", "category": "creative"}
+{"prompt": "lonely on a friday night", "category": "creative"}
+{"prompt": "I'm exhausted, completely tired", "category": "creative"}
+{"prompt": "running on empty", "category": "creative"}
+{"prompt": "bone tired after a long day", "category": "creative"}
+{"prompt": "dragging myself through the evening", "category": "creative"}
+{"prompt": "too tired to even think", "category": "creative"}
+{"prompt": "heavy eyelids tired feeling", "category": "creative"}
+{"prompt": "I'm so bored", "category": "creative"}
+{"prompt": "bored out of my mind", "category": "creative"}
+{"prompt": "nothing to do, entertain me with light", "category": "creative"}
+{"prompt": "staring at the ceiling boredom", "category": "creative"}
+{"prompt": "bored on a sunday afternoon", "category": "creative"}
+{"prompt": "feeling really inspired right now", "category": "creative"}
+{"prompt": "creative juices flowing", "category": "creative"}
+{"prompt": "struck by inspiration", "category": "creative"}
+{"prompt": "muse has arrived, light the way", "category": "creative"}
+{"prompt": "inspiration hitting like lightning", "category": "creative"}
+{"prompt": "in the zone creatively", "category": "creative"}
+{"prompt": "feeling so grateful today", "category": "creative"}
+{"prompt": "grateful heart warm feeling", "category": "creative"}
+{"prompt": "counting my blessings mood", "category": "creative"}
+{"prompt": "thankful for everything right now", "category": "creative"}
+{"prompt": "gratitude is filling me up", "category": "creative"}
+{"prompt": "I'm confused about everything", "category": "creative"}
+{"prompt": "brain fog confusion", "category": "creative"}
+{"prompt": "lost in thought confused feeling", "category": "creative"}
+{"prompt": "tangled thoughts", "category": "creative"}
+{"prompt": "nothing makes sense right now", "category": "creative"}
+{"prompt": "hopeful about tomorrow", "category": "creative"}
+{"prompt": "feeling optimistic for the first time in a while", "category": "creative"}
+{"prompt": "glimmer of hope", "category": "creative"}
+{"prompt": "things are looking up", "category": "creative"}
+{"prompt": "light at the end of the tunnel feeling", "category": "creative"}
+{"prompt": "hope after a long storm", "category": "creative"}
+{"prompt": "feeling so proud of myself", "category": "creative"}
+{"prompt": "just accomplished something big", "category": "creative"}
+{"prompt": "proud moment celebration", "category": "creative"}
+{"prompt": "standing tall proud feeling", "category": "creative"}
+{"prompt": "achievement unlocked energy", "category": "creative"}
+{"prompt": "deep melancholy tonight", "category": "creative"}
+{"prompt": "bittersweet memories", "category": "creative"}
+{"prompt": "beautiful sadness", "category": "creative"}
+{"prompt": "rain on the window melancholy", "category": "creative"}
+{"prompt": "the ache of something ending", "category": "creative"}
+{"prompt": "peaceful and at ease", "category": "creative"}
+{"prompt": "inner peace kind of night", "category": "creative"}
+{"prompt": "calm like still water", "category": "creative"}
+{"prompt": "zen garden peacefulness", "category": "creative"}
+{"prompt": "serenity now", "category": "creative"}
+{"prompt": "at peace with everything", "category": "creative"}
+{"prompt": "so frustrated I could scream", "category": "creative"}
+{"prompt": "nothing is working and I'm frustrated", "category": "creative"}
+{"prompt": "hitting a wall frustration", "category": "creative"}
+{"prompt": "frustrated with myself", "category": "creative"}
+{"prompt": "ugh everything is going wrong", "category": "creative"}
+{"prompt": "completely overwhelmed right now", "category": "creative"}
+{"prompt": "too much happening at once", "category": "creative"}
+{"prompt": "drowning in responsibilities", "category": "creative"}
+{"prompt": "overwhelmed and need to decompress", "category": "creative"}
+{"prompt": "the walls are closing in feeling", "category": "creative"}
+{"prompt": "feeling nostalgic about my childhood", "category": "creative"}
+{"prompt": "old memories flooding back", "category": "creative"}
+{"prompt": "wild like a thunderstorm", "category": "creative"}
+{"prompt": "calm like a pond at dawn", "category": "creative"}
+{"prompt": "fresh like mint", "category": "creative"}
+{"prompt": "heavy like velvet curtains", "category": "creative"}
+{"prompt": "light like morning mist", "category": "creative"}
+{"prompt": "warm like cinnamon", "category": "creative"}
+{"prompt": "crisp like an autumn morning", "category": "creative"}
+{"prompt": "rich like dark chocolate", "category": "creative"}
+{"prompt": "thin like ice on a puddle", "category": "creative"}
+{"prompt": "warm like golden hour", "category": "creative"}
+{"prompt": "cold like glacier water", "category": "creative"}
+{"prompt": "soft like snow falling", "category": "creative"}
+{"prompt": "bright like fireworks", "category": "creative"}
+{"prompt": "tender like a slow dance", "category": "creative"}
+{"prompt": "heavy like humid air", "category": "creative"}
+{"prompt": "light like wind through curtains", "category": "creative"}
+{"prompt": "warm like a grandmother's kitchen", "category": "creative"}
+{"prompt": "cool like a cellar", "category": "creative"}
+{"prompt": "smooth like jazz", "category": "creative"}
+{"prompt": "gritty like an alley at night", "category": "creative"}
+{"prompt": "sweet like a lullaby", "category": "creative"}
+{"prompt": "bitter like black coffee", "category": "creative"}
+{"prompt": "soft like morning light through curtains", "category": "creative"}
+{"prompt": "sharp like a winter wind", "category": "creative"}
+{"prompt": "clean like fresh sheets", "category": "creative"}
+{"prompt": "dusty like an old attic", "category": "creative"}
+{"prompt": "warm like holding hands", "category": "creative"}
+{"prompt": "cool like an evening swim", "category": "creative"}
+{"prompt": "light like champagne bubbles", "category": "creative"}
+{"prompt": "deep like a cello note", "category": "creative"}
+{"prompt": "fresh like rain on pavement", "category": "creative"}
+{"prompt": "warm like a bonfire", "category": "creative"}
+{"prompt": "quiet like a library", "category": "creative"}
+{"prompt": "loud like a festival", "category": "creative"}
+{"prompt": "gentle like a stream", "category": "creative"}
+{"prompt": "fierce like a wildfire", "category": "creative"}
+{"prompt": "cozy like a reading nook", "category": "creative"}
+{"prompt": "vast like the desert at night", "category": "creative"}
+{"prompt": "intimate like a whispered secret", "category": "creative"}
+{"prompt": "grand like a cathedral", "category": "creative"}
+{"prompt": "tiny like a firefly", "category": "creative"}
+{"prompt": "endless like the horizon", "category": "creative"}
+{"prompt": "comforting like an old sweater", "category": "creative"}
+{"prompt": "make me feel like I'm underwater", "category": "creative"}
+{"prompt": "the vibe of a rooftop at midnight", "category": "creative"}
+{"prompt": "like waking up with no alarm", "category": "creative"}
+{"prompt": "the feeling right after the rain stops", "category": "creative"}
+{"prompt": "like driving with the windows down", "category": "creative"}
+{"prompt": "the last page of a good book", "category": "creative"}
+{"prompt": "the moment before a surprise", "category": "creative"}
+{"prompt": "like finding money in your pocket", "category": "creative"}
+{"prompt": "the energy of a crowded dance floor", "category": "creative"}
+{"prompt": "the quiet after everyone leaves", "category": "creative"}
+{"prompt": "like singing in the shower", "category": "creative"}
+{"prompt": "the feeling of a perfect nap", "category": "creative"}
+{"prompt": "like the first warm day of spring", "category": "creative"}
+{"prompt": "the vibe of an empty highway at night", "category": "creative"}
+{"prompt": "like stepping outside after being inside all day", "category": "creative"}
+{"prompt": "the feeling of finishing a really long run", "category": "creative"}
+{"prompt": "like the glow of a tv in a dark room", "category": "creative"}
+{"prompt": "the mood of a sunday morning with nowhere to be", "category": "creative"}
+{"prompt": "like the last day of school", "category": "creative"}
+{"prompt": "the energy right before a concert starts", "category": "creative"}
+{"prompt": "like being the only one awake in the house", "category": "creative"}
+{"prompt": "the feeling of coming home after a long trip", "category": "creative"}
+{"prompt": "like watching clouds move", "category": "creative"}
+{"prompt": "the vibe of a late night diner", "category": "creative"}
+{"prompt": "like the first sip of coffee in the morning", "category": "creative"}
+{"prompt": "the mood right before a thunderstorm", "category": "creative"}
+{"prompt": "like stargazing from a field", "category": "creative"}
+{"prompt": "the energy of a new year's eve countdown", "category": "creative"}
+{"prompt": "like walking through a city you've never been to", "category": "creative"}
+{"prompt": "the feeling of a really good stretch", "category": "creative"}
+{"prompt": "like the silence after a symphony ends", "category": "creative"}
+{"prompt": "the vibe of a bookstore on a rainy day", "category": "creative"}
+{"prompt": "like floating on your back in a pool", "category": "creative"}
+{"prompt": "the moment before you fall asleep", "category": "creative"}
+{"prompt": "like a long exhale after holding your breath", "category": "creative"}
+{"prompt": "the feeling of sand between your toes", "category": "creative"}
+{"prompt": "happy face emoji", "category": "text"}
+{"prompt": "fire emoji", "category": "text"}
+{"prompt": "thumbs up emoji", "category": "text"}
+{"prompt": "heart emoji on the display", "category": "text"}
+{"prompt": "star eyes emoji", "category": "text"}
+{"prompt": "skull emoji", "category": "text"}
+{"prompt": "party popper emoji", "category": "text"}
+{"prompt": "rocket emoji", "category": "text"}
+{"prompt": "show a smiley face emoji", "category": "text"}
+{"prompt": "crying face emoji", "category": "text"}
+{"prompt": "sunglasses cool face emoji", "category": "text"}
+{"prompt": "peace sign emoji", "category": "text"}
+{"prompt": "rainbow emoji", "category": "text"}
+{"prompt": "snowflake emoji", "category": "text"}
+{"prompt": "lightning bolt emoji", "category": "text"}
+{"prompt": "show a clapping hands emoji", "category": "text"}
+{"prompt": "moon emoji", "category": "text"}
+{"prompt": "sun emoji", "category": "text"}
+{"prompt": "display the wave emoji", "category": "text"}
+{"prompt": "show the hundred points emoji", "category": "text"}
+{"prompt": "alien face emoji", "category": "text"}
+{"prompt": "ghost emoji", "category": "text"}
+{"prompt": "pumpkin emoji", "category": "text"}
+{"prompt": "christmas tree emoji", "category": "text"}
+{"prompt": "laughing emoji", "category": "text"}
+{"prompt": "angry face emoji", "category": "text"}
+{"prompt": "mind blown emoji", "category": "text"}
+{"prompt": "sparkles emoji", "category": "text"}
+{"prompt": "checkmark emoji", "category": "text"}
+{"prompt": "red X emoji", "category": "text"}
+{"prompt": "trophy emoji", "category": "text"}
+{"prompt": "crown emoji", "category": "text"}
+{"prompt": "eyes emoji", "category": "text"}
+{"prompt": "brain emoji", "category": "text"}
+{"prompt": "flexing arm emoji", "category": "text"}
+{"prompt": "coffee cup emoji", "category": "text"}
+{"prompt": "pizza emoji", "category": "text"}
+{"prompt": "music notes emoji", "category": "text"}
+{"prompt": "light bulb emoji", "category": "text"}
+{"prompt": "globe emoji", "category": "text"}
+{"prompt": "diamond emoji", "category": "text"}
+{"prompt": "cat face emoji", "category": "text"}
+{"prompt": "dog face emoji", "category": "text"}
+{"prompt": "butterfly emoji", "category": "text"}
+{"prompt": "four leaf clover emoji", "category": "text"}
+{"prompt": "scrolling text HELLO WORLD", "category": "text"}
+{"prompt": "blinking text SOS", "category": "text"}
+{"prompt": "pulsing word LOVE", "category": "text"}
+{"prompt": "fading in and out DREAM", "category": "text"}
+{"prompt": "typing effect WELCOME", "category": "text"}
+{"prompt": "scrolling text GOOD MORNING", "category": "text"}
+{"prompt": "blinking text OPEN", "category": "text"}
+{"prompt": "pulsing word BREATHE", "category": "text"}
+{"prompt": "scrolling text HAPPY BIRTHDAY", "category": "text"}
+{"prompt": "text that fades in HELLO", "category": "text"}
+{"prompt": "scrolling marquee LIVE LAUGH LOVE", "category": "text"}
+{"prompt": "blinking text ALERT", "category": "text"}
+{"prompt": "text that types itself out GOODNIGHT", "category": "text"}
+{"prompt": "pulsing text RELAX", "category": "text"}
+{"prompt": "scrolling text I LOVE YOU", "category": "text"}
+{"prompt": "fading text PEACE", "category": "text"}
+{"prompt": "text that blinks on and off PARTY", "category": "text"}
+{"prompt": "scrolling text CONGRATS", "category": "text"}
+{"prompt": "pulsing word FOCUS", "category": "text"}
+{"prompt": "text that types letter by letter SURPRISE", "category": "text"}
+{"prompt": "scrolling text GAME ON", "category": "text"}
+{"prompt": "text that slowly appears NAMASTE", "category": "text"}
+{"prompt": "blinking text YES", "category": "text"}
+{"prompt": "scrolling text MERRY CHRISTMAS", "category": "text"}
+{"prompt": "pulsing text DANCE", "category": "text"}
+{"prompt": "fading in THANK YOU", "category": "text"}
+{"prompt": "scrolling text LETS GO", "category": "text"}
+{"prompt": "text animation CHEERS", "category": "text"}
+{"prompt": "slowly blinking GOODNIGHT", "category": "text"}
+{"prompt": "scrolling text YOU GOT THIS", "category": "text"}
+{"prompt": "pulsing word SHINE", "category": "text"}
+{"prompt": "countdown from 10 with big numbers", "category": "text"}
+{"prompt": "5 minute timer with digits", "category": "text"}
+{"prompt": "show a clock counting down from 60", "category": "text"}
+{"prompt": "new year countdown display", "category": "text"}
+{"prompt": "countdown from 30 in large font", "category": "text"}
+{"prompt": "show a 10 second countdown", "category": "text"}
+{"prompt": "timer display counting down from 3 minutes", "category": "text"}
+{"prompt": "countdown from 5 with flashing numbers", "category": "text"}
+{"prompt": "display a 1 minute countdown timer", "category": "text"}
+{"prompt": "show countdown from 20 in neon", "category": "text"}
+{"prompt": "pomodoro timer with numbers showing 25 minutes", "category": "text"}
+{"prompt": "countdown to midnight display", "category": "text"}
+{"prompt": "show big countdown numbers from 15", "category": "text"}
+{"prompt": "display timer 2 minutes with large digits", "category": "text"}
+{"prompt": "show a countdown from 99", "category": "text"}
+{"prompt": "new year countdown starting from 60 seconds", "category": "text"}
+{"prompt": "10 minute countdown with visible numbers", "category": "text"}
+{"prompt": "show seconds ticking down from 45", "category": "text"}
+{"prompt": "display a rocket launch countdown from 10", "category": "text"}
+{"prompt": "workout timer showing 30 seconds", "category": "text"}
+{"prompt": "tabata timer display 20 seconds work 10 rest", "category": "text"}
+{"prompt": "show the number counting down from 100", "category": "text"}
+{"prompt": "egg timer display 3 minutes", "category": "text"}
+{"prompt": "show a digital stopwatch counting up", "category": "text"}
+{"prompt": "display countdown from 7", "category": "text"}
+{"prompt": "halftime countdown 15 minutes", "category": "text"}
+{"prompt": "tea timer showing 4 minutes left", "category": "text"}
+{"prompt": "game countdown from 60 seconds", "category": "text"}
+{"prompt": "meditation timer display 10 minutes", "category": "text"}
+{"prompt": "show big red numbers counting down from 5", "category": "text"}
+{"prompt": "show battery at 50%", "category": "text"}
+{"prompt": "show wifi signal strong", "category": "text"}
+{"prompt": "display temperature 72 degrees", "category": "text"}
+{"prompt": "show volume level at 8", "category": "text"}
+{"prompt": "battery icon at 25%", "category": "text"}
+{"prompt": "show signal bars full", "category": "text"}
+{"prompt": "display the number 100", "category": "text"}
+{"prompt": "show a progress bar at 75%", "category": "text"}
+{"prompt": "battery level low warning", "category": "text"}
+{"prompt": "show bluetooth connected icon", "category": "text"}
+{"prompt": "display health bar at half", "category": "text"}
+{"prompt": "show the score 3 to 2", "category": "text"}
+{"prompt": "display loading bar almost done", "category": "text"}
+{"prompt": "show wifi signal weak one bar", "category": "text"}
+{"prompt": "battery charging animation", "category": "text"}
+{"prompt": "display CPU usage high", "category": "text"}
+{"prompt": "show download progress 60%", "category": "text"}
+{"prompt": "display temperature 85 fahrenheit", "category": "text"}
+{"prompt": "show humidity at 45%", "category": "text"}
+{"prompt": "display steps count 10000", "category": "text"}
+{"prompt": "show volume muted icon", "category": "text"}
+{"prompt": "display speed 65 mph", "category": "text"}
+{"prompt": "show score 7 to 3", "category": "text"}
+{"prompt": "display percentage 88%", "category": "text"}
+{"prompt": "show heart rate 72 bpm", "category": "text"}
+{"prompt": "battery at full green", "category": "text"}
+{"prompt": "display level 5", "category": "text"}
+{"prompt": "show XP bar halfway", "category": "text"}
+{"prompt": "display the number 42", "category": "text"}
+{"prompt": "show rating 4 out of 5 stars", "category": "text"}
+{"prompt": "show the date Jan 15", "category": "text"}
+{"prompt": "show temp and weather icon sunny", "category": "text"}
+{"prompt": "display HI with a smiley", "category": "text"}
+{"prompt": "show my name ALEX", "category": "text"}
+{"prompt": "write GAME OVER", "category": "text"}
+{"prompt": "show NOW PLAYING", "category": "text"}
+{"prompt": "display WELCOME HOME", "category": "text"}
+{"prompt": "show DO NOT DISTURB", "category": "text"}
+{"prompt": "write GOOD NIGHT in blue", "category": "text"}
+{"prompt": "display BE BACK SOON", "category": "text"}
+{"prompt": "show LIVE in red", "category": "text"}
+{"prompt": "write ON AIR", "category": "text"}
+{"prompt": "display RECORDING in red", "category": "text"}
+{"prompt": "show OPEN on green background", "category": "text"}
+{"prompt": "display CLOSED in red", "category": "text"}
+{"prompt": "write EAT with a fork icon", "category": "text"}
+{"prompt": "show SALE in bright colors", "category": "text"}
+{"prompt": "display FREE WIFI", "category": "text"}
+{"prompt": "show 404 ERROR", "category": "text"}
+{"prompt": "write GOAL in golden letters", "category": "text"}
+{"prompt": "display WINNER", "category": "text"}
+{"prompt": "show HIGH SCORE", "category": "text"}
+{"prompt": "write LEVEL UP", "category": "text"}
+{"prompt": "display PLAYER 1 READY", "category": "text"}
+{"prompt": "show GG in green", "category": "text"}
+{"prompt": "display PAUSE", "category": "text"}
+{"prompt": "write PRESS START", "category": "text"}
+{"prompt": "show INSERT COIN", "category": "text"}
+{"prompt": "display NEW RECORD", "category": "text"}
+{"prompt": "write MISSION COMPLETE", "category": "text"}
+{"prompt": "show BOSS FIGHT", "category": "text"}
+{"prompt": "display the word CHILL", "category": "text"}
+{"prompt": "write VIBES in purple", "category": "text"}
+{"prompt": "show MOOD in gradient colors", "category": "text"}
+{"prompt": "display ZEN", "category": "text"}
+{"prompt": "write FLOW in blue", "category": "text"}
+{"prompt": "show the time in big digits", "category": "text"}
+{"prompt": "display today's date", "category": "text"}
+{"prompt": "show AM PM indicator", "category": "text"}
+{"prompt": "write my initials JM in gold", "category": "text"}
+{"prompt": "display room number 7", "category": "text"}
+{"prompt": "show table number 3", "category": "text"}
+{"prompt": "write LOL", "category": "text"}
+{"prompt": "display WOW in rainbow", "category": "text"}
+{"prompt": "show OMG in bright pink", "category": "text"}
+{"prompt": "display BRB", "category": "text"}
+{"prompt": "write XOXO in red and pink", "category": "text"}
+{"prompt": "show NO in big red letters", "category": "text"}
+{"prompt": "display YES in big green letters", "category": "text"}
+{"prompt": "write HELP in flashing red", "category": "text"}
+{"prompt": "show EXIT with an arrow", "category": "text"}
+{"prompt": "display QUIET PLEASE", "category": "text"}
+{"prompt": "write HAPPY in yellow", "category": "text"}
+{"prompt": "show SAD in blue letters", "category": "text"}
+{"prompt": "display the word MAGIC", "category": "text"}
+{"prompt": "write DREAM BIG", "category": "text"}
+{"prompt": "show STAY COOL", "category": "text"}
+{"prompt": "display JUST BREATHE", "category": "text"}
+{"prompt": "write BE KIND", "category": "text"}
+{"prompt": "show YOU MATTER", "category": "text"}
+{"prompt": "display KEEP GOING", "category": "text"}
+{"prompt": "write THIS IS FINE", "category": "text"}
+{"prompt": "show a digital clock reading 12:00", "category": "text"}
+{"prompt": "display the number 007", "category": "text"}
+{"prompt": "show pi 3.14", "category": "text"}
+{"prompt": "display the word HELLO in pink neon", "category": "text"}
+{"prompt": "show a percentage counter going from 0 to 100", "category": "text"}
+{"prompt": "write SMILE in yellow letters", "category": "text"}
+{"prompt": "display the letter A really big", "category": "text"}
+{"prompt": "show question mark in bright white", "category": "text"}
+{"prompt": "write THINK in blue", "category": "text"}
+{"prompt": "display exclamation mark flashing", "category": "text"}
+{"prompt": "show UP arrow with the word GO", "category": "text"}
+{"prompt": "write STOP in red block letters", "category": "text"}
+{"prompt": "display a hashtag symbol", "category": "text"}
+{"prompt": "show the at sign @", "category": "text"}
+{"prompt": "write PLAY with a play button", "category": "text"}
+{"prompt": "display SAVE in green", "category": "text"}
+{"prompt": "show plus and minus symbols", "category": "text"}
+{"prompt": "write 2026 in gold", "category": "text"}
+{"prompt": "display the word LAMP", "category": "text"}
+{"prompt": "show ABOVE in white on black", "category": "text"}
+{"prompt": "write HOME SWEET HOME", "category": "text"}
+{"prompt": "display STUDY MODE", "category": "text"}
+{"prompt": "show BREAK TIME", "category": "text"}
+{"prompt": "write DINNER in warm colors", "category": "text"}
+{"prompt": "display SNACK TIME", "category": "text"}
+{"prompt": "show a running score counter", "category": "text"}
+{"prompt": "display a coin counter like in mario", "category": "text"}
+{"prompt": "write MVP in gold", "category": "text"}
+{"prompt": "show FIRST PLACE", "category": "text"}
+{"prompt": "display top score 999", "category": "text"}
+{"prompt": "write the word GLOW", "category": "text"}
+{"prompt": "display NIGHT in dark blue letters", "category": "text"}
+{"prompt": "show DAY in bright yellow", "category": "text"}
+{"prompt": "write RISE in orange gradient", "category": "text"}
+{"prompt": "display FALL in amber and brown", "category": "text"}
+{"prompt": "show WINTER in icy blue", "category": "text"}
+{"prompt": "write SPRING in pastel green", "category": "text"}
+{"prompt": "display SUMMER in hot orange", "category": "text"}
+{"prompt": "show rain icon with temperature 55", "category": "text"}
+{"prompt": "display sunny icon with 80 degrees", "category": "text"}
+{"prompt": "show snow icon with 28 degrees", "category": "text"}
+{"prompt": "write today's day of the week", "category": "text"}
+{"prompt": "display a smiley with the word HI below it", "category": "text"}
+{"prompt": "show a star with GREAT JOB under it", "category": "text"}
+{"prompt": "write GOOD MORNING with a sun", "category": "text"}
+{"prompt": "display alarm clock showing 7:00 AM", "category": "text"}
+{"prompt": "show a progress bar at 50% with LOADING text", "category": "text"}
+{"prompt": "write the number 1 really big in the center", "category": "text"}
+{"prompt": "display a checkmark with DONE", "category": "text"}
+{"prompt": "show an X with TRY AGAIN", "category": "text"}
+{"prompt": "write READY SET GO one word at a time", "category": "text"}
+{"prompt": "display 3 2 1 with each number getting bigger", "category": "text"}
+{"prompt": "show RIP in a spooky font style", "category": "text"}
+{"prompt": "write BOO in ghostly white", "category": "text"}
+{"prompt": "display NOPE in red", "category": "text"}
+{"prompt": "show YEP in green", "category": "text"}
+{"prompt": "write the word CIAO", "category": "text"}
+{"prompt": "display HOLA in warm yellow", "category": "text"}
+{"prompt": "show MERCI in blue white red", "category": "text"}
+{"prompt": "write PEACE with a peace sign", "category": "text"}
+{"prompt": "display UNITY in rainbow", "category": "text"}
+{"prompt": "show STRENGTH in bold red", "category": "text"}
+{"prompt": "write WISDOM in deep blue", "category": "text"}
+{"prompt": "display CLARITY in white", "category": "text"}
+{"prompt": "show POWER in electric yellow", "category": "text"}
+{"prompt": "write CALM in soft lavender", "category": "text"}
+{"prompt": "display BRAVE in golden letters", "category": "text"}
+{"prompt": "show WILD in neon green", "category": "text"}
+{"prompt": "write FREE in sky blue", "category": "text"}
+{"prompt": "display SHINE ON in gold", "category": "text"}
+{"prompt": "show GOOD VIBES ONLY", "category": "text"}
+{"prompt": "write NO WORRIES in teal", "category": "text"}
+{"prompt": "display HAKUNA MATATA", "category": "text"}
+{"prompt": "show a smiley face with thumbs up", "category": "text"}
+{"prompt": "display a winking face with OK", "category": "text"}
+{"prompt": "write SWEET DREAMS in purple", "category": "text"}
+{"prompt": "show RISE AND SHINE in orange", "category": "text"}
+{"prompt": "display one word ENOUGH in red", "category": "text"}
+{"prompt": "show BELIEVE in soft gold", "category": "text"}
+{"prompt": "write CREATE in rainbow colors", "category": "text"}
+{"prompt": "display INSPIRE in warm amber", "category": "text"}
+{"prompt": "show EVOLVE in gradient blue to purple", "category": "text"}
+{"prompt": "write GROW in green", "category": "text"}
+{"prompt": "display LET GO in soft pink", "category": "text"}
+{"prompt": "show BE HERE NOW in white", "category": "text"}
+{"prompt": "write PRESENT MOMENT in calm blue", "category": "text"}
+{"prompt": "display number 10 in big bold red", "category": "text"}
+{"prompt": "show a heart with the number 1 inside", "category": "text"}
+{"prompt": "write TEAM with a star above", "category": "text"}
+{"prompt": "display score HOME 2 AWAY 1", "category": "text"}
+{"prompt": "show clock face reading 6:30", "category": "text"}
+{"prompt": "write a big W for win", "category": "text"}
+{"prompt": "display a big L for loss", "category": "text"}
+{"prompt": "show number 69 nice", "category": "text"}
+{"prompt": "display timer 0:00 TIMES UP", "category": "text"}
+{"prompt": "show calendar icon with the number 25", "category": "text"}
+{"prompt": "write AFK be right back", "category": "text"}
+{"prompt": "display STREAM STARTING SOON", "category": "text"}
+{"prompt": "show the word VIBE in wavy text", "category": "text"}
+{"prompt": "write DOPE in street style", "category": "text"}
+{"prompt": "display loading dots animation", "category": "text"}
+{"prompt": "show buffering circle", "category": "text"}
+{"prompt": "christmas tree lights", "category": "seasonal_holiday"}
+{"prompt": "cozy christmas eve by the fire", "category": "seasonal_holiday"}
+{"prompt": "santa's workshop glow", "category": "seasonal_holiday"}
+{"prompt": "warm christmas morning feeling", "category": "seasonal_holiday"}
+{"prompt": "white christmas with soft snow", "category": "seasonal_holiday"}
+{"prompt": "jingle bells feel", "category": "seasonal_holiday"}
+{"prompt": "christmas fireplace warmth", "category": "seasonal_holiday"}
+{"prompt": "decorating the tree vibes", "category": "seasonal_holiday"}
+{"prompt": "hot cocoa by the fire on christmas", "category": "seasonal_holiday"}
+{"prompt": "christmas caroling mood", "category": "seasonal_holiday"}
+{"prompt": "silent night holy night", "category": "seasonal_holiday"}
+{"prompt": "rudolph's red nose glow", "category": "seasonal_holiday"}
+{"prompt": "candy cane red and white stripes", "category": "seasonal_holiday"}
+{"prompt": "christmas stocking by the mantle", "category": "seasonal_holiday"}
+{"prompt": "gingerbread house warm glow", "category": "seasonal_holiday"}
+{"prompt": "christmas morning presents excitement", "category": "seasonal_holiday"}
+{"prompt": "nutcracker ballet vibes", "category": "seasonal_holiday"}
+{"prompt": "holiday wreath green and red", "category": "seasonal_holiday"}
+{"prompt": "north pole workshop energy", "category": "seasonal_holiday"}
+{"prompt": "frosty the snowman", "category": "seasonal_holiday"}
+{"prompt": "winter wonderland christmas", "category": "seasonal_holiday"}
+{"prompt": "christmas lights on the house", "category": "seasonal_holiday"}
+{"prompt": "baby it's cold outside christmas", "category": "seasonal_holiday"}
+{"prompt": "eggnog and christmas cookies", "category": "seasonal_holiday"}
+{"prompt": "twelve days of christmas", "category": "seasonal_holiday"}
+{"prompt": "christmas eve anticipation", "category": "seasonal_holiday"}
+{"prompt": "midnight mass candlelight", "category": "seasonal_holiday"}
+{"prompt": "wrapped presents under the tree", "category": "seasonal_holiday"}
+{"prompt": "christmas card red and green", "category": "seasonal_holiday"}
+{"prompt": "home for the holidays warm glow", "category": "seasonal_holiday"}
+{"prompt": "holiday party sparkle", "category": "seasonal_holiday"}
+{"prompt": "silver bells christmas", "category": "seasonal_holiday"}
+{"prompt": "sleigh ride through the snow", "category": "seasonal_holiday"}
+{"prompt": "christmas star on top of the tree", "category": "seasonal_holiday"}
+{"prompt": "let it snow let it snow", "category": "seasonal_holiday"}
+{"prompt": "cozy cabin christmas", "category": "seasonal_holiday"}
+{"prompt": "reindeer in the snow glow", "category": "seasonal_holiday"}
+{"prompt": "christmas ornament sparkle", "category": "seasonal_holiday"}
+{"prompt": "holly and ivy green red", "category": "seasonal_holiday"}
+{"prompt": "deck the halls festive", "category": "seasonal_holiday"}
+{"prompt": "twas the night before christmas", "category": "seasonal_holiday"}
+{"prompt": "haunted house", "category": "seasonal_holiday"}
+{"prompt": "trick or treat mode", "category": "seasonal_holiday"}
+{"prompt": "ghostly glow for halloween", "category": "seasonal_holiday"}
+{"prompt": "spooky forest at midnight", "category": "seasonal_holiday"}
+{"prompt": "vampire vibes dark red", "category": "seasonal_holiday"}
+{"prompt": "witch's cauldron bubbling green", "category": "seasonal_holiday"}
+{"prompt": "pumpkin patch orange glow", "category": "seasonal_holiday"}
+{"prompt": "creepy cemetery fog", "category": "seasonal_holiday"}
+{"prompt": "monster mash party", "category": "seasonal_holiday"}
+{"prompt": "jack o lantern flickering", "category": "seasonal_holiday"}
+{"prompt": "halloween night spooky orange and purple", "category": "seasonal_holiday"}
+{"prompt": "zombie apocalypse green", "category": "seasonal_holiday"}
+{"prompt": "werewolf full moon", "category": "seasonal_holiday"}
+{"prompt": "frankenstein's lab lightning", "category": "seasonal_holiday"}
+{"prompt": "mummy's tomb dusty gold", "category": "seasonal_holiday"}
+{"prompt": "spider web silver halloween", "category": "seasonal_holiday"}
+{"prompt": "black cat crossing your path", "category": "seasonal_holiday"}
+{"prompt": "headless horseman ride", "category": "seasonal_holiday"}
+{"prompt": "day of the dead vibrant colors", "category": "seasonal_holiday"}
+{"prompt": "dracula's castle dark and stormy", "category": "seasonal_holiday"}
+{"prompt": "candy corn orange yellow white", "category": "seasonal_holiday"}
+{"prompt": "skeleton dance halloween", "category": "seasonal_holiday"}
+{"prompt": "creepy doll dim flickering", "category": "seasonal_holiday"}
+{"prompt": "haunted carnival lights", "category": "seasonal_holiday"}
+{"prompt": "eerie fog rolling in halloween", "category": "seasonal_holiday"}
+{"prompt": "something wicked this way comes", "category": "seasonal_holiday"}
+{"prompt": "bat swarm in moonlight", "category": "seasonal_holiday"}
+{"prompt": "thriller night michael jackson", "category": "seasonal_holiday"}
+{"prompt": "halloween costume party", "category": "seasonal_holiday"}
+{"prompt": "bobbing for apples autumn", "category": "seasonal_holiday"}
+{"prompt": "scarecrow in a cornfield", "category": "seasonal_holiday"}
+{"prompt": "witching hour midnight purple", "category": "seasonal_holiday"}
+{"prompt": "potion brewing green and purple", "category": "seasonal_holiday"}
+{"prompt": "trick or treat bucket orange", "category": "seasonal_holiday"}
+{"prompt": "spooky shadow play", "category": "seasonal_holiday"}
+{"prompt": "grave digger foggy night", "category": "seasonal_holiday"}
+{"prompt": "possessed doll flickering red", "category": "seasonal_holiday"}
+{"prompt": "ghoul's den green glow", "category": "seasonal_holiday"}
+{"prompt": "bloody red halloween", "category": "seasonal_holiday"}
+{"prompt": "poltergeist flickering lights", "category": "seasonal_holiday"}
+{"prompt": "nightmare before christmas", "category": "seasonal_holiday"}
+{"prompt": "valentine's day romantic", "category": "seasonal_holiday"}
+{"prompt": "romantic pink and red hearts", "category": "seasonal_holiday"}
+{"prompt": "cupid's arrow love", "category": "seasonal_holiday"}
+{"prompt": "love letter soft pink", "category": "seasonal_holiday"}
+{"prompt": "sweetheart vibes pastel", "category": "seasonal_holiday"}
+{"prompt": "be my valentine warm glow", "category": "seasonal_holiday"}
+{"prompt": "roses are red valentine", "category": "seasonal_holiday"}
+{"prompt": "chocolate and roses evening", "category": "seasonal_holiday"}
+{"prompt": "valentine's dance slow and romantic", "category": "seasonal_holiday"}
+{"prompt": "love birds valentine pink", "category": "seasonal_holiday"}
+{"prompt": "february fourteenth love", "category": "seasonal_holiday"}
+{"prompt": "heart shaped everything valentine", "category": "seasonal_holiday"}
+{"prompt": "secret admirer mysterious pink", "category": "seasonal_holiday"}
+{"prompt": "valentines dinner for two", "category": "seasonal_holiday"}
+{"prompt": "endless love soft warm glow", "category": "seasonal_holiday"}
+{"prompt": "love at first sight sparkle", "category": "seasonal_holiday"}
+{"prompt": "kisses and hugs xo valentine", "category": "seasonal_holiday"}
+{"prompt": "valentine candy hearts pink white", "category": "seasonal_holiday"}
+{"prompt": "galentines day fun pink", "category": "seasonal_holiday"}
+{"prompt": "soulmates warm amber valentine", "category": "seasonal_holiday"}
+{"prompt": "teddy bear and chocolates valentine", "category": "seasonal_holiday"}
+{"prompt": "love song slow dance", "category": "seasonal_holiday"}
+{"prompt": "valentine proposal sparkle gold", "category": "seasonal_holiday"}
+{"prompt": "forever and always valentine", "category": "seasonal_holiday"}
+{"prompt": "red roses candlelight valentine", "category": "seasonal_holiday"}
+{"prompt": "sweet nothings whispered pink", "category": "seasonal_holiday"}
+{"prompt": "valentine's morning breakfast in bed", "category": "seasonal_holiday"}
+{"prompt": "puppy love cute valentine", "category": "seasonal_holiday"}
+{"prompt": "love story unfolding pink to red", "category": "seasonal_holiday"}
+{"prompt": "valentine's day sunset walk", "category": "seasonal_holiday"}
+{"prompt": "new year countdown", "category": "seasonal_holiday"}
+{"prompt": "fireworks at midnight new year", "category": "seasonal_holiday"}
+{"prompt": "champagne gold new years", "category": "seasonal_holiday"}
+{"prompt": "ball drop moment sparkle", "category": "seasonal_holiday"}
+{"prompt": "fresh start new year", "category": "seasonal_holiday"}
+{"prompt": "new beginnings january first", "category": "seasonal_holiday"}
+{"prompt": "midnight kisses new year", "category": "seasonal_holiday"}
+{"prompt": "confetti and streamers celebration", "category": "seasonal_holiday"}
+{"prompt": "new years eve party mode", "category": "seasonal_holiday"}
+{"prompt": "auld lang syne warm glow", "category": "seasonal_holiday"}
+{"prompt": "resolution energy new year", "category": "seasonal_holiday"}
+{"prompt": "midnight fireworks gold and silver", "category": "seasonal_holiday"}
+{"prompt": "new year new me sparkle", "category": "seasonal_holiday"}
+{"prompt": "toast to the new year golden", "category": "seasonal_holiday"}
+{"prompt": "countdown to midnight flashing", "category": "seasonal_holiday"}
+{"prompt": "glitter ball new year party", "category": "seasonal_holiday"}
+{"prompt": "sparkling cider celebration", "category": "seasonal_holiday"}
+{"prompt": "new years dawn first sunrise", "category": "seasonal_holiday"}
+{"prompt": "party hats and noisemakers", "category": "seasonal_holiday"}
+{"prompt": "times square ball drop", "category": "seasonal_holiday"}
+{"prompt": "nye rooftop party vibes", "category": "seasonal_holiday"}
+{"prompt": "ringing in the new year", "category": "seasonal_holiday"}
+{"prompt": "midnight magic new year", "category": "seasonal_holiday"}
+{"prompt": "farewell to the old year", "category": "seasonal_holiday"}
+{"prompt": "3 2 1 happy new year", "category": "seasonal_holiday"}
+{"prompt": "new year fireworks rainbow burst", "category": "seasonal_holiday"}
+{"prompt": "first morning of the year", "category": "seasonal_holiday"}
+{"prompt": "new year hope and light", "category": "seasonal_holiday"}
+{"prompt": "cheers to another year", "category": "seasonal_holiday"}
+{"prompt": "new years resolution calm blue", "category": "seasonal_holiday"}
+{"prompt": "easter egg hunt colors", "category": "seasonal_holiday"}
+{"prompt": "spring pastels easter", "category": "seasonal_holiday"}
+{"prompt": "bunny vibes soft pink", "category": "seasonal_holiday"}
+{"prompt": "easter morning sunrise", "category": "seasonal_holiday"}
+{"prompt": "pastel rainbow easter basket", "category": "seasonal_holiday"}
+{"prompt": "easter lily white and gold", "category": "seasonal_holiday"}
+{"prompt": "dyed easter eggs colorful", "category": "seasonal_holiday"}
+{"prompt": "easter brunch warm pastels", "category": "seasonal_holiday"}
+{"prompt": "spring awakening easter", "category": "seasonal_holiday"}
+{"prompt": "easter garden blooming", "category": "seasonal_holiday"}
+{"prompt": "baby chick yellow easter", "category": "seasonal_holiday"}
+{"prompt": "jelly bean colors easter", "category": "seasonal_holiday"}
+{"prompt": "easter chocolate bunny brown", "category": "seasonal_holiday"}
+{"prompt": "peeps marshmallow pink yellow", "category": "seasonal_holiday"}
+{"prompt": "resurrection sunday golden dawn", "category": "seasonal_holiday"}
+{"prompt": "easter parade pastel colors", "category": "seasonal_holiday"}
+{"prompt": "tulips and daffodils easter", "category": "seasonal_holiday"}
+{"prompt": "easter bonnets spring pastels", "category": "seasonal_holiday"}
+{"prompt": "robin's egg blue easter", "category": "seasonal_holiday"}
+{"prompt": "new life spring easter", "category": "seasonal_holiday"}
+{"prompt": "patriotic red white blue", "category": "seasonal_holiday"}
+{"prompt": "fireworks show fourth of july", "category": "seasonal_holiday"}
+{"prompt": "stars and stripes forever", "category": "seasonal_holiday"}
+{"prompt": "independence day celebration", "category": "seasonal_holiday"}
+{"prompt": "sparklers in the dark july fourth", "category": "seasonal_holiday"}
+{"prompt": "red white and blue summer night", "category": "seasonal_holiday"}
+{"prompt": "backyard barbecue fourth of july", "category": "seasonal_holiday"}
+{"prompt": "american flag colors", "category": "seasonal_holiday"}
+{"prompt": "july fourth fireworks over water", "category": "seasonal_holiday"}
+{"prompt": "star spangled night", "category": "seasonal_holiday"}
+{"prompt": "liberty and freedom red white blue", "category": "seasonal_holiday"}
+{"prompt": "hot dogs and fireworks july", "category": "seasonal_holiday"}
+{"prompt": "patriotic parade energy", "category": "seasonal_holiday"}
+{"prompt": "summer fireworks spectacular", "category": "seasonal_holiday"}
+{"prompt": "rockets red glare", "category": "seasonal_holiday"}
+{"prompt": "uncle sam red white blue", "category": "seasonal_holiday"}
+{"prompt": "4th of july pool party", "category": "seasonal_holiday"}
+{"prompt": "freedom sparkle patriotic", "category": "seasonal_holiday"}
+{"prompt": "flag waving breeze july", "category": "seasonal_holiday"}
+{"prompt": "america the beautiful sunset", "category": "seasonal_holiday"}
+{"prompt": "festival of lights diwali", "category": "seasonal_holiday"}
+{"prompt": "warm golden celebration diwali", "category": "seasonal_holiday"}
+{"prompt": "diya lamp flickering diwali", "category": "seasonal_holiday"}
+{"prompt": "rangoli colors diwali", "category": "seasonal_holiday"}
+{"prompt": "diwali fireworks gold and orange", "category": "seasonal_holiday"}
+{"prompt": "row of diyas warm glow", "category": "seasonal_holiday"}
+{"prompt": "diwali sweets celebration", "category": "seasonal_holiday"}
+{"prompt": "triumph of light over darkness", "category": "seasonal_holiday"}
+{"prompt": "diwali night sky lanterns", "category": "seasonal_holiday"}
+{"prompt": "sparklers and firecrackers diwali", "category": "seasonal_holiday"}
+{"prompt": "marigold garland golden diwali", "category": "seasonal_holiday"}
+{"prompt": "lakshmi puja warm glow", "category": "seasonal_holiday"}
+{"prompt": "diwali home decoration lights", "category": "seasonal_holiday"}
+{"prompt": "five days of diwali colors", "category": "seasonal_holiday"}
+{"prompt": "goddess of wealth golden light", "category": "seasonal_holiday"}
+{"prompt": "diwali night market colors", "category": "seasonal_holiday"}
+{"prompt": "oil lamp warm amber diwali", "category": "seasonal_holiday"}
+{"prompt": "diwali joy and prosperity", "category": "seasonal_holiday"}
+{"prompt": "new beginnings diwali warm", "category": "seasonal_holiday"}
+{"prompt": "diwali family gathering golden", "category": "seasonal_holiday"}
+{"prompt": "lucky red and gold chinese new year", "category": "seasonal_holiday"}
+{"prompt": "lantern festival glow", "category": "seasonal_holiday"}
+{"prompt": "dragon dance red and gold", "category": "seasonal_holiday"}
+{"prompt": "chinese new year fireworks red", "category": "seasonal_holiday"}
+{"prompt": "red envelope lucky money", "category": "seasonal_holiday"}
+{"prompt": "year of the dragon celebration", "category": "seasonal_holiday"}
+{"prompt": "spring festival red lanterns", "category": "seasonal_holiday"}
+{"prompt": "lion dance vibrant red gold", "category": "seasonal_holiday"}
+{"prompt": "lunar new year family dinner", "category": "seasonal_holiday"}
+{"prompt": "firecrackers popping red chinese new year", "category": "seasonal_holiday"}
+{"prompt": "mandarin orange gold prosperity", "category": "seasonal_holiday"}
+{"prompt": "chinese new year temple fair", "category": "seasonal_holiday"}
+{"prompt": "lucky bamboo green chinese new year", "category": "seasonal_holiday"}
+{"prompt": "dumpling making warm light", "category": "seasonal_holiday"}
+{"prompt": "spring couplets red and gold", "category": "seasonal_holiday"}
+{"prompt": "paper lantern glow lunar new year", "category": "seasonal_holiday"}
+{"prompt": "chinese zodiac celebration", "category": "seasonal_holiday"}
+{"prompt": "reunion dinner warm glow", "category": "seasonal_holiday"}
+{"prompt": "plum blossom chinese new year", "category": "seasonal_holiday"}
+{"prompt": "prosperity and good fortune red gold", "category": "seasonal_holiday"}
+{"prompt": "menorah lighting hanukkah", "category": "seasonal_holiday"}
+{"prompt": "blue and silver celebration hanukkah", "category": "seasonal_holiday"}
+{"prompt": "eight nights of light", "category": "seasonal_holiday"}
+{"prompt": "dreidel spinning hanukkah", "category": "seasonal_holiday"}
+{"prompt": "festival of dedication blue", "category": "seasonal_holiday"}
+{"prompt": "hanukkah gelt gold coins", "category": "seasonal_holiday"}
+{"prompt": "shamash candle lighting others", "category": "seasonal_holiday"}
+{"prompt": "miracle of oil warm golden", "category": "seasonal_holiday"}
+{"prompt": "hanukkah blue white silver", "category": "seasonal_holiday"}
+{"prompt": "latkes and sufganiyot warm", "category": "seasonal_holiday"}
+{"prompt": "star of david blue glow", "category": "seasonal_holiday"}
+{"prompt": "eight candles growing brighter", "category": "seasonal_holiday"}
+{"prompt": "hanukkah menorah fully lit", "category": "seasonal_holiday"}
+{"prompt": "hanukkah family gathering warm", "category": "seasonal_holiday"}
+{"prompt": "candle by candle hanukkah", "category": "seasonal_holiday"}
+{"prompt": "hanukkah blessings warm glow", "category": "seasonal_holiday"}
+{"prompt": "winter solstice hanukkah light", "category": "seasonal_holiday"}
+{"prompt": "joyful hanukkah celebration blue", "category": "seasonal_holiday"}
+{"prompt": "hanukkah window display", "category": "seasonal_holiday"}
+{"prompt": "festival of lights blue and gold", "category": "seasonal_holiday"}
+{"prompt": "birthday party celebration", "category": "seasonal_holiday"}
+{"prompt": "graduation cap and gown", "category": "seasonal_holiday"}
+{"prompt": "baby shower soft pastels", "category": "seasonal_holiday"}
+{"prompt": "retirement party gold", "category": "seasonal_holiday"}
+{"prompt": "anniversary golden glow", "category": "seasonal_holiday"}
+{"prompt": "engagement party sparkle", "category": "seasonal_holiday"}
+{"prompt": "wedding reception warm white", "category": "seasonal_holiday"}
+{"prompt": "sweet sixteen birthday pink", "category": "seasonal_holiday"}
+{"prompt": "quincea\u00f1era celebration", "category": "seasonal_holiday"}
+{"prompt": "housewarming party warm", "category": "seasonal_holiday"}
+{"prompt": "promotion celebration champagne", "category": "seasonal_holiday"}
+{"prompt": "farewell party bittersweet", "category": "seasonal_holiday"}
+{"prompt": "reunion party warm and bright", "category": "seasonal_holiday"}
+{"prompt": "surprise party hidden then bright", "category": "seasonal_holiday"}
+{"prompt": "bar mitzvah celebration blue", "category": "seasonal_holiday"}
+{"prompt": "kids birthday party rainbow", "category": "seasonal_holiday"}
+{"prompt": "50th birthday golden celebration", "category": "seasonal_holiday"}
+{"prompt": "bachelor party wild neon", "category": "seasonal_holiday"}
+{"prompt": "bridal shower elegant pink", "category": "seasonal_holiday"}
+{"prompt": "gender reveal party pink or blue", "category": "seasonal_holiday"}
+{"prompt": "welcome home celebration", "category": "seasonal_holiday"}
+{"prompt": "going away party sunset colors", "category": "seasonal_holiday"}
+{"prompt": "team victory celebration", "category": "seasonal_holiday"}
+{"prompt": "prom night elegant purple and gold", "category": "seasonal_holiday"}
+{"prompt": "first day of school celebration", "category": "seasonal_holiday"}
+{"prompt": "last day of school party", "category": "seasonal_holiday"}
+{"prompt": "job offer celebration bright", "category": "seasonal_holiday"}
+{"prompt": "adoption day celebration rainbow", "category": "seasonal_holiday"}
+{"prompt": "new baby welcome soft warm", "category": "seasonal_holiday"}
+{"prompt": "milestone birthday golden", "category": "seasonal_holiday"}
+{"prompt": "congratulations celebration sparkle", "category": "seasonal_holiday"}
+{"prompt": "first snow of the season", "category": "seasonal_holiday"}
+{"prompt": "cherry blossom season pink", "category": "seasonal_holiday"}
+{"prompt": "harvest moon golden amber", "category": "seasonal_holiday"}
+{"prompt": "autumn leaves falling orange red", "category": "seasonal_holiday"}
+{"prompt": "summer solstice longest day", "category": "seasonal_holiday"}
+{"prompt": "winter solstice shortest day", "category": "seasonal_holiday"}
+{"prompt": "spring equinox fresh start", "category": "seasonal_holiday"}
+{"prompt": "fall equinox balance", "category": "seasonal_holiday"}
+{"prompt": "indian summer late warmth", "category": "seasonal_holiday"}
+{"prompt": "first bloom of spring", "category": "seasonal_holiday"}
+{"prompt": "midsummer night warm golden", "category": "seasonal_holiday"}
+{"prompt": "first frost of autumn", "category": "seasonal_holiday"}
+{"prompt": "thunderstorm season dramatic", "category": "seasonal_holiday"}
+{"prompt": "dog days of summer hot", "category": "seasonal_holiday"}
+{"prompt": "maple syrup season warm amber", "category": "seasonal_holiday"}
+{"prompt": "monsoon season rain blue", "category": "seasonal_holiday"}
+{"prompt": "wildflower season colorful", "category": "seasonal_holiday"}
+{"prompt": "hurricane season dramatic grey", "category": "seasonal_holiday"}
+{"prompt": "pumpkin spice autumn orange", "category": "seasonal_holiday"}
+{"prompt": "hot chocolate season cozy brown", "category": "seasonal_holiday"}
+{"prompt": "firefly season warm summer night", "category": "seasonal_holiday"}
+{"prompt": "apple picking season red gold", "category": "seasonal_holiday"}
+{"prompt": "beach season bright summer", "category": "seasonal_holiday"}
+{"prompt": "ski season cold blue white", "category": "seasonal_holiday"}
+{"prompt": "tax season stress then relief", "category": "seasonal_holiday"}
+{"prompt": "rainy season grey to green", "category": "seasonal_holiday"}
+{"prompt": "back to school autumn", "category": "seasonal_holiday"}
+{"prompt": "end of year reflection warm", "category": "seasonal_holiday"}
+{"prompt": "spring cleaning fresh bright", "category": "seasonal_holiday"}
+{"prompt": "summer break freedom bright", "category": "seasonal_holiday"}
