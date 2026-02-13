@@ -9,7 +9,9 @@
 class LampWebSocketClient {
     constructor(lamp, serverUrl = null) {
         this.lamp = lamp;
-        this.serverUrl = serverUrl || `ws://localhost:3001/ws`;
+        const _p = new URLSearchParams(window.location.search);
+        const _h = _p.get('server') || 'localhost:3001';
+        this.serverUrl = serverUrl || `ws://${_h}/ws`;
         this.ws = null;
         this.reconnectAttempts = 0;
         this.maxReconnectAttempts = 10;

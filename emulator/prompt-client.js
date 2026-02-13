@@ -3,8 +3,11 @@
  * and displays the result.
  */
 
-const SERVER_URL = 'http://localhost:3001';
-const MODEL = 'lamp-gemma-v2';
+// Server URL: override via ?server=192.168.1.50:3001 in the URL bar
+const _params = new URLSearchParams(window.location.search);
+const _host = _params.get('server') || 'localhost:3001';
+const SERVER_URL = `http://${_host}`;
+const MODEL = _params.get('model') || 'gemma3:4b';
 
 const input = document.getElementById('promptInput');
 const sendBtn = document.getElementById('promptSend');
