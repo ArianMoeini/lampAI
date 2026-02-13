@@ -321,13 +321,45 @@ CONVERSATION_FLOWS = {
 # ============= Heuristic Baseline Classifier =============
 
 FOLLOWUP_SIGNALS = [
+    # Comparative adjustments
     "more", "less", "slower", "faster", "brighter", "dimmer", "darker",
-    "speed up", "speed it", "slow down", "slow it", "same but", "same thing but",
-    "like that", "keep", "change the", "add more", "add some", "add sparkle",
-    "reduce", "increase", "decrease", "tone down", "turn up", "turn down",
-    "make it", "a bit", "a little", "a touch", "too much", "not enough",
-    "stop the", "remove the", "no more", "bigger", "smaller",
-    "just the", "pinker", "redder", "bluer", "greener", "warmer", "cooler",
+    "bigger", "smaller", "pinker", "redder", "bluer", "greener", "warmer", "cooler",
+    "yellower", "oranger", "purpler", "whiter", "softer", "stronger", "subtler",
+    # Speed/intensity controls
+    "speed up", "speed it", "slow down", "slow it", "tone down", "turn up", "turn down",
+    "reduce", "increase", "decrease",
+    # Modification phrases
+    "make it", "same but", "same thing but", "like that but", "keep but",
+    "change the", "switch the", "swap the", "flip the",
+    "add more", "add some", "add sparkle", "add a", "throw in",
+    "stop the", "remove the", "no more", "get rid of", "take out", "drop the",
+    "just the", "only the",
+    # Degree qualifiers (imply tweaking)
+    "a bit", "a little", "a touch", "a lot", "slightly", "way more", "much more",
+    "too much", "not enough", "a tad",
+    # Approval/disapproval follow-ups
+    "not quite", "almost", "close but", "nearly", "try again",
+    "yes but", "yeah but", "no but", "good but", "nice but", "love it but",
+    "perfect but", "great but",
+    # Short feedback (only meaningful as follow-ups)
+    "nah", "hmm", "nope", "meh", "too dark", "too bright", "too fast", "too slow",
+    "not bad", "keep it", "keep going",
+    # Directional changes
+    "go back", "undo", "revert", "previous", "back to",
+    "instead", "rather", "actually",
+    # Discourse markers & hedged modifications (research-backed)
+    "what about", "how about", "what if", "how about we",
+    "can you", "could you", "can we", "could we",
+    "maybe", "perhaps", "possibly",
+    # Anaphoric references (refer back to current program)
+    "that one", "this one", "like before", "the same", "same one",
+    "like this", "like that", "that color", "this color",
+    # Continuation / additive signals
+    "also", "and also", "plus", "on top", "as well",
+    "one more", "another", "with that",
+    # Comparative questions (imply tweaking current)
+    "less of", "more of", "any other", "different color",
+    "other color", "other speed", "different speed",
 ]
 
 # When "make it" is followed by a mood word, it's a NEW request, not a modification
