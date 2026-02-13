@@ -8,6 +8,19 @@
 </head>
 <body>
     <div class="container">
+        <!-- Prompt input (above lamp) -->
+        <div class="prompt-panel">
+            <div class="prompt-input-row">
+                <input type="text" id="promptInput" placeholder="Ask the lamp anything..." autocomplete="off">
+                <button id="promptSend">Send</button>
+            </div>
+            <div class="prompt-status-row">
+                <div id="promptStatus" class="prompt-status"></div>
+                <button id="promptDetails" class="details-toggle" style="display:none">Details</button>
+            </div>
+            <pre id="promptOutput" class="prompt-output"></pre>
+        </div>
+
         <div class="lamp-frame">
             <!-- Ambient glow layer (back LEDs) -->
             <div class="ambient-glow" id="ambientGlow"></div>
@@ -29,5 +42,6 @@
     
     <script src="lamp.js"></script>
     <script src="websocket-client.js"></script>
+    <script src="prompt-client.js"></script>
 </body>
 </html>

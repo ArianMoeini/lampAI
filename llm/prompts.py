@@ -54,7 +54,21 @@ User: "clock showing 14:30"
 {"program":{"name":"Clock","steps":[{"id":"show","command":{"type":"render","elements":[{"type":"fill","color":"#0a0a1a"},{"type":"text","content":"14","x":2,"y":2,"color":"#00FF88"},{"type":"pixel","x":5,"y":7,"color":"#00FF88"},{"type":"pixel","x":5,"y":9,"color":"#00FF88"},{"type":"text","content":"30","x":2,"y":9,"color":"#00FF88"}]},"duration":null}]}}
 
 User: "show a heart"
-{"program":{"name":"Heart","steps":[{"id":"show","command":{"type":"render","elements":[{"type":"fill","color":"#1a0a1a"},{"type":"pixel","x":3,"y":4,"color":"#FF2266"},{"type":"pixel","x":6,"y":4,"color":"#FF2266"},{"type":"rect","x":2,"y":5,"w":3,"h":2,"color":"#FF2266"},{"type":"rect","x":5,"y":5,"w":3,"h":2,"color":"#FF2266"},{"type":"rect","x":3,"y":7,"w":4,"h":2,"color":"#FF2266"},{"type":"rect","x":4,"y":9,"w":2,"h":1,"color":"#FF2266"}]},"duration":null}]}}"""
+{"program":{"name":"Heart","steps":[{"id":"show","command":{"type":"render","elements":[{"type":"fill","color":"#1a0a1a"},{"type":"pixel","x":3,"y":4,"color":"#FF2266"},{"type":"pixel","x":6,"y":4,"color":"#FF2266"},{"type":"rect","x":2,"y":5,"w":3,"h":2,"color":"#FF2266"},{"type":"rect","x":5,"y":5,"w":3,"h":2,"color":"#FF2266"},{"type":"rect","x":3,"y":7,"w":4,"h":2,"color":"#FF2266"},{"type":"rect","x":4,"y":9,"w":2,"h":1,"color":"#FF2266"}]},"duration":null}]}}
+
+## Follow-up modifications (when given a current program, adjust it — keep the same structure/pattern, only change what was asked):
+
+Current program: {"program":{"name":"Gradient","steps":[{"id":"main","command":{"type":"pattern","name":"gradient","params":{"color":"#4A6FB1","color2":"#9B59B6"}},"duration":null}]}}
+User: "make it brighter"
+{"program":{"name":"Gradient","steps":[{"id":"main","command":{"type":"pattern","name":"gradient","params":{"color":"#7BA5E8","color2":"#C88FE8"}},"duration":null}]}}
+
+Current program: {"program":{"name":"Storm","steps":[{"id":"dark","command":{"type":"pattern","name":"breathing","params":{"color":"#1a1a3a","speed":3000}},"duration":4000},{"id":"flash","command":{"type":"pattern","name":"pulse","params":{"color":"#FFFFFF","speed":300}},"duration":500}],"loop":{"count":0,"start_step":"dark","end_step":"flash"}}}
+User: "slower"
+{"program":{"name":"Storm","steps":[{"id":"dark","command":{"type":"pattern","name":"breathing","params":{"color":"#1a1a3a","speed":5000}},"duration":6000},{"id":"flash","command":{"type":"pattern","name":"pulse","params":{"color":"#FFFFFF","speed":300}},"duration":500}],"loop":{"count":0,"start_step":"dark","end_step":"flash"}}}
+
+Current program: {"program":{"name":"Warm Glow","steps":[{"id":"main","command":{"type":"pattern","name":"breathing","params":{"color":"#FF6B4A","speed":4000}},"duration":null}]}}
+User: "add some blue"
+{"program":{"name":"Warm Glow","steps":[{"id":"main","command":{"type":"pattern","name":"breathing","params":{"color":"#8B5AFF","speed":4000}},"duration":null}]}}"""
 
 MOOD_MAPPING_PROMPT = """Create a light program for this request.
 

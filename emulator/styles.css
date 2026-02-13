@@ -16,9 +16,10 @@ body {
 
 .container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     padding: 40px;
+    gap: 20px;
 }
 
 /* Main Lamp Frame */
@@ -144,8 +145,141 @@ body {
     pointer-events: none;
 }
 
+/* Prompt Panel */
+.prompt-panel {
+    width: 420px;
+    position: relative;
+}
+
+.prompt-input-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+#promptInput {
+    flex: 1;
+    padding: 10px 14px;
+    border: 2px solid #c4bab0;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 14px;
+    color: #333;
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.2s;
+}
+
+#promptInput:focus {
+    border-color: #FF6B4A;
+}
+
+#promptSend {
+    padding: 10px 18px;
+    background: #5a5550;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    white-space: nowrap;
+}
+
+#promptSend:hover {
+    background: #3a3530;
+}
+
+#promptSend:disabled {
+    background: #b8ada3;
+    cursor: not-allowed;
+}
+
+#modelSelect {
+    padding: 10px 8px;
+    border: 2px solid #c4bab0;
+    border-radius: 10px;
+    background: #fff;
+    font-size: 12px;
+    color: #5a5550;
+    outline: none;
+    font-family: inherit;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.prompt-status-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 20px;
+    margin-bottom: 8px;
+}
+
+.prompt-status {
+    font-size: 13px;
+    color: #5a5550;
+}
+
+.details-toggle {
+    background: none;
+    border: 1px solid #c4bab0;
+    border-radius: 6px;
+    padding: 2px 10px;
+    font-size: 11px;
+    color: #5a5550;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.details-toggle:hover {
+    background: #e8e0d8;
+}
+
+.details-toggle.open {
+    background: #5a5550;
+    color: #fff;
+}
+
+.prompt-status.error {
+    color: #cc3333;
+}
+
+.prompt-status.success {
+    color: #338833;
+}
+
+.prompt-output {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    background: #2a2520;
+    color: #e8e0d8;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 11px;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    max-height: 300px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    word-break: break-all;
+    line-height: 1.5;
+    display: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+.prompt-output.visible {
+    display: block;
+}
+
 /* Responsive */
 @media (max-width: 500px) {
+    .prompt-panel {
+        width: 100%;
+    }
     .lamp-frame {
         width: 300px;
     }
